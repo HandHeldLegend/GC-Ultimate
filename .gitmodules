@@ -1,0 +1,3 @@
+[submodule "HW/Library"]
+	path = HW/Library
+	url = https://github.com/HandHeldLegend/HHL-KiCad-Lib
