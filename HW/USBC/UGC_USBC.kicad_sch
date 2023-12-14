@@ -580,7 +580,7 @@
     (property "SnapEDA_Link" "https://www.snapeda.com/parts/UJ31-CH-G1-SMT-TR/CUI+Devices/view-part/?ref=snap" (at 144.78 119.38 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (property "MP" "UJ31-CH-G1-SMT-TR" (at 144.78 119.38 0)
+    (property "MPN" "UJ31-CH-G1-SMT-TR" (at 144.78 119.38 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2754415&manufacturer=CUI Devices&part_name=UJ31-CH-G1-SMT-TR&search_term=None" (at 144.78 119.38 0)

@@ -912,7 +912,7 @@
     (property "Manufacturer_Name" "Molex" (at 195.58 -560.3 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "Manufacturer_Part_Number" "503480-0640" (at 195.58 -660.3 0)
+    (property "MPN" "503480-0640" (at 195.58 -660.3 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "1" (uuid 7a961276-a47c-4394-afee-6adadc6e8591))

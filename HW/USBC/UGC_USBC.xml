@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Mitch\GitRepos\GC-Ultimate\HW\USBC\UGC_USBC.kicad_sch</source>
+    <date>12/14/2023 2:42:11 PM</date>
+    <tool>Eeschema 7.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>UGC_USBC.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>UJ31-CH-G1-SMT-TR</value>
+      <footprint>hhl:CUI_UJ31-CH-G1-SMT-TR</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="CUI_purchase_URL">https://www.cuidevices.com/product/interconnect/connectors/usb-connectors/uj31-ch-g1-smt-tr?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/UJ31-CH-G1-SMT-TR/CUI+Devices/view-part/?ref=eda</field>
+        <field name="Description">Type C, USB 3.2 Gen 2, 10 Gbps, 20 Vac, 5 A, Right Angle, Surface Mount, Black Insulator, USB Receptacle</field>
+        <field name="MANUFACTURER">CUI INC</field>
+        <field name="MF">CUI Devices</field>
+        <field name="MPN">UJ31-CH-G1-SMT-TR</field>
+        <field name="PART_REV">1.01</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2754415&amp;manufacturer=CUI Devices&amp;part_name=UJ31-CH-G1-SMT-TR&amp;search_term=None</field>
+        <field name="STANDARD">MANUFACTURER RECOMMENDATIONS</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/UJ31-CH-G1-SMT-TR/CUI+Devices/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="hhl" part="UJ31-CH-G1-SMT-TR" description=""/>
+      <property name="MF" value="CUI Devices"/>
+      <property name="Description" value="Type C, USB 3.2 Gen 2, 10 Gbps, 20 Vac, 5 A, Right Angle, Surface Mount, Black Insulator, USB Receptacle"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/UJ31-CH-G1-SMT-TR/CUI+Devices/view-part/?ref=eda"/>
+      <property name="PART_REV" value="1.01"/>
+      <property name="STANDARD" value="MANUFACTURER RECOMMENDATIONS"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/UJ31-CH-G1-SMT-TR/CUI+Devices/view-part/?ref=snap"/>
+      <property name="MPN" value="UJ31-CH-G1-SMT-TR"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2754415&amp;manufacturer=CUI Devices&amp;part_name=UJ31-CH-G1-SMT-TR&amp;search_term=None"/>
+      <property name="CUI_purchase_URL" value="https://www.cuidevices.com/product/interconnect/connectors/usb-connectors/uj31-ch-g1-smt-tr?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="CUI INC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UGC_USBC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>959fc57e-7d1f-4836-81a8-117f54c378a0</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1kohm</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UGC_USBC.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b8331c6-3b94-4d54-9548-50ddad0036ab</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1kohm</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="UGC_USBC.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c043f96-d460-4bee-853f-d4c1bf66fb3d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hhl" part="UJ31-CH-G1-SMT-TR">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">UJ31-CH-G1-SMT-TR</field>
+        <field name="Footprint">hhl:CUI_UJ31-CH-G1-SMT-TR</field>
+        <field name="MF">CUI Devices</field>
+        <field name="Description">Type C, USB 3.2 Gen 2, 10 Gbps, 20 Vac, 5 A, Right Angle, Surface Mount, Black Insulator, USB Receptacle</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/UJ31-CH-G1-SMT-TR/CUI+Devices/view-part/?ref=eda</field>
+        <field name="PART_REV">1.01</field>
+        <field name="STANDARD">MANUFACTURER RECOMMENDATIONS</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/UJ31-CH-G1-SMT-TR/CUI+Devices/view-part/?ref=snap</field>
+        <field name="MP">UJ31-CH-G1-SMT-TR</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2754415&amp;manufacturer=CUI Devices&amp;part_name=UJ31-CH-G1-SMT-TR&amp;search_term=None</field>
+        <field name="CUI_purchase_URL">https://www.cuidevices.com/product/interconnect/connectors/usb-connectors/uj31-ch-g1-smt-tr?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">CUI INC</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="power_in"/>
+        <pin num="A2" name="SSTXP1" type="bidirectional"/>
+        <pin num="A3" name="SSTXN1" type="bidirectional"/>
+        <pin num="A4" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="DP1" type="bidirectional"/>
+        <pin num="A7" name="DN1" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="power_in"/>
+        <pin num="A10" name="SSRXN2" type="bidirectional"/>
+        <pin num="A11" name="SSRXP2" type="bidirectional"/>
+        <pin num="A12" name="GND" type="power_in"/>
+        <pin num="B1" name="GND" type="power_in"/>
+        <pin num="B2" name="SSTXP2" type="bidirectional"/>
+        <pin num="B3" name="SSTXN2" type="bidirectional"/>
+        <pin num="B4" name="VBUS" type="power_in"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="DP2" type="bidirectional"/>
+        <pin num="B7" name="DN2" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="power_in"/>
+        <pin num="B10" name="SSRXN1" type="bidirectional"/>
+        <pin num="B11" name="SSRXP1" type="bidirectional"/>
+        <pin num="B12" name="GND" type="power_in"/>
+        <pin num="SH1" name="SHIELD" type="power_in"/>
+        <pin num="SH2" name="SHIELD" type="power_in"/>
+        <pin num="SH3" name="SHIELD" type="power_in"/>
+        <pin num="SH4" name="SHIELD" type="power_in"/>
+        <pin num="SH5" name="SHIELD" type="power_in"/>
+        <pin num="SH6" name="SHIELD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="hhl">
+      <uri>C:\Users\Mitch\GitRepos\GC-Ultimate\HW\USBC/../Library/hhl.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V_PRE">
+      <node ref="J1" pin="A2" pinfunction="SSTXP1" pintype="bidirectional"/>
+      <node ref="J1" pin="B2" pinfunction="SSTXP2" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="+5V_PRE">
+      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="power_in"/>
+    </net>
+    <net code="3" name="CC1">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="CC2">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="D+">
+      <node ref="J1" pin="A6" pinfunction="DP1" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="DP2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="D-">
+      <node ref="J1" pin="A7" pinfunction="DN1" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="DN2" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="J1" pin="A1" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="B1" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="B12" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="SH1" pinfunction="SHIELD" pintype="power_in"/>
+      <node ref="J1" pin="SH2" pinfunction="SHIELD" pintype="power_in"/>
+      <node ref="J1" pin="SH3" pinfunction="SHIELD" pintype="power_in"/>
+      <node ref="J1" pin="SH4" pinfunction="SHIELD" pintype="power_in"/>
+      <node ref="J1" pin="SH5" pinfunction="SHIELD" pintype="power_in"/>
+      <node ref="J1" pin="SH6" pinfunction="SHIELD" pintype="power_in"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="N_CLOCK">
+      <node ref="J1" pin="A3" pinfunction="SSTXN1" pintype="bidirectional"/>
+      <node ref="J1" pin="B3" pinfunction="SSTXN2" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="N_DATA">
+      <node ref="J1" pin="A11" pinfunction="SSRXP2" pintype="bidirectional"/>
+      <node ref="J1" pin="B11" pinfunction="SSRXP1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="N_LATCH">
+      <node ref="J1" pin="A10" pinfunction="SSRXN2" pintype="bidirectional"/>
+      <node ref="J1" pin="B10" pinfunction="SSRXN1" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="unconnected-(J1-SBU1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="unconnected-(J1-SBU2-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

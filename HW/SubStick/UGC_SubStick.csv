@@ -1,0 +1,6 @@
+"#","Reference","Qty","Value","Footprint","DNP","MPN"
+"1","C1, C2","2",".047u","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","",""
+"2","J2","1","503480-0640","hhl:5034800640","","503480-0640"
+"3","R1, R2","2","1k","Resistor_SMD:R_0201_0603Metric","",""
+"4","SW1","1","GL18_SW","hhl:GL18","","GL18"
+"5","U1, U2","2","GH39F (Hall SOT23)","hhl:GH39F","","GH39F"
