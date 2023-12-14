@@ -1,4 +1,4 @@
-86677552259076
+90229355957052
 hhl
 1TS026A-1000-0550
 
@@ -34,6 +34,13 @@ Connector
 0
 10
 10
+hhl
+5034800640
+503480-0640-2
+Connector
+0
+8
+8
 hhl
 CUI_UJ31-CH-G1-SMT-TR
 
@@ -89,7 +96,7 @@ GCC_Slider
 
 0
 5
-3
+4
 hhl
 GCT_USB4105-GF-A-060
 
@@ -291,7 +298,7 @@ Z_Switch_Edge_Omron
 
 
 0
-2
+4
 2
 hhl
 molex_5034800540
@@ -351,6 +358,13 @@ Through hole pin header THT 1x02 2.54mm single row
 2
 hhl
 snes_pad
+
+
+0
+2
+2
+hhl
+starprint
 
 
 0

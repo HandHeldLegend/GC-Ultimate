@@ -174,7 +174,7 @@
     (property "Value" "SW_Push" (at 223.52 149.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "hhl:snes_pad" (at 223.52 149.86 0)
+    (property "Footprint" "hhl:starprint" (at 223.52 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 223.52 149.86 0)
