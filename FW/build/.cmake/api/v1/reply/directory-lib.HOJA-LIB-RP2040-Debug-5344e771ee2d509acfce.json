@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lib/HOJA-LIB-RP2040",
+		"source" : "lib/HOJA-LIB-RP2040"
+	}
+}

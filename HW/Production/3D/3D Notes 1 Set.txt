@@ -1,0 +1,7 @@
+For a single set:
+- 1x Gateplate Octagon.step
+- 1x Gateplate Round.step 
+- 1x Lower Shell.step (SLS Nylon preferred)
+- 1x Top Shell.step (SLS Nylon preferred)
+- 1x Trigger Bracket.step 
+- 2x MembraneTriggerHolder.step
