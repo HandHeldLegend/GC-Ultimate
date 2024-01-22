@@ -4,7 +4,7 @@
 #define HOJA_BT_LOGGING_DEBUG 0
 
 // Device stuff
-#define HOJA_DEVICE_ID  0xB000
+#define HOJA_DEVICE_ID  0xC001
 #define HOJA_FW_VERSION 0x0A00
 
 // RGB Stuff
@@ -18,7 +18,7 @@
 #define HOJA_LATCH_PIN      18
 
 // URL that will display to open a config tool
-#define HOJA_WEBUSB_URL     "handheldlegend.com"
+#define HOJA_WEBUSB_URL     "handheldlegend.github.io/hoja_config/index.html"
 #define HOJA_MANUFACTURER   "HHL"
 #define HOJA_PRODUCT        "GC Ultimate"
 

@@ -1160,7 +1160,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "GCULTIMATE_RP2040::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-GCULTIMATE_RP2040-Debug-629c4d48d0d5f9da00d7.json",
+					"jsonFile" : "target-GCULTIMATE_RP2040-Debug-8de46380c6335e54eef7.json",
 					"name" : "GCULTIMATE_RP2040",
 					"projectIndex" : 0
 				},
@@ -1195,21 +1195,21 @@
 				{
 					"directoryIndex" : 81,
 					"id" : "hoja_lib_joybus_pio_h::@16e020e79a31ade7a0ad",
-					"jsonFile" : "target-hoja_lib_joybus_pio_h-Debug-1428980df2792c713008.json",
+					"jsonFile" : "target-hoja_lib_joybus_pio_h-Debug-d9f37f1b03b833ba31ef.json",
 					"name" : "hoja_lib_joybus_pio_h",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 81,
 					"id" : "hoja_lib_nserial_pio_h::@16e020e79a31ade7a0ad",
-					"jsonFile" : "target-hoja_lib_nserial_pio_h-Debug-bc031d317f2f5e21074d.json",
+					"jsonFile" : "target-hoja_lib_nserial_pio_h-Debug-05151522936012502150.json",
 					"name" : "hoja_lib_nserial_pio_h",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 81,
 					"id" : "hoja_lib_ws2812_pio_h::@16e020e79a31ade7a0ad",
-					"jsonFile" : "target-hoja_lib_ws2812_pio_h-Debug-ac9e58cb6a1a505ce96e.json",
+					"jsonFile" : "target-hoja_lib_ws2812_pio_h-Debug-a461c49db0322aff7c4f.json",
 					"name" : "hoja_lib_ws2812_pio_h",
 					"projectIndex" : 0
 				},

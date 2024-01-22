@@ -1,4 +1,4 @@
-### Footprint positions - created on Fri Dec 15 21:48:53 2023 ###
+### Footprint positions - created on Fri Dec 22 12:37:30 2023 ###
 ### Printed by KiCad version 7.0.6
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -11,9 +11,9 @@ C5        100n                  C_0402_1005Metric                               
 C6        100n                  C_0201_0603Metric                                218.4908  -103.5812  180.0000  top
 C7        100n                  C_0402_1005Metric                                218.5416  -101.6508  180.0000  top
 C8        1u                    C_0402_1005Metric                                218.3384  -102.6668  180.0000  top
-C9        100n                  C_0402_1005Metric                                216.6366  -107.4166    0.0000  top
+C9        100n                  C_0402_1005Metric                                216.8700  -107.4500    0.0000  top
 C10       100n                  C_0402_1005Metric                                218.2596  -104.4956    0.0000  top
-C11       100n                  C_0201_0603Metric                                216.1660  -108.7000   90.0000  top
+C11       100n                  C_0201_0603Metric                                215.8250  -108.5500  180.0000  top
 C12       100nF                 C_0603_1608Metric                                201.2696  -113.2332    0.0000  top
 C13       100nF                 C_0603_1608Metric                                197.7136  -116.8400    0.0000  top
 C14       1u                    C_0201_0603Metric                                235.3564  -108.4580  -90.0000  top
@@ -26,6 +26,7 @@ C20       100n                  C_0201_0603Metric                               
 C21       1u                    C_0201_0603Metric                                219.0496   -96.7232  -90.0000  top
 C22       100n                  C_0201_0603Metric                                215.2784   -96.7378  -90.0000  top
 C23       10uF                  C_0805_2012Metric                                226.7204  -123.0376  -90.0000  top
+C24       100n                  C_0201_0603Metric                                228.7516  -115.8484    0.0000  top
 D1        CUS08F30              D_SOD-323_HandSoldering                          235.1024  -114.7064  180.0000  top
 D2        CUS08F30              D_SOD-323_HandSoldering                          213.8680   -96.5708   90.0000  top
 D3        M7C                   D_SOD-123                                        218.5416  -122.3772  180.0000  top
@@ -53,6 +54,7 @@ Q6        Q_PMOS_GDS            SOT-23                                          
 Q7        Q_NMOS_GSD            SOT-23                                           218.0844  -125.3236    0.0000  top
 R1        1k                    R_0201_0603Metric                                178.1048  -127.2032    0.0000  top
 R2        1k                    R_0201_0603Metric                                188.1124  -115.7732   90.0000  top
+R3        100                   R_0201_0603Metric                                229.8749  -116.6134  180.0000  top
 R4        75k                   R_0603_1608Metric                                190.8048   -98.5520  -90.0000  top
 R5        10k                   R_0201_0603Metric                                229.5652  -104.4956  180.0000  top
 R6        27                    R_0201_0603Metric                                218.1339  -106.5669    0.0000  top

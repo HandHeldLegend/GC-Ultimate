@@ -84,7 +84,7 @@ void cb_hoja_set_bluetooth_enabled(bool enable)
 {
     if(enable)
     {
-        cb_hoja_set_uart_enabled(true);
+        //cb_hoja_set_uart_enabled(true);
         // Release ESP to be controlled externally
         _gpio_put_od(PGPIO_ESP_EN, true);
     }
@@ -274,7 +274,7 @@ int main()
             .input_mode     = INPUT_MODE_LOAD,
         };
 
-    if(tmp.button_plus && !tmp.trigger_r)
+    if(tmp.button_plus && tmp.trigger_l)
     {
         reset_usb_boot(0, 0);
     }
