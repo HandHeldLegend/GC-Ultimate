@@ -46,12 +46,13 @@ void _gpio_put_od(uint gpio, bool level)
 {
     if(level)
     {
+        gpio_init(gpio);
         gpio_set_dir(gpio, GPIO_IN);
-        gpio_pull_up(gpio);
-        gpio_put(gpio, 1);
+        gpio_disable_pulls(gpio);
     }
     else
     {
+        gpio_init(gpio);
         gpio_set_dir(gpio, GPIO_OUT);
         gpio_disable_pulls(gpio);
         gpio_put(gpio, 0);
@@ -134,10 +135,10 @@ void cb_hoja_hardware_setup()
 
     app_imu_init();
 
-    // Set up ADC Triggers
-	adc_init();
-	adc_gpio_init(PGPIO_LT);
-	adc_gpio_init(PGPIO_RT);
+    
+
+    gpio_init(PGPIO_ESP_EN);
+
 }
 
 int lt_offset = 0;
@@ -253,6 +254,27 @@ void cb_hoja_task_1_hook(uint32_t timestamp)
     app_rumble_task(timestamp);
 }
 
+bool _esp_reset = false;
+void cb_hoja_baseband_update_loop(button_data_s *buttons)
+{
+
+    if(buttons->trigger_l)
+    {
+        watchdog_reboot(0, 0, 0);
+    }
+
+    if(buttons->trigger_r && !_esp_reset)
+    {
+        cb_hoja_set_bluetooth_enabled(false);
+        _esp_reset = true;
+    }
+    else if (!buttons->trigger_r && _esp_reset)
+    {
+        cb_hoja_set_bluetooth_enabled(true);
+        _esp_reset = false;
+    }
+}
+
 int main()
 {
     stdio_init_all();
@@ -262,8 +284,16 @@ int main()
 
     cb_hoja_hardware_setup();
 
+    // Set up ADC Triggers
+	adc_init();
+	adc_gpio_init(PGPIO_LT);
+	adc_gpio_init(PGPIO_RT);
+
     gpio_init(PGPIO_ESP_EN);
-    cb_hoja_set_bluetooth_enabled(false);
+    gpio_set_dir(PGPIO_ESP_EN, true);
+    gpio_put(PGPIO_ESP_EN, false);
+    
+    //cb_hoja_set_bluetooth_enabled(false);
 
     gpio_init(PGPIO_BUTTON_USB_EN);
     gpio_set_dir(PGPIO_BUTTON_USB_EN, GPIO_OUT);
