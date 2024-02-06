@@ -1,4 +1,4 @@
-### Footprint positions - created on Fri Dec 22 12:37:30 2023 ###
+### Footprint positions - created on Tue Feb  6 15:41:08 2024 ###
 ### Printed by KiCad version 7.0.6
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -72,8 +72,8 @@ R17       10k                   R_0201_0603Metric                               
 R18       0                     R_0201_0603Metric                                208.3816  -112.5728  -90.0000  top
 R19       0                     R_0201_0603Metric                                207.5180  -112.5880   90.0000  top
 R20       10k                   R_0201_0603Metric                                197.5612  -107.4420    0.0000  top
-R21       5.1k                  R_0201_0603Metric                                166.2176  -138.9380  180.0000  top
-R22       5.1k                  R_0201_0603Metric                                160.4772  -138.9380  180.0000  top
+R21       5.1kohm               R_0603_1608Metric                                211.1400   -87.7900  -90.0000  top
+R22       5.1kohm               R_0603_1608Metric                                225.4300   -87.8100  -90.0000  top
 R23       1k                    R_0201_0603Metric                                224.1296   -99.7204    0.0000  top
 R24       1k                    R_0201_0603Metric                                220.3704   -99.7204  180.0000  top
 R25       1k                    R_0201_0603Metric                                221.8436   -99.7204  180.0000  top
@@ -90,7 +90,7 @@ R35       100R                  R_0201_0603Metric                               
 R36       75k                   R_0603_1608Metric                                189.2554   -98.5520   90.0000  top
 R37       75k                   R_0603_1608Metric                                239.2934   -99.5680  -90.0000  top
 R38       75k                   R_0603_1608Metric                                240.8174   -98.7044   90.0000  top
-REF**     HHL_Logo              HHL_Logo                                         173.3367  -135.4919    0.0000  top
+REF**     HHL_Logo              HHL_Logo                                         162.5300  -140.7800    0.0000  top
 SW5       SW_Push               snes_pad                                         218.4837  -116.4844    0.0000  top
 SW6       GL18_SW               GL18                                             177.3337  -116.5844   -3.0000  top
 SW7       SW_Push               Z_Switch_Edge_Omron                              168.3322  -100.8094   30.0000  top

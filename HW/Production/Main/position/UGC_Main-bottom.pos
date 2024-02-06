@@ -1,19 +1,11 @@
-### Footprint positions - created on Fri Dec 22 12:37:30 2023 ###
+### Footprint positions - created on Tue Feb  6 15:41:08 2024 ###
 ### Printed by KiCad version 7.0.6
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref     Val                     Package                                     PosX       PosY       Rot  Side
 B1        Battery                 JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical   232.5476  -111.2855    0.0000  bottom
-J5        Conn_01x01_Pin          YZ72015053P-01                          211.2587   -85.5544  180.0000  bottom
-J6        Conn_01x01_Pin          YZ72015053P-01                          225.7087   -85.5544  180.0000  bottom
-J7        Conn_01x01_Pin          YZ72015053P-01                          211.2587   -88.0544  180.0000  bottom
-J8        Conn_01x01_Pin          YZ72015053P-01                          225.7087   -88.0544  180.0000  bottom
-J9        Conn_01x01_Pin          YZ72015053P-01                          211.2587   -90.5544  180.0000  bottom
-J10       Conn_01x01_Pin          YZ72015053P-01                          225.7087   -90.5544  180.0000  bottom
-J11       Conn_01x01_Pin          YZ72015053P-01                          211.2587   -93.0544  180.0000  bottom
-J12       Conn_01x01_Pin          YZ72015053P-01                          225.7087   -93.0544  180.0000  bottom
+J5        UJ31-CH-G1-SMT-TR       CUI_UJ31-CH-G1-SMT-TR                   215.7336   -90.7094    0.0000  bottom
 J13       503480-0640             5034800640                              271.4902  -141.1566  180.0000  bottom
-J14       USB4105-GF-A-060        GCT_USB4105-GF-A-060                    163.3220  -145.2880  180.0000  bottom
 RV1       Slider_GCC-Gamecube_MB  GCC_Slider                              193.4837  -101.4344  180.0000  bottom
 RV2       Slider_GCC-Gamecube_MB  GCC_Slider                              243.4837  -101.4344  180.0000  bottom
 SW14      TS09-63-25-R-260-SMT    TS09                                    218.4837  -135.4844  180.0000  bottom

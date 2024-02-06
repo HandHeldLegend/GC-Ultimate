@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\Mitch\GitRepos\GC-Ultimate\HW\Main\UGC_Main.kicad_sch</source>
-    <date>12/22/2023 12:40:01 PM</date>
+    <date>2/6/2024 3:41:41 PM</date>
     <tool>Eeschema 7.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -394,7 +394,7 @@
       <property name="ki_description" value="Fast switching diode array 3 independent"/>
       <property name="ki_keywords" value="diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c7cf0378-8f45-4391-a0f3-4aaedd580444 cebb697e-5e43-405d-acd8-7c71cedaf534 39a72c64-4ea8-4f67-9fbd-68a67425cf16</tstamps>
+      <tstamps>cebb697e-5e43-405d-acd8-7c71cedaf534 c7cf0378-8f45-4391-a0f3-4aaedd580444 39a72c64-4ea8-4f67-9fbd-68a67425cf16</tstamps>
     </comp>
     <comp ref="D6">
       <value>BAS16VY,115</value>
@@ -418,7 +418,7 @@
       <property name="ki_description" value="Fast switching diode array 3 independent"/>
       <property name="ki_keywords" value="diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9e454fc8-e484-45c5-9b0b-2f5b34a1b86a 846a4e41-0a73-4409-9eae-997e7798da8d 7c0d2843-6509-40a5-bc8c-234da6fc076e</tstamps>
+      <tstamps>846a4e41-0a73-4409-9eae-997e7798da8d 9e454fc8-e484-45c5-9b0b-2f5b34a1b86a 7c0d2843-6509-40a5-bc8c-234da6fc076e</tstamps>
     </comp>
     <comp ref="D8">
       <value>BAS16VY,115</value>
@@ -430,7 +430,7 @@
       <property name="ki_description" value="Fast switching diode array 3 independent"/>
       <property name="ki_keywords" value="diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7778615e-73ad-4a17-96f4-620751eaa3ca 6079529c-2e6a-4249-b471-86e0de6399ab 1cfdf440-1193-4930-8c98-2e58bda0d9a2</tstamps>
+      <tstamps>6079529c-2e6a-4249-b471-86e0de6399ab 7778615e-73ad-4a17-96f4-620751eaa3ca 1cfdf440-1193-4930-8c98-2e58bda0d9a2</tstamps>
     </comp>
     <comp ref="D9">
       <value>CUS08F30</value>
@@ -499,124 +499,41 @@
       <tstamps>3cc44698-a5e2-408a-9de6-7c8a4debd899</tstamps>
     </comp>
     <comp ref="J5">
-      <value>Conn_01x01_Pin</value>
-      <footprint>hhl:YZ72015053P-01</footprint>
+      <value>UJ31-CH-G1-SMT-TR</value>
+      <footprint>hhl:CUI_UJ31-CH-G1-SMT-TR</footprint>
       <fields>
-        <field name="MPN">YZ72015053P-01</field>
+        <field name="Availability">In Stock</field>
+        <field name="CUI_purchase_URL">https://www.cuidevices.com/product/interconnect/connectors/usb-connectors/uj31-ch-g1-smt-tr?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/UJ31-CH-G1-SMT-TR/CUI+Devices/view-part/?ref=eda</field>
+        <field name="Description">Type C, USB 3.2 Gen 2, 10 Gbps, 20 Vac, 5 A, Right Angle, Surface Mount, Black Insulator, USB Receptacle</field>
+        <field name="MANUFACTURER">CUI INC</field>
+        <field name="MF">CUI Devices</field>
+        <field name="MPN">UJ31-CH-G1-SMT-TR</field>
+        <field name="PART_REV">1.01</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2754415&amp;manufacturer=CUI Devices&amp;part_name=UJ31-CH-G1-SMT-TR&amp;search_term=None</field>
+        <field name="STANDARD">MANUFACTURER RECOMMENDATIONS</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/UJ31-CH-G1-SMT-TR/CUI+Devices/view-part/?ref=snap</field>
       </fields>
-      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
-      <property name="MPN" value="YZ72015053P-01"/>
+      <libsource lib="hhl" part="UJ31-CH-G1-SMT-TR" description=""/>
+      <property name="MF" value="CUI Devices"/>
+      <property name="Description" value="Type C, USB 3.2 Gen 2, 10 Gbps, 20 Vac, 5 A, Right Angle, Surface Mount, Black Insulator, USB Receptacle"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/UJ31-CH-G1-SMT-TR/CUI+Devices/view-part/?ref=eda"/>
+      <property name="PART_REV" value="1.01"/>
+      <property name="STANDARD" value="MANUFACTURER RECOMMENDATIONS"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/UJ31-CH-G1-SMT-TR/CUI+Devices/view-part/?ref=snap"/>
+      <property name="MPN" value="UJ31-CH-G1-SMT-TR"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2754415&amp;manufacturer=CUI Devices&amp;part_name=UJ31-CH-G1-SMT-TR&amp;search_term=None"/>
+      <property name="CUI_purchase_URL" value="https://www.cuidevices.com/product/interconnect/connectors/usb-connectors/uj31-ch-g1-smt-tr?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="CUI INC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UGC_Main.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e38eb8e0-ecb8-4173-8c7e-8ce7b7110e48</tstamps>
-    </comp>
-    <comp ref="J6">
-      <value>Conn_01x01_Pin</value>
-      <footprint>hhl:YZ72015053P-01</footprint>
-      <fields>
-        <field name="MPN">YZ72015053P-01</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
-      <property name="MPN" value="YZ72015053P-01"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="UGC_Main.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>243add34-e4d2-429d-9c8d-b089425e92d9</tstamps>
-    </comp>
-    <comp ref="J7">
-      <value>Conn_01x01_Pin</value>
-      <footprint>hhl:YZ72015053P-01</footprint>
-      <fields>
-        <field name="MPN">YZ72015053P-01</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
-      <property name="MPN" value="YZ72015053P-01"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="UGC_Main.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>027ca640-3e35-4569-8bd0-f378714cbb84</tstamps>
-    </comp>
-    <comp ref="J8">
-      <value>Conn_01x01_Pin</value>
-      <footprint>hhl:YZ72015053P-01</footprint>
-      <fields>
-        <field name="MPN">YZ72015053P-01</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
-      <property name="MPN" value="YZ72015053P-01"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="UGC_Main.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ad993271-b70e-47c9-9e26-08261d515504</tstamps>
-    </comp>
-    <comp ref="J9">
-      <value>Conn_01x01_Pin</value>
-      <footprint>hhl:YZ72015053P-01</footprint>
-      <fields>
-        <field name="MPN">YZ72015053P-01</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
-      <property name="MPN" value="YZ72015053P-01"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="UGC_Main.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>633d72bf-2222-4641-935e-1fdb4c48a584</tstamps>
-    </comp>
-    <comp ref="J10">
-      <value>Conn_01x01_Pin</value>
-      <footprint>hhl:YZ72015053P-01</footprint>
-      <fields>
-        <field name="MPN">YZ72015053P-01</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
-      <property name="MPN" value="YZ72015053P-01"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="UGC_Main.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>bebdf873-74b2-48be-81a2-8a9d9f9f037a</tstamps>
-    </comp>
-    <comp ref="J11">
-      <value>Conn_01x01_Pin</value>
-      <footprint>hhl:YZ72015053P-01</footprint>
-      <fields>
-        <field name="MPN">YZ72015053P-01</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
-      <property name="MPN" value="YZ72015053P-01"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="UGC_Main.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e8ee856c-1b23-42c5-9f0c-c1f8b34ba1e6</tstamps>
-    </comp>
-    <comp ref="J12">
-      <value>Conn_01x01_Pin</value>
-      <footprint>hhl:YZ72015053P-01</footprint>
-      <fields>
-        <field name="MPN">YZ72015053P-01</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
-      <property name="MPN" value="YZ72015053P-01"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="UGC_Main.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b5071568-9adf-4cbc-b278-1d73f66a5511</tstamps>
+      <tstamps>2386f138-92a5-461e-9fac-1f19d0c6e5ea</tstamps>
     </comp>
     <comp ref="J13">
       <value>503480-0640</value>
@@ -642,19 +559,6 @@
       <property name="ki_description" value="Connector FFC/FPC Connector Socket 6 Position 0.5mm Solder Right Angle Surface Mount Emboss T/R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cd866e9c-1739-4d40-b98a-acab0c4c1e88</tstamps>
-    </comp>
-    <comp ref="J14">
-      <value>USB4105-GF-A-060</value>
-      <footprint>hhl:GCT_USB4105-GF-A-060</footprint>
-      <fields>
-        <field name="MPN">USB4105-GF-A-060</field>
-      </fields>
-      <libsource lib="hhl" part="USB4105-GF-A-060" description=""/>
-      <property name="MPN" value="USB4105-GF-A-060"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="UGC_Main.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>1ed14664-f857-4da8-b11d-997dc2543467</tstamps>
     </comp>
     <comp ref="L1">
       <value>SK6805-EC-15</value>
@@ -1079,26 +983,26 @@
       <tstamps>263d452b-bea3-4fe7-b212-4fcd4e18bf52</tstamps>
     </comp>
     <comp ref="R21">
-      <value>5.1k</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <value>5.1kohm</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UGC_Main.kicad_sch"/>
-      <property name="ki_description" value="Resistor, small symbol"/>
-      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c994787f-f43c-4b50-9d98-2b0294934ea1</tstamps>
+      <tstamps>5dae4d12-2a17-4852-9b71-0ed42ed48591</tstamps>
     </comp>
     <comp ref="R22">
-      <value>5.1k</value>
-      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <value>5.1kohm</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="UGC_Main.kicad_sch"/>
-      <property name="ki_description" value="Resistor, small symbol"/>
-      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e7da0d15-2715-4b53-9ed9-5a2a7b68f262</tstamps>
+      <tstamps>a4661e12-445c-4d58-bfa8-26cba4ec2b78</tstamps>
     </comp>
     <comp ref="R23">
       <value>1k</value>
@@ -1681,21 +1585,6 @@ High efficiency Buck-Boost Converter with 1.8A Current Switches in 3x3 QFN
         <pin num="6" name="DOUT" type="output"/>
         <pin num="7" name="CLK" type="input"/>
         <pin num="8" name="VDD/VREF" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="Conn_01x01_Pin">
-      <description>Generic connector, single row, 01x01, script generated</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x01_Pin</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="Conn_01x02_Pin">
@@ -2291,30 +2180,56 @@ High efficiency Buck-Boost Converter with 1.8A Current Switches in 3x3 QFN
         <pin num="2" name="2" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="hhl" part="USB4105-GF-A-060">
+    <libpart lib="hhl" part="UJ31-CH-G1-SMT-TR">
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">USB4105-GF-A-060</field>
-        <field name="Footprint">hhl:GCT_USB4105-GF-A-060</field>
-        <field name="MPN">USB4105-GF-A-060</field>
+        <field name="Value">UJ31-CH-G1-SMT-TR</field>
+        <field name="Footprint">hhl:CUI_UJ31-CH-G1-SMT-TR</field>
+        <field name="MF">CUI Devices</field>
+        <field name="Description">Type C, USB 3.2 Gen 2, 10 Gbps, 20 Vac, 5 A, Right Angle, Surface Mount, Black Insulator, USB Receptacle</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/UJ31-CH-G1-SMT-TR/CUI+Devices/view-part/?ref=eda</field>
+        <field name="PART_REV">1.01</field>
+        <field name="STANDARD">MANUFACTURER RECOMMENDATIONS</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/UJ31-CH-G1-SMT-TR/CUI+Devices/view-part/?ref=snap</field>
+        <field name="MP">UJ31-CH-G1-SMT-TR</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2754415&amp;manufacturer=CUI Devices&amp;part_name=UJ31-CH-G1-SMT-TR&amp;search_term=None</field>
+        <field name="CUI_purchase_URL">https://www.cuidevices.com/product/interconnect/connectors/usb-connectors/uj31-ch-g1-smt-tr?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">CUI INC</field>
       </fields>
       <pins>
-        <pin num="A1_B12" name="GND" type="power_in"/>
-        <pin num="A4_B9" name="VBUS" type="power_in"/>
+        <pin num="A1" name="GND" type="power_in"/>
+        <pin num="A2" name="SSTXP1" type="bidirectional"/>
+        <pin num="A3" name="SSTXN1" type="bidirectional"/>
+        <pin num="A4" name="VBUS" type="power_in"/>
         <pin num="A5" name="CC1" type="bidirectional"/>
         <pin num="A6" name="DP1" type="bidirectional"/>
         <pin num="A7" name="DN1" type="bidirectional"/>
         <pin num="A8" name="SBU1" type="bidirectional"/>
-        <pin num="B1_A12" name="GND" type="power_in"/>
-        <pin num="B4_A9" name="VBUS" type="power_in"/>
+        <pin num="A9" name="VBUS" type="power_in"/>
+        <pin num="A10" name="SSRXN2" type="bidirectional"/>
+        <pin num="A11" name="SSRXP2" type="bidirectional"/>
+        <pin num="A12" name="GND" type="power_in"/>
+        <pin num="B1" name="GND" type="power_in"/>
+        <pin num="B2" name="SSTXP2" type="bidirectional"/>
+        <pin num="B3" name="SSTXN2" type="bidirectional"/>
+        <pin num="B4" name="VBUS" type="power_in"/>
         <pin num="B5" name="CC2" type="bidirectional"/>
         <pin num="B6" name="DP2" type="bidirectional"/>
         <pin num="B7" name="DN2" type="bidirectional"/>
         <pin num="B8" name="SBU2" type="bidirectional"/>
-        <pin num="S1" name="SHELL_GND" type="power_in"/>
-        <pin num="S2" name="SHELL_GND" type="power_in"/>
-        <pin num="S3" name="SHELL_GND" type="power_in"/>
-        <pin num="S4" name="SHELL_GND" type="power_in"/>
+        <pin num="B9" name="VBUS" type="power_in"/>
+        <pin num="B10" name="SSRXN1" type="bidirectional"/>
+        <pin num="B11" name="SSRXP1" type="bidirectional"/>
+        <pin num="B12" name="GND" type="power_in"/>
+        <pin num="SH1" name="SHIELD" type="power_in"/>
+        <pin num="SH2" name="SHIELD" type="power_in"/>
+        <pin num="SH3" name="SHIELD" type="power_in"/>
+        <pin num="SH4" name="SHIELD" type="power_in"/>
+        <pin num="SH5" name="SHIELD" type="power_in"/>
+        <pin num="SH6" name="SHIELD" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="progcc_v3" part="BAS16VY,115">
@@ -2575,13 +2490,15 @@ High efficiency Buck-Boost Converter with 1.8A Current Switches in 3x3 QFN
     </net>
     <net code="3" name="+3V3_PRE">
       <node ref="F2" pin="2" pintype="passive"/>
-      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="A2" pinfunction="SSTXP1" pintype="bidirectional"/>
+      <node ref="J5" pin="B2" pinfunction="SSTXP2" pintype="bidirectional"/>
     </net>
     <net code="4" name="+5V_PRE">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J14" pin="A4_B9" pinfunction="VBUS" pintype="power_in"/>
-      <node ref="J14" pin="B4_A9" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J5" pin="A4" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J5" pin="A9" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J5" pin="B4" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J5" pin="B9" pinfunction="VBUS" pintype="power_in"/>
     </net>
     <net code="5" name="/RUN">
       <node ref="R5" pin="2" pintype="passive"/>
@@ -2616,72 +2533,78 @@ High efficiency Buck-Boost Converter with 1.8A Current Switches in 3x3 QFN
     <net code="12" name="B_Pull">
       <node ref="D5" pin="5" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="13" name="D+">
-      <node ref="J14" pin="A6" pinfunction="DP1" pintype="bidirectional"/>
-      <node ref="J14" pin="B6" pinfunction="DP2" pintype="bidirectional"/>
-      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="13" name="CC1">
+      <node ref="J5" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="CC2">
+      <node ref="J5" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="D+">
+      <node ref="J5" pin="A6" pinfunction="DP1" pintype="bidirectional"/>
+      <node ref="J5" pin="B6" pinfunction="DP2" pintype="bidirectional"/>
       <node ref="U13" pin="8" pinfunction="C+" pintype="bidirectional"/>
     </net>
-    <net code="14" name="D-">
-      <node ref="J14" pin="A7" pinfunction="DN1" pintype="bidirectional"/>
-      <node ref="J14" pin="B7" pinfunction="DN2" pintype="bidirectional"/>
-      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="16" name="D-">
+      <node ref="J5" pin="A7" pinfunction="DN1" pintype="bidirectional"/>
+      <node ref="J5" pin="B7" pinfunction="DN2" pintype="bidirectional"/>
       <node ref="U13" pin="7" pinfunction="C-" pintype="bidirectional"/>
     </net>
-    <net code="15" name="DD_Pull">
+    <net code="17" name="DD_Pull">
       <node ref="D7" pin="6" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="16" name="DL_Pull">
+    <net code="18" name="DL_Pull">
       <node ref="D5" pin="4" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="17" name="DR_Pull">
+    <net code="19" name="DR_Pull">
       <node ref="D8" pin="5" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="18" name="DU_Pull">
+    <net code="20" name="DU_Pull">
       <node ref="D4" pin="5" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="19" name="ESP_CTS">
+    <net code="21" name="ESP_CTS">
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="U12" pin="5" pinfunction="CTS" pintype="bidirectional"/>
     </net>
-    <net code="20" name="ESP_DTR">
+    <net code="22" name="ESP_DTR">
       <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
       <node ref="U12" pin="4" pinfunction="DTR" pintype="bidirectional"/>
     </net>
-    <net code="21" name="ESP_EN">
+    <net code="23" name="ESP_EN">
       <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="EN" pintype="input"/>
       <node ref="U8" pin="38" pinfunction="GPIO26_ADC0" pintype="bidirectional"/>
     </net>
-    <net code="22" name="ESP_IO0">
+    <net code="24" name="ESP_IO0">
       <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="U1" pin="23" pinfunction="IO0" pintype="bidirectional"/>
     </net>
-    <net code="23" name="ESP_IO13">
+    <net code="25" name="ESP_IO13">
       <node ref="R19" pin="2" pintype="passive"/>
       <node ref="U1" pin="20" pinfunction="IO13" pintype="bidirectional"/>
     </net>
-    <net code="24" name="ESP_IO15">
+    <net code="26" name="ESP_IO15">
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="U1" pin="21" pinfunction="IO15" pintype="bidirectional"/>
     </net>
-    <net code="25" name="ESP_RTS">
+    <net code="27" name="ESP_RTS">
       <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
       <node ref="U12" pin="6" pinfunction="RTS" pintype="bidirectional"/>
     </net>
-    <net code="26" name="ESP_RX0">
+    <net code="28" name="ESP_RX0">
       <node ref="U1" pin="30" pinfunction="RXD0" pintype="bidirectional"/>
       <node ref="U12" pin="8" pinfunction="TXD" pintype="output"/>
     </net>
-    <net code="27" name="ESP_TX0">
+    <net code="29" name="ESP_TX0">
       <node ref="U1" pin="31" pinfunction="TXD0" pintype="bidirectional"/>
       <node ref="U12" pin="9" pinfunction="RXD" pintype="input"/>
     </net>
-    <net code="28" name="GND">
+    <net code="30" name="GND">
       <node ref="B1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C10" pin="1" pintype="passive"/>
@@ -2710,13 +2633,16 @@ High efficiency Buck-Boost Converter with 1.8A Current Switches in 3x3 QFN
       <node ref="J13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J13" pin="MP1" pinfunction="MP1" pintype="passive"/>
       <node ref="J13" pin="MP2" pinfunction="MP2" pintype="passive"/>
-      <node ref="J14" pin="A1_B12" pinfunction="GND" pintype="power_in"/>
-      <node ref="J14" pin="B1_A12" pinfunction="GND" pintype="power_in"/>
-      <node ref="J14" pin="S1" pinfunction="SHELL_GND" pintype="power_in"/>
-      <node ref="J14" pin="S2" pinfunction="SHELL_GND" pintype="power_in"/>
-      <node ref="J14" pin="S3" pinfunction="SHELL_GND" pintype="power_in"/>
-      <node ref="J14" pin="S4" pinfunction="SHELL_GND" pintype="power_in"/>
-      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="A1" pinfunction="GND" pintype="power_in"/>
+      <node ref="J5" pin="A12" pinfunction="GND" pintype="power_in"/>
+      <node ref="J5" pin="B1" pinfunction="GND" pintype="power_in"/>
+      <node ref="J5" pin="B12" pinfunction="GND" pintype="power_in"/>
+      <node ref="J5" pin="SH1" pinfunction="SHIELD" pintype="power_in"/>
+      <node ref="J5" pin="SH2" pinfunction="SHIELD" pintype="power_in"/>
+      <node ref="J5" pin="SH3" pinfunction="SHIELD" pintype="power_in"/>
+      <node ref="J5" pin="SH4" pinfunction="SHIELD" pintype="power_in"/>
+      <node ref="J5" pin="SH5" pinfunction="SHIELD" pintype="power_in"/>
+      <node ref="J5" pin="SH6" pinfunction="SHIELD" pintype="power_in"/>
       <node ref="L1" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="L2" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="L3" pin="4" pinfunction="GND" pintype="power_in"/>
@@ -2726,7 +2652,7 @@ High efficiency Buck-Boost Converter with 1.8A Current Switches in 3x3 QFN
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="R15" pin="2" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
-      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
       <node ref="R29" pin="1" pintype="passive"/>
       <node ref="R30" pin="2" pintype="passive"/>
       <node ref="R31" pin="1" pintype="passive"/>
@@ -2800,91 +2726,86 @@ High efficiency Buck-Boost Converter with 1.8A Current Switches in 3x3 QFN
       <node ref="U9" pin="4" pinfunction="VSS" pintype="input"/>
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="29" name="I2C_SCL">
+    <net code="31" name="I2C_SCL">
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="U1" pin="26" pinfunction="IO20" pintype="bidirectional"/>
       <node ref="U11" pin="B1" pinfunction="SCL" pintype="input"/>
       <node ref="U8" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
     </net>
-    <net code="30" name="I2C_SDA">
+    <net code="32" name="I2C_SDA">
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U1" pin="33" pinfunction="IO19" pintype="bidirectional"/>
       <node ref="U11" pin="C1" pinfunction="SDA" pintype="input"/>
       <node ref="U8" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
     </net>
-    <net code="31" name="IMU0_CS">
+    <net code="33" name="IMU0_CS">
       <node ref="U10" pin="12" pinfunction="CS" pintype="bidirectional"/>
       <node ref="U8" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
     </net>
-    <net code="32" name="IMU1_CS">
+    <net code="34" name="IMU1_CS">
       <node ref="U5" pin="12" pinfunction="CS" pintype="bidirectional"/>
       <node ref="U8" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
     </net>
-    <net code="33" name="LADC_CS">
+    <net code="35" name="LADC_CS">
       <node ref="U6" pin="1" pinfunction="~{CS}/SHDN" pintype="input"/>
       <node ref="U8" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
     </net>
-    <net code="34" name="LX">
+    <net code="36" name="LX">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U6" pin="2" pinfunction="CH0" pintype="passive"/>
     </net>
-    <net code="35" name="LY">
+    <net code="37" name="LY">
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U6" pin="3" pinfunction="CH1" pintype="passive"/>
     </net>
-    <net code="36" name="L_Pull">
+    <net code="38" name="L_Pull">
       <node ref="D4" pin="4" pinfunction="K" pintype="passive"/>
       <node ref="SW7" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="37" name="N_CLOCK">
-      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="39" name="N_CLOCK">
+      <node ref="J5" pin="A3" pinfunction="SSTXN1" pintype="bidirectional"/>
+      <node ref="J5" pin="B3" pinfunction="SSTXN2" pintype="bidirectional"/>
       <node ref="Q4" pin="6" pinfunction="D1" pintype="passive"/>
       <node ref="R27" pin="2" pintype="passive"/>
     </net>
-    <net code="38" name="N_CLOCK_3.3">
+    <net code="40" name="N_CLOCK_3.3">
       <node ref="Q4" pin="1" pinfunction="S1" pintype="passive"/>
       <node ref="R24" pin="2" pintype="passive"/>
       <node ref="U8" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
     </net>
-    <net code="39" name="N_DATA">
-      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="41" name="N_DATA">
+      <node ref="J5" pin="A11" pinfunction="SSRXP2" pintype="bidirectional"/>
+      <node ref="J5" pin="B11" pinfunction="SSRXP1" pintype="bidirectional"/>
       <node ref="Q4" pin="4" pinfunction="S2" pintype="passive"/>
       <node ref="R28" pin="2" pintype="passive"/>
     </net>
-    <net code="40" name="N_DATA_3.3">
+    <net code="42" name="N_DATA_3.3">
       <node ref="Q4" pin="3" pinfunction="D2" pintype="passive"/>
       <node ref="R25" pin="2" pintype="passive"/>
       <node ref="U8" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
     </net>
-    <net code="41" name="N_LATCH">
-      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="43" name="N_LATCH">
+      <node ref="J5" pin="A10" pinfunction="SSRXN2" pintype="bidirectional"/>
+      <node ref="J5" pin="B10" pinfunction="SSRXN1" pintype="bidirectional"/>
       <node ref="Q3" pin="4" pinfunction="S2" pintype="passive"/>
       <node ref="R26" pin="2" pintype="passive"/>
     </net>
-    <net code="42" name="N_LATCH_3.3">
+    <net code="44" name="N_LATCH_3.3">
       <node ref="Q3" pin="3" pinfunction="D2" pintype="passive"/>
       <node ref="R23" pin="2" pintype="passive"/>
       <node ref="U8" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
     </net>
-    <net code="43" name="Net-(D1-A)">
+    <net code="45" name="Net-(D1-A)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="U11" pin="D1" pinfunction="TS/MR" pintype="input"/>
     </net>
-    <net code="44" name="Net-(D9-A)">
+    <net code="46" name="Net-(D9-A)">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="F2" pin="1" pintype="passive"/>
-    </net>
-    <net code="45" name="Net-(J14-CC1)">
-      <node ref="J14" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
-      <node ref="R21" pin="2" pintype="passive"/>
-    </net>
-    <net code="46" name="Net-(J14-CC2)">
-      <node ref="J14" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
-      <node ref="R22" pin="1" pintype="passive"/>
     </net>
     <net code="47" name="Net-(L1-DOUT)">
       <node ref="L1" pin="3" pinfunction="DOUT" pintype="output"/>
@@ -3187,11 +3108,11 @@ High efficiency Buck-Boost Converter with 1.8A Current Switches in 3x3 QFN
     <net code="111" name="ZR_Pull">
       <node ref="D8" pin="4" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="112" name="unconnected-(J14-SBU1-PadA8)">
-      <node ref="J14" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
+    <net code="112" name="unconnected-(J5-SBU1-PadA8)">
+      <node ref="J5" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
     </net>
-    <net code="113" name="unconnected-(J14-SBU2-PadB8)">
-      <node ref="J14" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
+    <net code="113" name="unconnected-(J5-SBU2-PadB8)">
+      <node ref="J5" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
     </net>
     <net code="114" name="unconnected-(Q3A-D1-Pad6)">
       <node ref="Q3" pin="6" pinfunction="D1" pintype="passive"/>
