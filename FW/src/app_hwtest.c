@@ -71,22 +71,11 @@ bool _hwtest_bluetooth()
 
     sleep_ms(600);
 
-    uint8_t data_out[32] = {0};
-    data_out[0] = 0xDD;
-    data_out[1] = 0xEE;
-    data_out[2] = 0xAA;
+    uint16_t v = btinput_get_version();
 
-    data_out[3] = I2CINPUT_ID_INIT;
-    data_out[4] = (uint8_t) INPUT_MODE_XINPUT; 
+    if(v>0) return true;
 
-    int stat = i2c_write_timeout_us(HOJA_I2C_BUS, HOJA_I2CINPUT_ADDRESS, data_out, 32, false, 150000);
-
-    if(stat<0)
-    {
-        return false;
-    }
-
-    return true;
+    return false;
 }
 
 bool _hwtest_battery()

@@ -20,7 +20,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 60,
+				"line" : 62,
 				"parent" : 0
 			},
 			{
@@ -31,8 +31,8 @@
 			}
 		]
 	},
-	"id" : "hoja_lib_ws2812_pio_h::@16e020e79a31ade7a0ad",
-	"name" : "hoja_lib_ws2812_pio_h",
+	"id" : "hoja_lib_nserial_pio_h::@16e020e79a31ade7a0ad",
+	"name" : "hoja_lib_nserial_pio_h",
 	"paths" : 
 	{
 		"build" : "lib/HOJA-LIB-RP2040",
@@ -61,19 +61,19 @@
 		{
 			"backtrace" : 2,
 			"isGenerated" : true,
-			"path" : "build/lib/HOJA-LIB-RP2040/CMakeFiles/hoja_lib_ws2812_pio_h",
+			"path" : "build/lib/HOJA-LIB-RP2040/CMakeFiles/hoja_lib_nserial_pio_h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/lib/HOJA-LIB-RP2040/CMakeFiles/hoja_lib_ws2812_pio_h.rule",
+			"path" : "build/lib/HOJA-LIB-RP2040/CMakeFiles/hoja_lib_nserial_pio_h.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "lib/HOJA-LIB-RP2040/include/generated/ws2812.pio.h.rule",
+			"path" : "lib/HOJA-LIB-RP2040/include/generated/nserial.pio.h.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

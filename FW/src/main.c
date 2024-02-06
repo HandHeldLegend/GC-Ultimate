@@ -25,8 +25,6 @@ button_remap_s user_map = {
     .button_stick_right = MAPCODE_B_STICKR,
 };
 
-uint main_slice_num = 0;
-uint brake_slice_num = 0;
 
 void _setup_gpio_pull(uint8_t gpio)
 {
@@ -107,39 +105,22 @@ void cb_hoja_hardware_setup()
     _setup_gpio_scan(PGPIO_SCAN_C);
     _setup_gpio_scan(PGPIO_SCAN_D);
 
-    // Set up Rumble GPIO
-    gpio_init(PGPIO_RUMBLE_MAIN);
-    gpio_init(PGPIO_RUMBLE_BRAKE);
-
-    gpio_set_dir(PGPIO_RUMBLE_MAIN, GPIO_OUT);
-    gpio_set_dir(PGPIO_RUMBLE_BRAKE, GPIO_OUT);
-
-    gpio_set_function(PGPIO_RUMBLE_MAIN, GPIO_FUNC_PWM);
-    gpio_set_function(PGPIO_RUMBLE_BRAKE, GPIO_FUNC_PWM);
-
-    main_slice_num = pwm_gpio_to_slice_num(PGPIO_RUMBLE_MAIN);
-    brake_slice_num = pwm_gpio_to_slice_num(PGPIO_RUMBLE_BRAKE);
-
-    pwm_set_wrap(main_slice_num, 255);
-    pwm_set_wrap(brake_slice_num, 255);
-
-    pwm_set_chan_level(main_slice_num, PWM_CHAN_B, 0);    // B for odd pins
-    pwm_set_chan_level(brake_slice_num, PWM_CHAN_B, 255); // B for odd pins
-
-    pwm_set_enabled(main_slice_num, true);
-    pwm_set_enabled(brake_slice_num, true);
-
-    pwm_set_gpio_level(PGPIO_RUMBLE_BRAKE, 255);
-    pwm_set_gpio_level(PGPIO_RUMBLE_MAIN, 0);
-
-    sleep_us(150); // Stabilize voltages
-
     // initialize SPI at 1 MHz
     // initialize SPI at 3 MHz just to test
     spi_init(spi0, 3000 * 1000);
     gpio_set_function(PGPIO_SPI_CLK, GPIO_FUNC_SPI);
     gpio_set_function(PGPIO_SPI_TX, GPIO_FUNC_SPI);
     gpio_set_function(PGPIO_SPI_RX, GPIO_FUNC_SPI);
+
+    // Left stick initialize
+    gpio_init(PGPIO_LS_CS);
+    gpio_set_dir(PGPIO_LS_CS, GPIO_OUT);
+    gpio_put(PGPIO_LS_CS, true); // active low
+
+    // Right stick initialize
+    gpio_init(PGPIO_RS_CS);
+    gpio_set_dir(PGPIO_RS_CS, GPIO_OUT);
+    gpio_put(PGPIO_RS_CS, true); // active low
 
     // IMU 0 initialize
     gpio_init(PGPIO_IMU0_CS);
@@ -152,10 +133,16 @@ void cb_hoja_hardware_setup()
     gpio_put(PGPIO_IMU1_CS, true); // active low
 
     app_imu_init();
+
+    // Set up ADC Triggers
+	adc_init();
+	adc_gpio_init(PGPIO_LT);
+	adc_gpio_init(PGPIO_RT);
 }
 
-bool set = false;
-bool unset = true;
+int lt_offset = 0;
+int rt_offset = 0;
+bool trigger_offset_obtained = false;
 
 void cb_hoja_read_buttons(button_data_s *data)
 {
@@ -190,6 +177,30 @@ void cb_hoja_read_buttons(button_data_s *data)
     data->button_plus           = !gpio_get(PGPIO_SCAN_B);
     data->button_stick_right    = !gpio_get(PGPIO_SCAN_C);
     gpio_put(PGPIO_PULL_D, true);
+
+    // Read Analog triggers
+    adc_select_input(PADC_LT);
+    int ltr = 0xFFF - (int) adc_read();
+    adc_select_input(PADC_RT);
+    int rtr = 0xFFF - (int) adc_read();
+
+    if(!trigger_offset_obtained)
+    {
+        lt_offset = ltr;
+        rt_offset = rtr;
+        trigger_offset_obtained = true;
+    }
+    else
+    {
+        ltr -= lt_offset;
+        rtr -= rt_offset;
+
+        ltr = (ltr<0) ? 0 : ltr;
+        rtr = (rtr<0) ? 0 : rtr;
+
+        data->zl_analog = ltr;
+        data->zr_analog = rtr;
+    }
 
     data->button_shipping = !gpio_get(PGPIO_BUTTON_MODE);
     data->button_sync = data->button_plus;
@@ -274,11 +285,11 @@ int main()
             .input_mode     = INPUT_MODE_LOAD,
         };
 
-    if(tmp.button_plus && tmp.trigger_l)
+    if(tmp.button_plus && tmp.trigger_zl)
     {
         reset_usb_boot(0, 0);
     }
-    else if (tmp.trigger_r && tmp.button_plus)
+    else if (tmp.trigger_zr && tmp.button_plus)
     {
         _config.input_method = INPUT_METHOD_BLUETOOTH;
         // Release ESP to be controlled externally
