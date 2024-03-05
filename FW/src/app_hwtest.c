@@ -156,11 +156,11 @@ bool _hwtest_analog()
 
 bool _hwtest_rumble()
 {
-    cb_hoja_rumble_set(100, 1);
+    //cb_hoja_rumble_set(100, 1);
 
-    sleep_ms(500);
+    //sleep_ms(500);
 
-    cb_hoja_rumble_set(0, 0);
+    //cb_hoja_rumble_set(0, 0);
     return true;
 }
 
