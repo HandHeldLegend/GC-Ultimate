@@ -1,4 +1,4 @@
-### Footprint positions - created on Tue Feb  6 15:41:08 2024 ###
+### Footprint positions - created on Wed Mar  6 23:43:32 2024 ###
 ### Printed by KiCad version 7.0.6
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -9,5 +9,6 @@ J13       503480-0640             5034800640                              271.49
 RV1       Slider_GCC-Gamecube_MB  GCC_Slider                              193.4837  -101.4344  180.0000  bottom
 RV2       Slider_GCC-Gamecube_MB  GCC_Slider                              243.4837  -101.4344  180.0000  bottom
 SW14      TS09-63-25-R-260-SMT    TS09                                    218.4837  -135.4844  180.0000  bottom
+SW15      1TS026A-1000-0550       1TS026A-1000-0550                       225.0400  -135.4700    0.0000  bottom
 U7        MCP3002                 MSOP-8_3x3mm_P0.65mm                    271.6276  -135.0772  180.0000  bottom
 ## End
