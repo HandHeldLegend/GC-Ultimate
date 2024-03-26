@@ -187,8 +187,8 @@ void cb_hoja_read_buttons(button_data_s *data)
 
     if(!trigger_offset_obtained)
     {
-        lt_offset = ltr;
-        rt_offset = rtr;
+        lt_offset = ltr+50;
+        rt_offset = rtr+50;
         trigger_offset_obtained = true;
     }
     else
@@ -204,6 +204,7 @@ void cb_hoja_read_buttons(button_data_s *data)
     }
 
     data->button_shipping = !gpio_get(PGPIO_BUTTON_MODE);
+    data->button_home = data->button_shipping;
     data->button_sync = data->button_plus;
 }
 

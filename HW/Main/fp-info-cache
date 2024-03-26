@@ -1,4 +1,4 @@
-21959423859128786
+21967981307906510
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90790,6 +90790,13 @@ HTSOP-J8
 9
 9
 hhl
+JST_SM02B-SURS-TF_LF__SN_
+
+
+0
+4
+4
+hhl
 KS_8730
 
 
@@ -90838,6 +90845,13 @@ Through hole pin header THT 1x01 2.54mm single row
 0
 3
 3
+hhl
+SK6805-EC-10
+
+
+0
+4
+4
 hhl
 SK6805-EC-15
 
@@ -90965,6 +90979,13 @@ molex_5034800540
 7
 5
 hhl
+molex_5034800540_ribbon
+
+
+0
+5
+5
+hhl
 molex_5051101492_14P
 
 
@@ -90998,6 +91019,20 @@ progcc_dpad
 
 0
 3
+2
+hhl
+ring_dpad
+
+
+0
+2
+2
+hhl
+ring_pad
+
+
+0
+2
 2
 hhl
 rumble_pins
