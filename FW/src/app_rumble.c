@@ -20,11 +20,29 @@ static uint8_t _rumble_max = RUMBLE_MAX;
 
 static bool _declining = false;
 
-void app_rumble_output(int value)
+void app_rumble_output()
 {
-    pwm_set_gpio_level(PGPIO_RUMBLE_BRAKE, (!value) ? 255 : 0);
-    pwm_set_gpio_level(PGPIO_RUMBLE_MAIN, (value > 0) ? value : 0);
+    if (_rumble_current < _rumble_cap)
+    {
+        _rumble_current += 10;
+    }
+    else
+    {
+        _rumble_current -= 10;
+        
+        if (_rumble_current <= _rumble_min)
+        {
+            _rumble_current = _rumble_min; 
+        }
+
+        _rumble_cap = _rumble_current;
+    }
+
+    pwm_set_gpio_level(PGPIO_RUMBLE_BRAKE, (!_rumble_current) ? 255 : 0);
+    pwm_set_gpio_level(PGPIO_RUMBLE_MAIN, (_rumble_current > 0) ? _rumble_current : 0);
 }
+
+bool testing = false;
 
 void app_rumble_task(uint32_t timestamp)
 {
@@ -32,23 +50,8 @@ void app_rumble_task(uint32_t timestamp)
 
     if(interval_run(timestamp, _rumble_interval, &interval))
     {
-        if (_rumble_current < _rumble_cap)
-        {
-            _rumble_current += 20;
-        }
-        else
-        {
-            _rumble_current -= 10;
-            
-            if (_rumble_current <= _rumble_min)
-            {
-                _rumble_current = _rumble_min; 
-            }
-
-            _rumble_cap = _rumble_current;
-        }
-        
-        app_rumble_output(_rumble_current);
+        if(!testing);
+        app_rumble_output();
     }
 }
 
@@ -80,27 +83,24 @@ void cb_hoja_rumble_set(rumble_data_s *data)
 
 void cb_hoja_rumble_test()
 {
-    float steps = 400;
-    float step_size = ((float) _rumble_max - (float) _rumble_floor)/steps;
-    float starting_step = _rumble_floor;
+    testing = true;
+    rumble_data_s tmp = {.amplitude_high=1, .amplitude_low = 1};
 
-    for(int i = 0; i < steps; i++)
+    cb_hoja_rumble_set(&tmp);
+
+    for(int i = 0; i < 62; i++)
     {   
-        app_rumble_output((int) starting_step);
-        starting_step += step_size;
+        app_rumble_output();
         watchdog_update();
-        sleep_ms(1);
+        sleep_ms(8);
     }
-    app_rumble_output((int) _rumble_max);
-    sleep_ms(100);
-    watchdog_update();
-    app_rumble_output(0);
-}
-
-bool app_rumble_hwtest()
-{
-    cb_hoja_rumble_test();
-    return true;
+    tmp.amplitude_high = 0;
+    tmp.amplitude_low = 0;
+    testing = false;
+    
+    cb_hoja_rumble_set(&tmp);
+    
+    app_rumble_output();
 }
 
 void cb_hoja_rumble_init()
