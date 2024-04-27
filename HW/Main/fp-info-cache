@@ -1,4 +1,4 @@
-21967981307906510
+21973138812796113
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90734,6 +90734,13 @@ FP_RPLAYGROUND_LOGO
 0
 0
 hhl
+GBC_Start_Select
+
+
+0
+5
+2
+hhl
 GCC_Header_Straight_1x06_Pitch2.00mm
 Through hole straight pin header, 1x06, 2.00mm pitch, single row
 Through hole pin header THT 1x06 2.00mm single row
@@ -90845,6 +90852,13 @@ Through hole pin header THT 1x01 2.54mm single row
 0
 3
 3
+hhl
+SHOUHAN_MICROQTJ
+
+
+0
+9
+9
 hhl
 SK6805-EC-10
 
@@ -91029,6 +91043,13 @@ ring_dpad
 2
 hhl
 ring_pad
+
+
+0
+2
+2
+hhl
+ring_pad_small
 
 
 0
