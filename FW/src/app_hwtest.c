@@ -139,7 +139,7 @@ bool _hwtest_imu()
     return false;
 }
 
-#define ANALOG_ATTEMPTS 10
+#define ANALOG_ATTEMPTS 50
 bool _hwtest_analog()
 {
     uint attempts = ANALOG_ATTEMPTS;

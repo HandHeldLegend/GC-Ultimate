@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "hoja.h": "c",
-        "btinput.h": "c"
+        "btinput.h": "c",
+        "analog.h": "c"
     }
 }

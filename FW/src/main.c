@@ -185,23 +185,8 @@ void cb_hoja_read_buttons(button_data_s *data)
     adc_select_input(PADC_RT);
     int rtr = 0xFFF - (int) adc_read();
 
-    if(!trigger_offset_obtained)
-    {
-        lt_offset = ltr+50;
-        rt_offset = rtr+50;
-        trigger_offset_obtained = true;
-    }
-    else
-    {
-        ltr -= lt_offset;
-        rtr -= rt_offset;
-
-        ltr = (ltr<0) ? 0 : ltr;
-        rtr = (rtr<0) ? 0 : rtr;
-
-        data->zl_analog = ltr;
-        data->zr_analog = rtr;
-    }
+    data->zl_analog = ltr;
+    data->zr_analog = rtr;
 
     data->button_shipping = !gpio_get(PGPIO_BUTTON_MODE);
     data->button_home = data->button_shipping;
@@ -258,18 +243,17 @@ void cb_hoja_task_1_hook(uint32_t timestamp)
 bool _esp_reset = false;
 void cb_hoja_baseband_update_loop(button_data_s *buttons)
 {
-
     if(buttons->trigger_l)
     {
         watchdog_reboot(0, 0, 0);
     }
 
-    if(buttons->trigger_r && !_esp_reset)
+    if(buttons->button_plus && !_esp_reset)
     {
         cb_hoja_set_bluetooth_enabled(false);
         _esp_reset = true;
     }
-    else if (!buttons->trigger_r && _esp_reset)
+    else if (!buttons->button_plus && _esp_reset)
     {
         cb_hoja_set_bluetooth_enabled(true);
         _esp_reset = false;
