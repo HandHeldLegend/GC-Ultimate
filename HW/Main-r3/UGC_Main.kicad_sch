@@ -21408,7 +21408,7 @@
 			)
 		)
 	)
-	(global_label "RUMBLE"
+	(global_label "LRA_HI"
 		(shape input)
 		(at 388.62 166.37 0)
 		(fields_autoplaced yes)
@@ -21420,7 +21420,7 @@
 		)
 		(uuid "4bef5ded-6f8f-4170-8353-7a009828b876")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 398.4432 166.4494 0)
+			(at 397.8948 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24070,7 +24070,7 @@
 			)
 		)
 	)
-	(global_label "R_BRAKE"
+	(global_label "LRA_LO"
 		(shape input)
 		(at 388.62 179.07 0)
 		(fields_autoplaced yes)
@@ -24082,7 +24082,7 @@
 		)
 		(uuid "f1c87110-2c8e-492d-b679-3aadcc895fef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 399.2294 179.1494 0)
+			(at 398.3181 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
