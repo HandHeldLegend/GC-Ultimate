@@ -25,7 +25,6 @@ button_remap_s user_map = {
     .button_stick_right = MAPCODE_B_STICKR,
 };
 
-
 void _setup_gpio_pull(uint8_t gpio)
 {
   gpio_init(gpio);
@@ -134,8 +133,6 @@ void cb_hoja_hardware_setup()
     gpio_put(PGPIO_IMU1_CS, true); // active low
 
     app_imu_init();
-
-    
 
     gpio_init(PGPIO_ESP_EN);
 
