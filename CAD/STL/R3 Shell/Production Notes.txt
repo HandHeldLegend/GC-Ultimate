@@ -1,0 +1,16 @@
+Production notes for GC Ultimate R3
+Quantity is per kit
+
+Qty 1 pc - BottomShell, MJF print
+Qty 1 pc - TopShell, MJF print 
+Qty 1 pc - LightPipe, Resin
+Qty 1 pc - HomeButton, Resin 
+Qty 1 pc - MinusButton, Resin 
+Qty 1 pc - PlusButton, Resin 
+Qty 1 pc - CaptureButton, Resin 
+Qty 1 pc - SyncButton, Resin 
+Qty 1 pc - NuMechTriggerBracket, Resin 
+
+I'd like to try nylon and resin for this new piece
+Qty 2 pc - GC Trigger Kailh Stem, Nylon
+Qty 2 pc - GC Trigger Kailh Stem, Resin 
