@@ -1,4 +1,4 @@
-23441507492317497
+23444947900922832
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95466,6 +95466,13 @@ GL18
 8
 4
 hhl
+GL1807SYAE
+
+
+0
+14
+10
+hhl
 GameCubeHeader
 
 
@@ -95528,6 +95535,13 @@ MSOP10
 0
 10
 10
+hhl
+PG1353
+
+
+0
+2
+2
 hhl
 PTS540JM035SMTRLFS
 
