@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "hhl")(type "KiCad")(uri "${KIPRJMOD}/../Library/hhl.kicad_sym")(options "")(descr ""))
+  (lib (name "hhl")(type "KiCad")(uri "C:/Users/Mitch/GitRepos/HHL-KiCad-Lib/hhl.kicad_sym")(options "")(descr ""))
 )

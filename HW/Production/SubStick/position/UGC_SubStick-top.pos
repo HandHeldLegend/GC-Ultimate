@@ -1,14 +1,12 @@
-### Footprint positions - created on Fri Dec 15 10:43:07 2023 ###
-### Printed by KiCad version 7.0.6
+### Footprint positions - created on 2024-07-05T17:25:48-0700 ###
+### Printed by KiCad version 8.0.2
 ## Unit = mm, Angle = deg.
 ## Side : top
-# Ref     Val                 Package                                           PosX       PosY       Rot  Side
-C1        .047u               C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   248.3000  -161.1000    0.0000  top
-C2        .047u               C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   258.1000  -145.9000  -90.0000  top
-J1        Conn_01x06_Pin      PinHeader_1x06_P2.00mm_Vertical               280.7610  -140.8674  -90.0000  top
-R1        1k                  R_0201_0603Metric                             248.9000  -160.0000    0.0000  top
-R2        1k                  R_0201_0603Metric                             257.6500  -148.4000   90.0000  top
-SW1       GL18_SW             GL18                                          247.2072  -149.6885    0.0000  top
-U1        GH39F_(Hall_SOT23)  GH39F                                         247.2072  -149.6885  -90.0000  top
-U2        GH39F_(Hall_SOT23)  GH39F                                         247.2072  -149.6885    0.0000  top
+# Ref     Val             Package                                           PosX       PosY       Rot  Side
+C1        .047u           C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   248.1834  -161.4932    0.0000  top
+C2        .047u           C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   258.1000  -145.9000  -90.0000  top
+J1        Conn_01x06_Pin  PinHeader_1x06_P2.00mm_Vertical               280.7610  -140.8674  -90.0000  top
+R1        1k              R_0201_0603Metric                             248.6914  -160.3248    0.0000  top
+R2        1k              R_0201_0603Metric                             257.8354  -148.5900   90.0000  top
+SW1       GL18_SW         GL1807SYAE                                    247.2072  -149.6885    0.0000  top
 ## End

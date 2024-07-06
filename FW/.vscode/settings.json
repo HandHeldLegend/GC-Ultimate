@@ -2,6 +2,8 @@
     "files.associations": {
         "hoja.h": "c",
         "btinput.h": "c",
-        "analog.h": "c"
+        "analog.h": "c",
+        "bootrom.h": "c",
+        "stdlib.h": "c"
     }
 }
