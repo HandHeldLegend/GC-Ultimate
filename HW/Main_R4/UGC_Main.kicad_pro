@@ -495,10 +495,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Production/Main_R3/Gerber/",
-      "pos_files": "../Production/Main_R3/Placement/",
+      "plot": "../Production/Main_R4/Gerber/",
+      "pos_files": "../Production/Main_R4/Placement/",
       "specctra_dsn": "",
-      "step": "../../../../Downloads/UGC_Main.step",
+      "step": "../Production/Main_R4/UGC_Main.step",
       "svg": "",
       "vrml": ""
     },

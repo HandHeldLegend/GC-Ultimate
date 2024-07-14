@@ -1,24 +1,15 @@
-### Footprint positions - created on 2024-07-05T17:46:53-0700 ###
+### Footprint positions - created on 2024-07-13T20:07:08-0700 ###
 ### Printed by KiCad version 8.0.2
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref     Val                     Package                                     PosX       PosY       Rot  Side
 B1        Battery                 JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical   232.5476  -111.2855    0.0000  bottom
-C25       1u                      C_0201_0603Metric                       220.5278  -130.4920  180.0000  bottom
-C26       1u                      C_0201_0603Metric                       217.4646  -130.5029    0.0000  bottom
-C27       100nF                   C_0201_0603Metric                       215.1278  -126.5151    0.0000  bottom
-D3        M7C                     D_SOD-523                               220.6954  -131.6350    0.0000  bottom
-D6        M7C                     D_SOD-523                               218.0132  -131.6482  180.0000  bottom
-D7        M7C                     D_SOD-523                               218.0234  -129.3345    0.0000  bottom
-J1        SM02B-SURS-TF_LF__SN_   JST_SM02B-SURS-TF_LF__SN_               219.3626  -123.8504   90.0000  bottom
+J1        SM02B-SURS-TF_LF__SN_   JST_SM02B-SURS-TF_LF__SN_               278.3840  -139.5648  180.0000  bottom
 J5        UJ31-CH-G1-SMT-TR       CUI_UJ31-CH-G1-SMT-TR                   215.7336   -90.7094    0.0000  bottom
 J6        Trigger                 JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical   158.6230  -127.6350   90.0000  bottom
 J7        Trigger                 JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical   279.5016  -127.6350   90.0000  bottom
+J10       SM02B-SURS-TF_LF__SN_   JST_SM02B-SURS-TF_LF__SN_               165.9636  -139.5648  180.0000  bottom
 J13       503480-0640             5034800640                              271.4902  -141.1566  180.0000  bottom
-Q5        Q_NMOS_GSD              SOT-23                                  214.9500  -130.5791  -90.0000  bottom
-R31       10k                     R_0201_0603Metric                       215.1278  -127.4041  180.0000  bottom
-R32       100R                    R_0201_0603Metric                       213.9848  -127.7597  -90.0000  bottom
-R33       0R                      R_0201_0603Metric                       220.5838  -129.4892    0.0000  bottom
 RV1       Slider_GCC-Gamecube_MB  GCC_Slider                              193.4837  -101.4344  180.0000  bottom
 RV2       Slider_GCC-Gamecube_MB  GCC_Slider                              243.4837  -101.4344  180.0000  bottom
 SW14      SW_TS-1187A             TS-1187A-C-E-B                          218.4837  -135.4844  180.0000  bottom
