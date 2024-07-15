@@ -1,4 +1,5 @@
 C:/Users/Mitch/GitRepos/GC-Ultimate/FW/build/CMakeFiles/GCULTIMATE_RP2040.dir
+C:/Users/Mitch/GitRepos/GC-Ultimate/FW/build/CMakeFiles/GCULTIMATE_R4_RP2040.dir
 C:/Users/Mitch/GitRepos/GC-Ultimate/FW/build/CMakeFiles/edit_cache.dir
 C:/Users/Mitch/GitRepos/GC-Ultimate/FW/build/CMakeFiles/rebuild_cache.dir
 C:/Users/Mitch/GitRepos/GC-Ultimate/FW/build/pico-sdk/CMakeFiles/edit_cache.dir

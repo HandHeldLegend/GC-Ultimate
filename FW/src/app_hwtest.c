@@ -227,7 +227,11 @@ bool _hwtest_analog()
 
 bool _hwtest_rumble()
 {
+    #if (GC_ULT_TYPE == 0)
     cb_hoja_rumble_test();
+    #elif (GC_ULT_TYPE == 1)
+    app_rumble_hwtest();
+    #endif
     return true;
 }
 

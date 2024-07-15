@@ -94,6 +94,7 @@ void cb_hoja_set_bluetooth_enabled(bool enable)
 
 void cb_hoja_hardware_setup()
 {
+    #if (GC_ULT_TYPE == 0)
     // Set up GPIO for input buttons
     _setup_gpio_pull(PGPIO_PULL_A);
     _setup_gpio_pull(PGPIO_PULL_B);
@@ -104,6 +105,20 @@ void cb_hoja_hardware_setup()
     _setup_gpio_scan(PGPIO_SCAN_B);
     _setup_gpio_scan(PGPIO_SCAN_C);
     _setup_gpio_scan(PGPIO_SCAN_D);
+    
+    #elif (GC_ULT_TYPE == 1)
+
+    _setup_gpio_pull(PGPIO_PULL_A);
+    _setup_gpio_pull(PGPIO_PULL_B);
+    _setup_gpio_pull(PGPIO_PULL_C);
+    _setup_gpio_pull(PGPIO_PULL_D);
+    _setup_gpio_pull(PGPIO_PULL_E);
+    _setup_gpio_pull(PGPIO_PULL_F);
+
+    _setup_gpio_scan(PGPIO_SCAN_G);
+    _setup_gpio_scan(PGPIO_SCAN_H);
+    _setup_gpio_scan(PGPIO_SCAN_I);
+    #endif
 
     // initialize SPI at 1 MHz
     // initialize SPI at 3 MHz just to test
@@ -144,7 +159,7 @@ bool trigger_offset_obtained = false;
 
 void cb_hoja_read_buttons(button_data_s *data)
 {
-    // Keypad version
+    #if (GC_ULT_TYPE == 0)
     gpio_put(PGPIO_PULL_A, false);
     sleep_us(5);
     data->button_a  = !gpio_get(PGPIO_SCAN_A);
@@ -176,6 +191,59 @@ void cb_hoja_read_buttons(button_data_s *data)
     data->button_stick_right    = !gpio_get(PGPIO_SCAN_C);
     gpio_put(PGPIO_PULL_D, true);
 
+    
+
+    data->button_shipping = !gpio_get(PGPIO_BUTTON_MODE);
+    data->button_home = data->button_shipping;
+    data->button_sync = data->button_plus;
+    #elif (GC_ULT_TYPE == 1)
+
+    gpio_put(PGPIO_PULL_A, false);
+    sleep_us(5);
+    data->dpad_up               = !gpio_get(PGPIO_SCAN_H);
+    data->button_stick_right    = !gpio_get(PGPIO_SCAN_G);
+    data->button_plus           = !gpio_get(PGPIO_SCAN_I);
+    gpio_put(PGPIO_PULL_A, true);
+
+    gpio_put(PGPIO_PULL_B, false);
+    sleep_us(5);
+    data->dpad_down = !gpio_get(PGPIO_SCAN_H);
+    data->button_a  = !gpio_get(PGPIO_SCAN_G);
+    data->button_minus = !gpio_get(PGPIO_SCAN_I);
+    gpio_put(PGPIO_PULL_B, true);
+
+    gpio_put(PGPIO_PULL_C, false);
+    sleep_us(5);
+    data->dpad_left     = !gpio_get(PGPIO_SCAN_H);
+    data->button_x      = !gpio_get(PGPIO_SCAN_G);
+    data->button_home   = !gpio_get(PGPIO_SCAN_I);
+    gpio_put(PGPIO_PULL_C, true);
+
+    gpio_put(PGPIO_PULL_D, false);
+    sleep_us(5);
+    data->trigger_l     = !gpio_get(PGPIO_SCAN_H);
+    data ->button_y     = !gpio_get(PGPIO_SCAN_G);
+    data->button_capture = !gpio_get(PGPIO_SCAN_I);
+    gpio_put(PGPIO_PULL_D, true);
+
+    gpio_put(PGPIO_PULL_E, false);
+    sleep_us(5);
+    data->button_stick_left = !gpio_get(PGPIO_SCAN_H);
+    data->trigger_r         = !gpio_get(PGPIO_SCAN_G);
+    data->dpad_right        = !gpio_get(PGPIO_SCAN_I);
+    gpio_put(PGPIO_PULL_E, true);
+
+    gpio_put(PGPIO_PULL_F, false);
+    sleep_us(5);
+    data->trigger_zl    = !gpio_get(PGPIO_SCAN_H);
+    data->trigger_zr    = !gpio_get(PGPIO_SCAN_G);
+    data->button_b      = !gpio_get(PGPIO_SCAN_I);
+    gpio_put(PGPIO_PULL_F, true);
+
+    data->button_shipping = !gpio_get(PGPIO_BUTTON_MODE);
+    data->button_sync = data->button_plus;
+    #endif
+
     // Read Analog triggers
     adc_select_input(PADC_LT);
     int ltr = 0xFFF - (int) adc_read();
@@ -184,10 +252,6 @@ void cb_hoja_read_buttons(button_data_s *data)
 
     data->zl_analog = ltr;
     data->zr_analog = rtr;
-
-    data->button_shipping = !gpio_get(PGPIO_BUTTON_MODE);
-    data->button_home = data->button_shipping;
-    data->button_sync = data->button_plus;
 }
 
 void cb_hoja_read_analog(a_data_s *data)
