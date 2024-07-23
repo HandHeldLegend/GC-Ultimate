@@ -55,12 +55,13 @@ void app_rumble_task(uint32_t timestamp)
     }
 }
 
-void cb_hoja_rumble_set(rumble_data_s *data)
+void cb_hoja_rumble_set(hoja_rumble_msg_s *left, hoja_rumble_msg_s *right)
 {
     if(!_rumble_floor)
     return;
     
-    float amp1 = (data->amplitude_high > data->amplitude_low) ? data->amplitude_high : data->amplitude_low;
+    float amp1 = 0;
+    //float amp1 = (left->high_amplitude > left->low_amplitude) ? left->high_amplitude : left->low_amplitude;
 
     if(amp1 > 1.0f) amp1 = 1.0f;
     
@@ -86,7 +87,7 @@ void cb_hoja_rumble_test()
     testing = true;
     rumble_data_s tmp = {.amplitude_high=1, .amplitude_low = 1};
 
-    cb_hoja_rumble_set(&tmp);
+    //cb_hoja_rumble_set(&tmp);
 
     for(int i = 0; i < 62; i++)
     {   
@@ -98,7 +99,7 @@ void cb_hoja_rumble_test()
     tmp.amplitude_low = 0;
     testing = false;
     
-    cb_hoja_rumble_set(&tmp);
+    //cb_hoja_rumble_set(&tmp);
     
     app_rumble_output();
 }

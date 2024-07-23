@@ -1,0 +1,5 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP","MPN"
+"C1,C2",".047u","~","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","2","",""
+"J2","503480-0640","https://www.molex.com/pdm_docs/sd/5034800640_sd.pdf","hhl:5034800640","1","","503480-0640"
+"R1,R2","1k","~","Resistor_SMD:R_0201_0603Metric","2","",""
+"SW1","GL18_SW","${KIPRJMOD}/../progcc_v3_libs/docs/GuliKit Hall stick GL18,hall sensor datasheet.pdf","hhl:GL1807SYAE","1","","GL1807SYAE-002"
