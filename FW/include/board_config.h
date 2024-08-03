@@ -13,7 +13,7 @@
 #define GC_ULT_TYPE 1
 #endif
 
-#define HOJA_FW_VERSION 0x0A0D
+#define HOJA_FW_VERSION 0x0A0E
 
 #if (GC_ULT_TYPE == 0)
 
