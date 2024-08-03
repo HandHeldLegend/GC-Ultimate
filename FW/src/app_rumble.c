@@ -59,11 +59,28 @@ void cb_hoja_rumble_set(hoja_rumble_msg_s *left, hoja_rumble_msg_s *right)
 {
     if(!_rumble_floor)
     return;
-    
-    float amp1 = 0;
-    //float amp1 = (left->high_amplitude > left->low_amplitude) ? left->high_amplitude : left->low_amplitude;
 
-    if(amp1 > 1.0f) amp1 = 1.0f;
+    float amphi = 0;
+    float amplo = 0;
+
+    // Get count
+    uint8_t count = left->sample_count;
+
+    if(count>0)
+    {
+        amphi = left->samples[count-1].high_amplitude;
+        amplo = left->samples[count-1].low_amplitude;
+    }
+    
+    float amp1 = (amphi > amplo) ? amphi : amplo;
+
+    // Clamp rumble
+    if(amp1>0)
+    {
+        const float range = 0.75f;
+        amp1 *= 0.75f;
+        amp1 += 0.05f;
+    }
     
     float p = ((float) RUMBLE_MAX_ADD * amp1);
     uint16_t tmp = (uint16_t) p;
@@ -84,10 +101,9 @@ void cb_hoja_rumble_set(hoja_rumble_msg_s *left, hoja_rumble_msg_s *right)
 
 void cb_hoja_rumble_test()
 {
-    testing = true;
-    rumble_data_s tmp = {.amplitude_high=1, .amplitude_low = 1};
+    hoja_rumble_msg_s msg = {.sample_count=1, .samples[0]={.high_amplitude=1.0f, .high_frequency=320.0f, .low_amplitude=1.0f, .low_frequency=160.0f}, .unread=true};
 
-    //cb_hoja_rumble_set(&tmp);
+    cb_hoja_rumble_set(&msg, &msg);
 
     for(int i = 0; i < 62; i++)
     {   
@@ -95,11 +111,11 @@ void cb_hoja_rumble_test()
         watchdog_update();
         sleep_ms(8);
     }
-    tmp.amplitude_high = 0;
-    tmp.amplitude_low = 0;
-    testing = false;
-    
-    //cb_hoja_rumble_set(&tmp);
+
+    msg.samples[0].high_amplitude   = 0;
+    msg.samples[0].low_amplitude    = 0;
+
+    cb_hoja_rumble_set(&msg, &msg);
     
     app_rumble_output();
 }
