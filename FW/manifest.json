@@ -1,4 +1,4 @@
 {
-    "changelog": "8.2.2024r1<br>-Rumble updated<br>-Bluetooth Comms updated (Baseband Update REQUIRED)",
-    "fw_version": 2574
+    "changelog": "8.3.2024r1<br>-Rumble updated<br>-Bluetooth Comms updated (Baseband Update REQUIRED)<br>-Resolve brightness dimming",
+    "fw_version": 2575
 }
