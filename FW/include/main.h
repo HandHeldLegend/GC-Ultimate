@@ -3,6 +3,7 @@
 #define BUFFER_TO_UINT16(buffer) (uint16_t)(((buffer[0] & 0x07) << 9) | buffer[1] << 1 | buffer[2] >> 7)
 
 
+
 #if (GC_ULT_TYPE == 0)
 
 #define PGPIO_BUTTON_MODE 5

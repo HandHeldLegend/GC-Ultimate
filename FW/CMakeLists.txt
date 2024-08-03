@@ -33,6 +33,9 @@ target_compile_definitions(${PROJECT_NAME}
 	#PICO_FLASH_SPI_CLKDIV=8
 	)
 
+target_sources(${PROJECT_NAME} PRIVATE
+				 
+				)
 
 target_link_libraries(${PROJECT_NAME}
 PRIVATE

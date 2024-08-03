@@ -4,6 +4,12 @@
         "btinput.h": "c",
         "analog.h": "c",
         "bootrom.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "hoja_includes.h": "c",
+        "multicore.h": "c",
+        "audio.h": "c",
+        "main.h": "c",
+        "snd_drum.h": "c",
+        "switch_haptics.h": "c"
     }
 }
