@@ -7,36 +7,29 @@ uint brake_slice_num = 0;
 
 const uint32_t _rumble_interval = 8000;
 
-int _rumble_cap = 0;
-
+// Minimum valid rumble level
 int _rumble_floor = 0;
-
-int _rumble_min = 0;
-int _rumble_current = 0;
 
 #define RUMBLE_MAX 100
 #define RUMBLE_MAX_ADD 50
+// Maximum rumble level
 static uint8_t _rumble_max = RUMBLE_MAX;
 
-static bool _declining = false;
+int _rumble_current = 0; // Current valid rumble level
+int _rumble_target = 0;
 
 void app_rumble_output()
 {
-    if (_rumble_current < _rumble_cap)
+    if (_rumble_current < _rumble_target)
     {
         _rumble_current += 10;
     }
     else
     {
         _rumble_current -= 10;
-        
-        if (_rumble_current <= _rumble_min)
-        {
-            _rumble_current = _rumble_min; 
-        }
-
-        _rumble_cap = _rumble_current;
     }
+
+    _rumble_current = (_rumble_current>255) ? 255 : (_rumble_current < 0) ? 0 : _rumble_current;
 
     pwm_set_gpio_level(PGPIO_RUMBLE_BRAKE, (!_rumble_current) ? 255 : 0);
     pwm_set_gpio_level(PGPIO_RUMBLE_MAIN, (_rumble_current > 0) ? _rumble_current : 0);
@@ -91,12 +84,7 @@ void cb_hoja_rumble_set(hoja_rumble_msg_s *left, hoja_rumble_msg_s *right)
         tmp += _rumble_floor;
     }
 
-    _rumble_min = tmp;
-
-    if(tmp>_rumble_cap)
-    {
-        _rumble_cap = tmp;
-    }
+    _rumble_target = tmp;
 }
 
 void cb_hoja_rumble_test()

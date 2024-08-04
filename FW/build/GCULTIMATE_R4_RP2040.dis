@@ -19620,9 +19620,9 @@ Disassembly of section .text:
 1000a842:	7023      	strb	r3, [r4, #0]
 1000a844:	3ba5      	subs	r3, #165	; 0xa5
 1000a846:	7063      	strb	r3, [r4, #1]
-1000a848:	3305      	adds	r3, #5
+1000a848:	3306      	adds	r3, #6
 1000a84a:	70a3      	strb	r3, [r4, #2]
-1000a84c:	33b1      	adds	r3, #177	; 0xb1
+1000a84c:	33b0      	adds	r3, #176	; 0xb0
 1000a84e:	70e3      	strb	r3, [r4, #3]
 1000a850:	2502      	movs	r5, #2
 1000a852:	7125      	strb	r5, [r4, #4]
