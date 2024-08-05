@@ -1,7 +1,7 @@
 #ifndef BOARD_CONFIG_H
 #define BOARD_CONFIG_H
 
-#define HOJA_BT_LOGGING_DEBUG 1
+#define HOJA_BT_LOGGING_DEBUG 0
 
 // Device stuff
 
