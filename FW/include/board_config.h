@@ -1,7 +1,7 @@
 #ifndef BOARD_CONFIG_H
 #define BOARD_CONFIG_H
 
-#define HOJA_BT_LOGGING_DEBUG 0
+#define HOJA_BT_LOGGING_DEBUG 1
 
 // Device stuff
 
@@ -13,7 +13,7 @@
 #define GC_ULT_TYPE 1
 #endif
 
-#define HOJA_FW_VERSION 0x0A10
+#define HOJA_FW_VERSION 0x0A11
 
 #if (GC_ULT_TYPE == 0)
 
