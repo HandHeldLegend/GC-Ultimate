@@ -1,5 +1,5 @@
 {
-  "changelog": "8.5.2024<br>-I2C comms updated for Bluetooth (required update)",
-  "fw_version": 2578,
-  "checksum": "70f21d89d11f041028e277dea4fb857867eecc6e9f4555a7585f8f89ad45b70f"
+  "changelog": "8.11.2024<br>-Fix error bluetooth flag",
+  "fw_version": 2579,
+  "checksum": "dd07b800f910f7b6c50f9028dabe8216071c4c67fba85493bf8550700ce8c4e8"
 }

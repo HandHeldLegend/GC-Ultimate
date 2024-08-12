@@ -1753,9 +1753,9 @@ Discarded input sections
                 0x00000000       0x6c CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .text.board_getchar
                 0x00000000        0xa CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
- .text          0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccqwAYRE.o
- .data          0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccqwAYRE.o
- .bss           0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccqwAYRE.o
+ .text          0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\cc0dX36E.o
+ .data          0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\cc0dX36E.o
+ .bss           0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\cc0dX36E.o
  .text          0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a(lib_a-s_fmin.o)
  .data          0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a(lib_a-s_fmin.o)
  .bss           0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a(lib_a-s_fmin.o)
@@ -1977,7 +1977,7 @@ LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\Mitch\AppData\Local\Temp\ccqwAYRE.o
+ .boot2         0x10000000      0x100 C:\Users\Mitch\AppData\Local\Temp\cc0dX36E.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -5629,7 +5629,7 @@ LOAD CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.
 LOAD CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
-LOAD C:\Users\Mitch\AppData\Local\Temp\ccqwAYRE.o
+LOAD C:\Users\Mitch\AppData\Local\Temp\cc0dX36E.o
 LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -5838,7 +5838,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000f8a       0x2c CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .ARM.attributes
-                0x00000fb6       0x22 C:\Users\Mitch\AppData\Local\Temp\ccqwAYRE.o
+                0x00000fb6       0x22 C:\Users\Mitch\AppData\Local\Temp\cc0dX36E.o
  .ARM.attributes
                 0x00000fd8       0x2c c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a(lib_a-s_fmin.o)
  .ARM.attributes
@@ -6119,7 +6119,7 @@ LOAD linker stubs
  .debug_abbrev  0x0000ff39      0x437 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .debug_abbrev  0x00010370      0x3b4 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 
-.debug_loc      0x00000000    0x4035c
+.debug_loc      0x00000000    0x4035b
  .debug_loc     0x00000000     0x14ea CMakeFiles/GCULTIMATE_RP2040.dir/src/main.c.obj
  .debug_loc     0x000014ea      0xa00 CMakeFiles/GCULTIMATE_RP2040.dir/src/app_rumble.c.obj
  .debug_loc     0x00001eea      0x3a8 CMakeFiles/GCULTIMATE_RP2040.dir/src/app_imu.c.obj
@@ -6153,52 +6153,52 @@ LOAD linker stubs
  .debug_loc     0x000124d3       0x4a CMakeFiles/GCULTIMATE_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/swpro.c.obj
  .debug_loc     0x0001251d      0x49f CMakeFiles/GCULTIMATE_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/webusb.c.obj
  .debug_loc     0x000129bc       0xe0 CMakeFiles/GCULTIMATE_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/xinput.c.obj
- .debug_loc     0x00012a9c      0x59c CMakeFiles/GCULTIMATE_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/btinput.c.obj
- .debug_loc     0x00013038       0xdd CMakeFiles/GCULTIMATE_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/ds4input.c.obj
- .debug_loc     0x00013115      0x296 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
- .debug_loc     0x000133ab     0x1237 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_loc     0x000145e2       0xe9 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_loc     0x000146cb      0x45f CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_loc     0x00014b2a      0x233 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_loc     0x00014d5d     0x13f5 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_loc     0x00016152       0x60 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_loc     0x000161b2     0x152e CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_loc     0x000176e0       0xf5 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_loc     0x000177d5     0x31e5 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- .debug_loc     0x0001a9ba      0x488 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.obj
- .debug_loc     0x0001ae42      0xacb CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_loc     0x0001b90d     0x1446 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_loc     0x0001cd53      0x832 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_loc     0x0001d585      0x310 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_loc     0x0001d895      0x2ec CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_loc     0x0001db81       0x71 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_loc     0x0001dbf2      0x674 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_loc     0x0001e266     0x2095 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_loc     0x000202fb      0x1a1 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_loc     0x0002049c       0x59 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_loc     0x000204f5     0x7f1a CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_loc     0x0002840f       0x73 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_loc     0x00028482     0x6167 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
- .debug_loc     0x0002e5e9      0x2dc CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_loc     0x0002e8c5      0xdff CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_loc     0x0002f6c4      0xf93 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_loc     0x00030657      0xa71 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
- .debug_loc     0x000310c8       0xff CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_loc     0x000311c7      0x909 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .debug_loc     0x00031ad0       0x8c CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .debug_loc     0x00031b5c     0x1ca7 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .debug_loc     0x00033803      0xc12 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
- .debug_loc     0x00034415     0x1359 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .debug_loc     0x0003576e      0xebe CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_loc     0x0003662c      0x7a9 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_loc     0x00036dd5     0x2456 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_loc     0x0003922b      0x4de CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_loc     0x00039709     0x11d4 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_loc     0x0003a8dd     0x1195 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
- .debug_loc     0x0003ba72      0x8eb CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
- .debug_loc     0x0003c35d      0xe2f CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_loc     0x0003d18c     0x2b8e CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_loc     0x0003fd1a      0x642 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+ .debug_loc     0x00012a9c      0x59b CMakeFiles/GCULTIMATE_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/btinput.c.obj
+ .debug_loc     0x00013037       0xdd CMakeFiles/GCULTIMATE_RP2040.dir/lib/HOJA-LIB-RP2040/src/devices/ds4input.c.obj
+ .debug_loc     0x00013114      0x296 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+ .debug_loc     0x000133aa     0x1237 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_loc     0x000145e1       0xe9 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_loc     0x000146ca      0x45f CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_loc     0x00014b29      0x233 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_loc     0x00014d5c     0x13f5 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_loc     0x00016151       0x60 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_loc     0x000161b1     0x152e CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_loc     0x000176df       0xf5 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_loc     0x000177d4     0x31e5 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_loc     0x0001a9b9      0x488 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+ .debug_loc     0x0001ae41      0xacb CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_loc     0x0001b90c     0x1446 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_loc     0x0001cd52      0x832 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_loc     0x0001d584      0x310 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_loc     0x0001d894      0x2ec CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_loc     0x0001db80       0x71 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_loc     0x0001dbf1      0x674 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_loc     0x0001e265     0x2095 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_loc     0x000202fa      0x1a1 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_loc     0x0002049b       0x59 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_loc     0x000204f4     0x7f1a CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_loc     0x0002840e       0x73 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_loc     0x00028481     0x6167 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+ .debug_loc     0x0002e5e8      0x2dc CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_loc     0x0002e8c4      0xdff CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_loc     0x0002f6c3      0xf93 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_loc     0x00030656      0xa71 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+ .debug_loc     0x000310c7       0xff CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_loc     0x000311c6      0x909 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_loc     0x00031acf       0x8c CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+ .debug_loc     0x00031b5b     0x1ca7 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_loc     0x00033802      0xc12 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+ .debug_loc     0x00034414     0x1359 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+ .debug_loc     0x0003576d      0xebe CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_loc     0x0003662b      0x7a9 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_loc     0x00036dd4     0x2456 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_loc     0x0003922a      0x4de CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_loc     0x00039708     0x11d4 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_loc     0x0003a8dc     0x1195 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+ .debug_loc     0x0003ba71      0x8eb CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+ .debug_loc     0x0003c35c      0xe2f CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_loc     0x0003d18b     0x2b8e CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_loc     0x0003fd19      0x642 CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 
 .debug_aranges  0x00000000     0x28b8
  .debug_aranges

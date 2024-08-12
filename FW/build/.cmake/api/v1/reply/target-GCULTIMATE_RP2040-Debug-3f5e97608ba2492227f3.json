@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "GCULTIMATE_R4_RP2040.elf"
+			"path" : "GCULTIMATE_RP2040.elf"
 		}
 	],
 	"backtrace" : 1,
@@ -35,13 +35,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 86,
+				"line" : 19,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 104,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
@@ -71,7 +71,7 @@
 			{
 				"command" : 4,
 				"file" : 3,
-				"line" : 65,
+				"line" : 67,
 				"parent" : 7
 			},
 			{
@@ -95,7 +95,7 @@
 			{
 				"command" : 4,
 				"file" : 3,
-				"line" : 67,
+				"line" : 65,
 				"parent" : 7
 			},
 			{
@@ -107,13 +107,13 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 93,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 130,
+				"line" : 66,
 				"parent" : 0
 			},
 			{
@@ -162,7 +162,7 @@
 				},
 				{
 					"backtrace" : 14,
-					"define" : "HOJA_DEVICE_ID=0xC002"
+					"define" : "HOJA_DEVICE_ID=0xC001"
 				},
 				{
 					"backtrace" : 2,
@@ -330,7 +330,7 @@
 				},
 				{
 					"backtrace" : 16,
-					"define" : "PICO_TARGET_NAME=\"GCULTIMATE_R4_RP2040\""
+					"define" : "PICO_TARGET_NAME=\"GCULTIMATE_RP2040\""
 				},
 				{
 					"backtrace" : 2,
@@ -721,7 +721,7 @@
 				},
 				{
 					"backtrace" : 14,
-					"define" : "HOJA_DEVICE_ID=0xC002"
+					"define" : "HOJA_DEVICE_ID=0xC001"
 				},
 				{
 					"backtrace" : 2,
@@ -889,7 +889,7 @@
 				},
 				{
 					"backtrace" : 16,
-					"define" : "PICO_TARGET_NAME=\"GCULTIMATE_R4_RP2040\""
+					"define" : "PICO_TARGET_NAME=\"GCULTIMATE_RP2040\""
 				},
 				{
 					"backtrace" : 2,
@@ -1201,7 +1201,7 @@
 				},
 				{
 					"backtrace" : 14,
-					"define" : "HOJA_DEVICE_ID=0xC002"
+					"define" : "HOJA_DEVICE_ID=0xC001"
 				},
 				{
 					"backtrace" : 2,
@@ -1369,7 +1369,7 @@
 				},
 				{
 					"backtrace" : 16,
-					"define" : "PICO_TARGET_NAME=\"GCULTIMATE_R4_RP2040\""
+					"define" : "PICO_TARGET_NAME=\"GCULTIMATE_RP2040\""
 				},
 				{
 					"backtrace" : 2,
@@ -1642,7 +1642,7 @@
 		},
 		{
 			"backtrace" : 9,
-			"id" : "hoja_lib_ws2812_pio_h::@16e020e79a31ade7a0ad"
+			"id" : "hoja_lib_joybus_pio_h::@16e020e79a31ade7a0ad"
 		},
 		{
 			"backtrace" : 11,
@@ -1650,10 +1650,10 @@
 		},
 		{
 			"backtrace" : 13,
-			"id" : "hoja_lib_joybus_pio_h::@16e020e79a31ade7a0ad"
+			"id" : "hoja_lib_ws2812_pio_h::@16e020e79a31ade7a0ad"
 		}
 	],
-	"id" : "GCULTIMATE_R4_RP2040::@6890427a1f51a3e7e1df",
+	"id" : "GCULTIMATE_RP2040::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -2438,7 +2438,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-Map=GCULTIMATE_R4_RP2040.elf.map",
+				"fragment" : "-Wl,-Map=GCULTIMATE_RP2040.elf.map",
 				"role" : "flags"
 			},
 			{
@@ -2489,8 +2489,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "GCULTIMATE_R4_RP2040",
-	"nameOnDisk" : "GCULTIMATE_R4_RP2040.elf",
+	"name" : "GCULTIMATE_RP2040",
+	"nameOnDisk" : "GCULTIMATE_RP2040.elf",
 	"paths" : 
 	{
 		"build" : ".",
@@ -2635,7 +2635,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/app_rumble_haptic.c",
+			"path" : "src/app_rumble.c",
 			"sourceGroupIndex" : 0
 		},
 		{
