@@ -1753,9 +1753,9 @@ Discarded input sections
                 0x00000000       0x6c CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .text.board_getchar
                 0x00000000        0xa CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
- .text          0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccmkeNtw.o
- .data          0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccmkeNtw.o
- .bss           0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccmkeNtw.o
+ .text          0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccqwAYRE.o
+ .data          0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccqwAYRE.o
+ .bss           0x00000000        0x0 C:\Users\Mitch\AppData\Local\Temp\ccqwAYRE.o
  .text          0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a(lib_a-s_fmin.o)
  .data          0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a(lib_a-s_fmin.o)
  .bss           0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a(lib_a-s_fmin.o)
@@ -1977,7 +1977,7 @@ LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\Mitch\AppData\Local\Temp\ccmkeNtw.o
+ .boot2         0x10000000      0x100 C:\Users\Mitch\AppData\Local\Temp\ccqwAYRE.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -5629,7 +5629,7 @@ LOAD CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.
 LOAD CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
-LOAD C:\Users\Mitch\AppData\Local\Temp\ccmkeNtw.o
+LOAD C:\Users\Mitch\AppData\Local\Temp\ccqwAYRE.o
 LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -5838,7 +5838,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000f8a       0x2c CMakeFiles/GCULTIMATE_RP2040.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
  .ARM.attributes
-                0x00000fb6       0x22 C:\Users\Mitch\AppData\Local\Temp\ccmkeNtw.o
+                0x00000fb6       0x22 C:\Users\Mitch\AppData\Local\Temp\ccqwAYRE.o
  .ARM.attributes
                 0x00000fd8       0x2c c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a(lib_a-s_fmin.o)
  .ARM.attributes
