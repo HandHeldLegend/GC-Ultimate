@@ -6635,7 +6635,7 @@
 				)
 			)
 		)
-		(symbol "hhl:Slider_GCC-Gamecube_MB"
+		(symbol "hhl:Slider_GCC-Gamecube_MillMax_MB"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -6649,7 +6649,7 @@
 					)
 				)
 			)
-			(property "Value" "Slider_GCC-Gamecube_MB"
+			(property "Value" "Slider_GCC-Gamecube_MillMax_MB"
 				(at -6.35 0 90)
 				(effects
 					(font
@@ -6657,7 +6657,7 @@
 					)
 				)
 			)
-			(property "Footprint" "hhl:GCC_Slider"
+			(property "Footprint" "hhl:GCC_Slider_MillMax"
 				(at 0 11.43 0)
 				(effects
 					(font
@@ -6684,6 +6684,24 @@
 					(hide yes)
 				)
 			)
+			(property "Price" "0.2624"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RD7091008A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_fp_filters" "Potentiometer*"
 				(at 0 0 0)
 				(effects
@@ -6693,7 +6711,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Slider_GCC-Gamecube_MB_0_1"
+			(symbol "Slider_GCC-Gamecube_MillMax_MB_0_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 1.524 0)
@@ -6730,7 +6748,7 @@
 					)
 				)
 			)
-			(symbol "Slider_GCC-Gamecube_MB_1_1"
+			(symbol "Slider_GCC-Gamecube_MillMax_MB_1_1"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
@@ -23718,7 +23736,7 @@
 			(uuid "a349c856-b485-4430-985e-9529057760e7")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR093")
 					(unit 1)
@@ -23805,6 +23823,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.22"
+			(at 384.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "220c7db2-98db-4f61-8df4-6a9511740fef")
 		)
@@ -23836,7 +23863,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "U9")
 					(unit 1)
@@ -23907,7 +23934,7 @@
 			(uuid "cab279d2-dc4e-4e8e-a604-ef1c86cb908c")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR032")
 					(unit 1)
@@ -23978,7 +24005,7 @@
 			(uuid "a602df39-bfdb-4568-ab97-403c4d0667ca")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR066")
 					(unit 1)
@@ -24050,7 +24077,7 @@
 			(uuid "d5475fd5-19b9-4299-bc9e-212d0045d05f")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR012")
 					(unit 1)
@@ -24135,6 +24162,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0506"
+			(at 215.9 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "feadc90c-91ab-4fe4-9fe3-c5c8d450cc04")
 		)
@@ -24148,7 +24184,7 @@
 			(uuid "5b09e737-a2f3-4c6a-a535-7702d3fd89fd")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "L6")
 					(unit 1)
@@ -24219,6 +24255,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 453.39 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b1bc310-5628-4a6c-9422-ec5ea7b0e68f")
 		)
@@ -24238,7 +24283,7 @@
 			(uuid "23bbec03-8d04-4c3a-aa9d-5aa7cdd46152")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D8")
 					(unit 3)
@@ -24309,6 +24354,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 449.58 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b1bc310-5628-4a6c-9422-ec5ea7b0e690")
 		)
@@ -24328,7 +24382,7 @@
 			(uuid "fb850e1b-e490-4f3d-ac87-14a06e083053")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D13")
 					(unit 3)
@@ -24423,7 +24477,7 @@
 			(uuid "4b7c71a8-b6ea-4a9d-8b0c-54d76f87b577")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R32")
 					(unit 1)
@@ -24520,6 +24574,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0208"
+			(at 267.97 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db44cc54-ac79-4f62-bd48-cdc89355e87f")
 		)
@@ -24527,7 +24590,7 @@
 			(uuid "30e11c1a-d0ce-4f15-8639-c6ec741ba38c")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "L5")
 					(unit 1)
@@ -24605,7 +24668,7 @@
 			(uuid "cc4a3640-bc09-43d8-a1bd-57e833b21605")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C5")
 					(unit 1)
@@ -24687,7 +24750,7 @@
 			(uuid "f9d2e0fd-4551-4740-a962-e7db43122dbd")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R19")
 					(unit 1)
@@ -24790,7 +24853,7 @@
 			(uuid "cc41b91d-ae7b-4c8c-a542-c0c9a2120022")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R39")
 					(unit 1)
@@ -24855,7 +24918,7 @@
 			(uuid "aa8bd747-051e-4fad-8782-5b3f5545ec0e")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR061")
 					(unit 1)
@@ -24945,6 +25008,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0048"
+			(at 40.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf1aa30b-3278-496c-adbc-e6b1da935efe")
 		)
@@ -24955,7 +25027,7 @@
 			(uuid "cfee4777-50d7-44ad-b946-7c0546db8687")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "Q1")
 					(unit 1)
@@ -25057,6 +25129,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0179"
+			(at -52.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a65a8598-64dc-4806-99cf-e0e63a35f8ab")
 		)
@@ -25064,7 +25145,7 @@
 			(uuid "f94967df-65bc-4965-82ed-1e366791073c")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D14")
 					(unit 1)
@@ -25133,7 +25214,7 @@
 			(uuid "ba9e508d-dfbd-4c3b-bb07-78c6c142f6c3")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C34")
 					(unit 1)
@@ -25212,7 +25293,7 @@
 			(uuid "859e3811-7e6b-463e-bcbf-7e2c40912a30")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R24")
 					(unit 1)
@@ -25283,7 +25364,7 @@
 			(uuid "a63e730c-42f1-41e4-9c65-d6e84f2f8899")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR05")
 					(unit 1)
@@ -25355,7 +25436,7 @@
 			(uuid "616a2dbb-edf3-4d47-8333-289b1b5536e8")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "TP1")
 					(unit 1)
@@ -25433,7 +25514,7 @@
 			(uuid "b7bae92b-d8df-4a89-986c-f3c30b14a5fa")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C7")
 					(unit 1)
@@ -25504,7 +25585,7 @@
 			(uuid "e97e1e31-eca3-48e5-b386-7fc842451629")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR048")
 					(unit 1)
@@ -25606,6 +25687,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0179"
+			(at -29.21 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e048f481-9ccd-4207-9aa9-269edce83c94")
 		)
@@ -25613,7 +25703,7 @@
 			(uuid "06079771-bb47-4c65-8c44-1be77b7efc7d")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D16")
 					(unit 1)
@@ -25718,7 +25808,7 @@
 			(uuid "e5dc0cc9-793a-4697-8dca-0b42f294623f")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R4")
 					(unit 1)
@@ -25803,6 +25893,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0506"
+			(at 215.9 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da8750fc-229f-4604-b791-61e01ede47b3")
 		)
@@ -25816,7 +25915,7 @@
 			(uuid "c5d9f265-5e2f-40cc-be81-c5cdff4e643a")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "L1")
 					(unit 1)
@@ -25901,7 +26000,7 @@
 			(uuid "94087174-2055-435c-927a-d24fa0a9c0ab")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R8")
 					(unit 1)
@@ -25978,7 +26077,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR08")
 					(unit 1)
@@ -26062,6 +26161,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0449"
+			(at 125.73 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f836335-2c21-4805-9275-1d144603cd26")
 		)
@@ -26075,7 +26183,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D2")
 					(unit 1)
@@ -26146,7 +26254,7 @@
 			(uuid "cb9d1596-2a5a-48d0-81cb-0f368d39b60e")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR029")
 					(unit 1)
@@ -26223,6 +26331,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 449.58 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41212121-7805-4ad4-b1e0-d584b487f116")
 		)
@@ -26242,7 +26359,7 @@
 			(uuid "510e9954-df13-43dd-9087-4b0e70d493bd")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D12")
 					(unit 2)
@@ -26318,7 +26435,7 @@
 			(uuid "38a6fd58-d3c1-4259-9642-3b7712aa582c")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R30")
 					(unit 1)
@@ -26403,7 +26520,7 @@
 			(uuid "a7603901-7d35-417b-9b22-81e27edb0e68")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R3")
 					(unit 1)
@@ -26480,6 +26597,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 453.39 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41212121-7805-4ad4-b1e0-d584b487f117")
 		)
@@ -26505,7 +26631,7 @@
 					(unit 2)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D4")
 					(unit 2)
@@ -26582,7 +26708,7 @@
 			(uuid "0c8cb480-dbe4-4bc4-ac84-d4b367630bbd")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW2")
 					(unit 1)
@@ -26647,7 +26773,7 @@
 			(uuid "95d328bd-17a8-454d-96d3-ce649c316db5")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR090")
 					(unit 1)
@@ -26712,7 +26838,7 @@
 			(uuid "c6cb4025-c840-45e8-81d8-f3f053b8cfa4")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR053")
 					(unit 1)
@@ -26783,7 +26909,7 @@
 			(uuid "41c8b660-a9f8-4453-ada1-9768d267e7b3")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR042")
 					(unit 1)
@@ -26872,7 +26998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Price" "1.08323"
 			(at 111.76 76.2 0)
 			(effects
 				(font
@@ -27072,7 +27198,7 @@
 			(uuid "31b77dd2-4f0b-46d6-925a-51cd4519ad58")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "J5")
 					(unit 1)
@@ -27143,7 +27269,7 @@
 			(uuid "ccc7bafa-14a5-4ed9-ba6c-3ad92a702091")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR015")
 					(unit 1)
@@ -27214,7 +27340,7 @@
 			(uuid "53f24515-a9e1-4116-9b35-e2b3e54175bb")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR045")
 					(unit 1)
@@ -27299,6 +27425,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0506"
+			(at 238.76 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52259586-3263-4549-9730-c59d90eaad18")
 		)
@@ -27312,7 +27447,7 @@
 			(uuid "c3f2b9f5-160d-439a-be6a-dd5792111c4a")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "L11")
 					(unit 1)
@@ -27389,6 +27524,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.02"
+			(at 439.42 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B"
 			(uuid "4194122a-cecf-486b-b128-e2b2c3eb4e35")
 		)
@@ -27402,7 +27546,7 @@
 			(uuid "03cb3a6a-69a1-496d-b036-a96d1ae1477c")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW19")
 					(unit 1)
@@ -27478,7 +27622,7 @@
 			(uuid "12bb2318-2c0f-4aea-a0b1-6d761a20527b")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R20")
 					(unit 1)
@@ -27568,7 +27712,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C23")
 					(unit 1)
@@ -27639,7 +27783,7 @@
 			(uuid "8ab44bd9-a078-4044-8623-88309af8654d")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR036")
 					(unit 1)
@@ -27710,7 +27854,7 @@
 			(uuid "8ef185a5-924a-4e51-9c34-4cee12122e7f")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR051")
 					(unit 1)
@@ -27787,7 +27931,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR052")
 					(unit 1)
@@ -27858,7 +28002,7 @@
 			(uuid "27bebd3d-1d0b-4d7f-b4ad-f87403f34100")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR065")
 					(unit 1)
@@ -27970,6 +28114,15 @@
 			)
 		)
 		(property "JLCPN" ""
+			(at 161.29 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "3.18"
 			(at 161.29 193.04 0)
 			(effects
 				(font
@@ -28162,7 +28315,7 @@
 			(uuid "51d8722a-f672-47f6-a8ff-a5e85ce9dd1d")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "U1")
 					(unit 1)
@@ -28241,6 +28394,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.082"
+			(at 443.23 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "273de063-fa7e-432c-8c56-cf42bd841472")
 		)
@@ -28248,7 +28410,7 @@
 			(uuid "6d516a6d-fa62-44f2-a432-93dc692298f4")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW7")
 					(unit 1)
@@ -28325,6 +28487,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.02"
+			(at 439.42 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B"
 			(uuid "89f85cc4-1783-4f45-8e68-ac053fb955e3")
 		)
@@ -28338,7 +28509,7 @@
 			(uuid "baddde79-b6c6-4dac-b8f0-39a975b25dd4")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW18")
 					(unit 1)
@@ -28416,6 +28587,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0449"
+			(at 111.76 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06859b16-2205-4268-8f36-fc0f9a513ca2")
 		)
@@ -28429,7 +28609,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D1")
 					(unit 1)
@@ -28500,7 +28680,7 @@
 			(uuid "2d9f9117-aece-4a2c-8b93-4b5f2f45cea8")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR09")
 					(unit 1)
@@ -28565,7 +28745,7 @@
 			(uuid "255e9617-24b4-4198-9437-bc714bcf7a4f")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR043")
 					(unit 1)
@@ -28642,7 +28822,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR024")
 					(unit 1)
@@ -28726,7 +28906,7 @@
 			(uuid "c29f7b44-05c6-4107-8569-3f8108155c3e")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C21")
 					(unit 1)
@@ -28797,7 +28977,7 @@
 			(uuid "7c6a7349-f7c9-4e1f-827b-383d4084b877")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR018")
 					(unit 1)
@@ -28882,6 +29062,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0506"
+			(at 284.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43adb627-fa05-44e6-911b-afac500a33f9")
 		)
@@ -28895,7 +29084,7 @@
 			(uuid "077d9dae-2460-4531-9540-c8389b94211d")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "L4")
 					(unit 1)
@@ -28966,7 +29155,7 @@
 			(uuid "7749a8d3-b93c-461d-aa31-a87dd97ed015")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR049")
 					(unit 1)
@@ -29043,7 +29232,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR068")
 					(unit 1)
@@ -29128,6 +29317,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0506"
+			(at 284.48 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "883deb9f-67b8-487f-a137-c3656a9a8c72")
 		)
@@ -29141,7 +29339,7 @@
 			(uuid "697a9cf5-0857-4b29-b641-79870f0ee29f")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "L13")
 					(unit 1)
@@ -29246,7 +29444,7 @@
 			(uuid "1cd81ab7-83f1-4742-a2ea-63597339c9eb")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R14")
 					(unit 1)
@@ -29331,6 +29529,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.082"
+			(at 443.23 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3f278cf-dc12-4fe2-8548-6b19ce976116")
 		)
@@ -29338,7 +29545,7 @@
 			(uuid "f1160f64-00a9-4672-8c32-216f44e757ae")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW8")
 					(unit 1)
@@ -29409,6 +29616,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 453.39 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82b5b732-b7f9-4135-be5a-12348f6e0bee")
 		)
@@ -29434,7 +29650,7 @@
 					(unit 2)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D5")
 					(unit 2)
@@ -29505,7 +29721,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR07")
 					(unit 1)
@@ -29578,7 +29794,7 @@
 			(uuid "01437ed1-454e-4744-89ba-4805131f8fba")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR054")
 					(unit 1)
@@ -29644,6 +29860,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0050"
+			(at -49.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "caddbf56-cb27-4c55-b0e4-a3c387844254")
 		)
@@ -29654,7 +29879,7 @@
 			(uuid "b44d56ef-0951-498a-b2e9-c15a587b82f7")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "Q5")
 					(unit 1)
@@ -29719,7 +29944,7 @@
 			(uuid "1f3704bb-07c2-4bd2-966d-4ebb43d4b7b0")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR030")
 					(unit 1)
@@ -29802,7 +30027,7 @@
 			(uuid "330c4393-89d6-46ae-8c3c-a9f6afc3c205")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R17")
 					(unit 1)
@@ -29881,6 +30106,15 @@
 			)
 		)
 		(property "JLCPN" ""
+			(at 358.14 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.531"
 			(at 358.14 196.85 0)
 			(effects
 				(font
@@ -30061,7 +30295,7 @@
 			(uuid "fdde22bb-e2e0-4c65-be44-6a995fc88197")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "U8")
 					(unit 1)
@@ -30144,7 +30378,7 @@
 			(uuid "66ceb406-0780-486a-9e9f-44fec915d8ff")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "B1")
 					(unit 1)
@@ -30215,7 +30449,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR076")
 					(unit 1)
@@ -30326,7 +30560,7 @@
 			(uuid "60afdc0f-02da-4243-8745-6d6a9e223104")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C2")
 					(unit 1)
@@ -30397,7 +30631,7 @@
 			(uuid "42a28746-5ce5-405a-a8a5-c2ddaa38f9e8")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR02")
 					(unit 1)
@@ -30476,6 +30710,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "1.90"
+			(at 60.96 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S1"
 			(uuid "c1d611aa-822e-421d-a03f-9cef4e380c3c")
 		)
@@ -30507,7 +30750,7 @@
 			(uuid "a0579f0d-e404-4e58-8b87-b19be3df344a")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW6")
 					(unit 1)
@@ -30578,7 +30821,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR028")
 					(unit 1)
@@ -30680,6 +30923,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0179"
+			(at -52.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c43e952-3a49-48f2-8fde-dc59a4e3c0a1")
 		)
@@ -30687,7 +30939,7 @@
 			(uuid "ab80f520-5c9f-4d31-9460-9e0c2dfa899a")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D3")
 					(unit 1)
@@ -30765,7 +31017,7 @@
 			(uuid "895ef4f3-fdc1-4808-b333-3b7fc2bb6a72")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C6")
 					(unit 1)
@@ -30838,7 +31090,7 @@
 			(uuid "ca20188f-b87f-49f4-86dd-e88602503c75")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR03")
 					(unit 1)
@@ -30909,7 +31161,7 @@
 			(uuid "a8ec21e3-061e-4eb1-afff-b205bdc2352d")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR037")
 					(unit 1)
@@ -31020,7 +31272,7 @@
 			(uuid "cabf22e4-3487-47a9-ac14-178d1209add0")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R13")
 					(unit 1)
@@ -31104,7 +31356,7 @@
 			(uuid "4dbb0ecf-0599-41a3-af30-6b85df3d3d8a")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C17")
 					(unit 1)
@@ -31175,7 +31427,7 @@
 			(uuid "15f0fd2d-d88c-4d5f-a333-a0eb610f9634")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR034")
 					(unit 1)
@@ -31247,7 +31499,7 @@
 			(uuid "6a39ed2a-db05-4ad7-8abd-ff3a3f3c2bc7")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "TP7")
 					(unit 1)
@@ -31312,7 +31564,7 @@
 			(uuid "5bc5cc79-5e28-4c43-bba0-92f7d2e7206d")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR039")
 					(unit 1)
@@ -31406,6 +31658,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.13"
+			(at 158.75 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c7b147d-58be-4462-b3f8-ed7d92ba9e20")
 		)
@@ -31437,7 +31698,7 @@
 			(uuid "fcf9e159-2f70-47f3-bc45-0e5f4ee5251e")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "U13")
 					(unit 1)
@@ -31508,7 +31769,7 @@
 			(uuid "001e0b8a-12dc-4fbe-aa35-b881f0f8f4df")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR022")
 					(unit 1)
@@ -31595,6 +31856,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "1.11"
+			(at 97.79 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1360585-440f-4e9b-b7f3-14fa32da0f54")
 		)
@@ -31620,7 +31890,7 @@
 			(uuid "ea48e105-849d-4b00-90a6-884dba2a56cd")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "U7")
 					(unit 1)
@@ -31702,7 +31972,7 @@
 			(uuid "e4c7eda2-b303-4b13-863c-ce497c1700aa")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R15")
 					(unit 1)
@@ -31773,7 +32043,7 @@
 			(uuid "601d10a3-e2ab-4b75-9ee1-401bea932e51")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR056")
 					(unit 1)
@@ -31857,7 +32127,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C11")
 					(unit 1)
@@ -31934,7 +32204,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR04")
 					(unit 1)
@@ -32019,7 +32289,7 @@
 			(uuid "9db090c3-89c4-4dc9-9054-1e321b0826e9")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R28")
 					(unit 1)
@@ -32107,7 +32377,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R10")
 					(unit 1)
@@ -32200,6 +32470,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.23"
+			(at 38.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "095fdb77-a485-4416-bad5-c924badcb25a")
 		)
@@ -32234,7 +32513,7 @@
 			(uuid "287ab9f1-0a30-49c6-9597-5e2a609a5507")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "U12")
 					(unit 1)
@@ -32306,7 +32585,7 @@
 			(uuid "5d81941b-158f-4f7e-82bb-1874709c6a75")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "TP6")
 					(unit 1)
@@ -32371,7 +32650,7 @@
 			(uuid "0a146c30-e296-4d2e-a531-415a5af41727")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR063")
 					(unit 1)
@@ -32442,7 +32721,7 @@
 			(uuid "8d2f6d02-ce93-4204-a7b7-ac2893cb9474")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR013")
 					(unit 1)
@@ -32520,7 +32799,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR070")
 					(unit 1)
@@ -32604,6 +32883,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0048"
+			(at 40.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f796659-1bd4-4491-8764-e354bbb0c2f5")
 		)
@@ -32614,7 +32902,7 @@
 			(uuid "113b05c6-0254-4109-ba4e-22a1e806d638")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "Q2")
 					(unit 1)
@@ -32707,6 +32995,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "1.23"
+			(at 118.11 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "392d4c66-9717-44bc-b151-63ec9096fbb5")
 		)
@@ -32732,7 +33029,7 @@
 			(uuid "fdea5c4d-0933-4509-bbe5-bca6d446db51")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "U11")
 					(unit 1)
@@ -32803,7 +33100,7 @@
 			(uuid "c0cc304d-6652-4d94-8128-63c83aa3d9f3")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR064")
 					(unit 1)
@@ -32882,7 +33179,7 @@
 			(uuid "c702d843-399d-4201-a6eb-c1576761a494")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R21")
 					(unit 1)
@@ -32967,7 +33264,7 @@
 			(uuid "47f998be-2d8f-4ccd-92dc-7f50d064a14e")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R27")
 					(unit 1)
@@ -33050,6 +33347,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.02"
+			(at 173.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B"
 			(uuid "275a989a-f1fa-4734-8a33-08acde2060a5")
 		)
@@ -33063,7 +33369,7 @@
 			(uuid "7f96640c-d945-4c25-98c9-9093231e6f3c")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW5")
 					(unit 1)
@@ -33072,7 +33378,7 @@
 		)
 	)
 	(symbol
-		(lib_id "hhl:Slider_GCC-Gamecube_MB")
+		(lib_id "hhl:Slider_GCC-Gamecube_MillMax_MB")
 		(at 365.76 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33097,8 +33403,8 @@
 				)
 			)
 		)
-		(property "Footprint" "hhl:GCC_Slider"
-			(at 365.76 41.91 0)
+		(property "Footprint" "hhl:GCC_Slider_MillMax"
+			(at 354.33 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33142,6 +33448,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.2624"
+			(at 365.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd3bd837-7400-4e4f-b410-9982fe841af5")
 		)
@@ -33152,7 +33467,7 @@
 			(uuid "81838ac5-a312-4726-9821-02711744870e")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "RV2")
 					(unit 1)
@@ -33231,7 +33546,7 @@
 			(uuid "e2ead0fa-f51a-428e-96a0-7311a319e3b1")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R25")
 					(unit 1)
@@ -33308,6 +33623,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 462.28 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9a18696-6344-4d4f-b43a-fd41458a82f9")
 		)
@@ -33333,7 +33657,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D4")
 					(unit 1)
@@ -33398,7 +33722,7 @@
 			(uuid "bcb02a28-6224-4898-8a28-935995264913")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR085")
 					(unit 1)
@@ -33474,7 +33798,7 @@
 			(uuid "d7a71ca2-dcb7-4b22-b64a-e92112e4985d")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "JP1")
 					(unit 1)
@@ -33553,7 +33877,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR025")
 					(unit 1)
@@ -33636,7 +33960,7 @@
 			(uuid "d4d3fe1f-780f-4824-af02-9bcc0fb57320")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW3")
 					(unit 1)
@@ -33701,7 +34025,7 @@
 			(uuid "5b86a6ab-56ff-4b1c-ab94-022bed932233")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR050")
 					(unit 1)
@@ -33812,7 +34136,7 @@
 			(uuid "4ee2071a-85ff-4a47-a123-48ea71c5cc51")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R38")
 					(unit 1)
@@ -33894,7 +34218,7 @@
 			(uuid "9c386b4b-9a71-45ba-a843-335c02a572b3")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R18")
 					(unit 1)
@@ -33965,7 +34289,7 @@
 			(uuid "bc682a67-58c3-40a1-8561-14165ca7635b")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR083")
 					(unit 1)
@@ -34030,7 +34354,7 @@
 			(uuid "765d8ed5-53c1-409d-82e7-30d0b2e40681")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR019")
 					(unit 1)
@@ -34107,6 +34431,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 449.58 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b1bc310-5628-4a6c-9422-ec5ea7b0e691")
 		)
@@ -34126,7 +34459,7 @@
 			(uuid "f948ac2d-45e8-463a-b572-196664ae7d77")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D12")
 					(unit 3)
@@ -34214,6 +34547,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0458"
+			(at 160.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88208c73-ee08-4be7-8ef7-7ce85f80dbe5")
 		)
@@ -34233,7 +34575,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW16")
 					(unit 1)
@@ -34308,7 +34650,7 @@
 			(uuid "4dd6c8e9-9647-44e2-a31b-e2910fa72ecf")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C25")
 					(unit 1)
@@ -34373,7 +34715,7 @@
 			(uuid "85610698-561e-4c65-ac67-d26c5c21b68e")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR057")
 					(unit 1)
@@ -34448,7 +34790,7 @@
 			(uuid "1c631b6a-6466-406d-a5ee-42ac9190a6bc")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C32")
 					(unit 1)
@@ -34513,7 +34855,7 @@
 			(uuid "cbbddd04-4aa2-45b6-81ee-0389a7b8bb8c")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR010")
 					(unit 1)
@@ -34584,7 +34926,7 @@
 			(uuid "75575911-a392-4c0e-8772-cd68188f12bc")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR023")
 					(unit 1)
@@ -34655,7 +34997,7 @@
 			(uuid "3ce5b2c3-317d-4b36-90e0-1a099dc125d8")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR078")
 					(unit 1)
@@ -34726,6 +35068,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 449.58 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be9cc9ec-8a90-4165-a915-d705158138fe")
 		)
@@ -34745,7 +35096,7 @@
 			(uuid "e46e9fcb-6384-4597-8209-8cae9df927fc")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D13")
 					(unit 1)
@@ -34821,7 +35172,7 @@
 			(uuid "fe113d89-0de9-4b25-a19b-ed36011c0205")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R12")
 					(unit 1)
@@ -34892,7 +35243,7 @@
 			(uuid "5142e34b-e6dd-4f86-be79-2d4873b921d7")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR044")
 					(unit 1)
@@ -34976,7 +35327,7 @@
 			(uuid "b716816c-eab7-49bc-9213-57e9cdaf7b20")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C9")
 					(unit 1)
@@ -35070,6 +35421,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0458"
+			(at 373.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a64930ff-2032-40d8-acbd-0cbc9c1dbe5f")
 		)
@@ -35089,7 +35449,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW15")
 					(unit 1)
@@ -35174,6 +35534,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0506"
+			(at 215.9 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c842cbf-de66-4695-b6de-fbaab031ef50")
 		)
@@ -35187,7 +35556,7 @@
 			(uuid "9f00d0d8-1c85-4091-83bc-c37ab3f2b56d")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "L10")
 					(unit 1)
@@ -35252,7 +35621,7 @@
 			(uuid "93f14805-6778-4bf3-871b-10d4b56dccc3")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR059")
 					(unit 1)
@@ -35323,7 +35692,7 @@
 			(uuid "2a8d1ed5-db25-4422-a280-adefcf103640")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR060")
 					(unit 1)
@@ -35405,7 +35774,7 @@
 			(uuid "8b07ae93-f3af-4ee8-a1a2-206c16024e80")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R34")
 					(unit 1)
@@ -35470,7 +35839,7 @@
 			(uuid "6ed0b848-0e3f-44eb-9c64-363f5a1452c8")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR092")
 					(unit 1)
@@ -35479,7 +35848,7 @@
 		)
 	)
 	(symbol
-		(lib_id "hhl:Slider_GCC-Gamecube_MB")
+		(lib_id "hhl:Slider_GCC-Gamecube_MillMax_MB")
 		(at 334.01 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35504,8 +35873,8 @@
 				)
 			)
 		)
-		(property "Footprint" "hhl:GCC_Slider"
-			(at 334.01 41.91 0)
+		(property "Footprint" "hhl:GCC_Slider_MillMax"
+			(at 322.58 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35549,6 +35918,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.2624"
+			(at 334.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11d8377c-20e2-4c56-b302-24e2f72508ae")
 		)
@@ -35559,7 +35937,7 @@
 			(uuid "3b62649a-d8c2-4fa2-aa4f-0c7af4fbc8ec")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "RV1")
 					(unit 1)
@@ -35624,7 +36002,7 @@
 			(uuid "37dabb65-53e6-4347-a9c2-cb30b9904189")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR082")
 					(unit 1)
@@ -35695,7 +36073,7 @@
 			(uuid "32909efc-0e15-4091-a290-5e1ce92215f5")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR077")
 					(unit 1)
@@ -35779,7 +36157,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C3")
 					(unit 1)
@@ -35862,7 +36240,7 @@
 			(uuid "7142259d-6718-4264-bc92-3bcd3b4d08cd")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW10")
 					(unit 1)
@@ -35933,7 +36311,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR046")
 					(unit 1)
@@ -36004,7 +36382,7 @@
 			(uuid "85b702a0-29f7-44de-bf7e-61ead8bf78f1")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR016")
 					(unit 1)
@@ -36089,7 +36467,7 @@
 			(uuid "b911f8db-6707-439a-9e34-8f1a1f0b5410")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R9")
 					(unit 1)
@@ -36166,6 +36544,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 461.01 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41212121-7805-4ad4-b1e0-d584b487f118")
 		)
@@ -36185,7 +36572,7 @@
 			(uuid "510e9954-df13-43dd-9087-4b0e70d493bf")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D11")
 					(unit 2)
@@ -36261,7 +36648,7 @@
 			(uuid "46845304-5ee3-4834-8a49-7a657ee039ea")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "TP5")
 					(unit 1)
@@ -36338,7 +36725,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR062")
 					(unit 1)
@@ -36438,7 +36825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Price" "0.1080"
 			(at -82.55 163.83 0)
 			(effects
 				(font
@@ -36540,7 +36927,7 @@
 			(uuid "1177b291-13b7-45d8-944e-3087c95ddc86")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "J1")
 					(unit 1)
@@ -36624,7 +37011,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C4")
 					(unit 1)
@@ -36722,6 +37109,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.037"
+			(at 46.99 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a728db9-d6e9-4f56-b120-4195d7a5aa5a")
 		)
@@ -36741,7 +37137,7 @@
 			(uuid "3c0244f1-15e2-4406-9fa1-4b274e2ebca2")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "Q4")
 					(unit 2)
@@ -36812,7 +37208,7 @@
 			(uuid "4f2bbb60-de71-4374-8f1d-8ce4ee2fbb1e")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR031")
 					(unit 1)
@@ -36923,7 +37319,7 @@
 			(uuid "f85a0c71-6f5b-4399-b6cf-f99e90682e11")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R36")
 					(unit 1)
@@ -36995,7 +37391,7 @@
 			(uuid "64b413b2-01a8-48df-abc5-d34ef9941edf")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "TP2")
 					(unit 1)
@@ -37073,7 +37469,7 @@
 			(uuid "d1e350bf-dab8-4e21-bc61-d3ce4ddd1470")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C18")
 					(unit 1)
@@ -37184,7 +37580,7 @@
 			(uuid "9ed99287-9492-410a-ad44-d65a165daf21")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R37")
 					(unit 1)
@@ -37268,7 +37664,7 @@
 			(uuid "c1f0adc9-3cec-4a52-b13e-8b29e125d633")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C8")
 					(unit 1)
@@ -37352,7 +37748,7 @@
 			(uuid "b6bd2245-dbea-4a6e-9764-d1011c6466c2")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C15")
 					(unit 1)
@@ -37440,7 +37836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Price" "0.565"
 			(at 267.97 39.37 0)
 			(effects
 				(font
@@ -37567,7 +37963,7 @@
 			(uuid "570692d2-6e8a-41f1-a9a6-f6483d32ade3")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "U4")
 					(unit 1)
@@ -37638,6 +38034,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 453.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41212121-7805-4ad4-b1e0-d584b487f119")
 		)
@@ -37657,7 +38062,7 @@
 			(uuid "510e9954-df13-43dd-9087-4b0e70d493c0")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D8")
 					(unit 2)
@@ -37722,7 +38127,7 @@
 			(uuid "6cf16298-ef0d-415f-94b5-f990fd593aae")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR084")
 					(unit 1)
@@ -37800,7 +38205,7 @@
 			(uuid "dcbaba17-eaa7-4264-8b37-bd4f41092916")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C22")
 					(unit 1)
@@ -37871,7 +38276,7 @@
 			(uuid "d807bdd2-06d4-4c43-b101-111fbbd4ff90")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR091")
 					(unit 1)
@@ -37936,7 +38341,7 @@
 			(uuid "a34610c8-dcaa-4ef4-9067-525f58c3368e")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR058")
 					(unit 1)
@@ -38021,7 +38426,7 @@
 			(uuid "4d334156-bcb3-41cd-8bc2-449c5182f038")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R22")
 					(unit 1)
@@ -38104,6 +38509,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.02"
+			(at 384.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B"
 			(uuid "6ae8c3ba-c926-4cba-88a3-df3617ac532e")
 		)
@@ -38117,7 +38531,7 @@
 			(uuid "d253ebde-a11b-41b3-8dfd-93acc6e11c31")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW14")
 					(unit 1)
@@ -38197,6 +38611,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.2"
+			(at 168.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2cbf1978-bc5e-4cd0-a0ed-a81dd8197ca4")
 		)
@@ -38207,7 +38630,7 @@
 			(uuid "19b92b68-994d-45ac-b337-01a72ea85e2f")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "Y1")
 					(unit 1)
@@ -38278,7 +38701,7 @@
 			(uuid "bafe5e5d-b79a-4c86-a8ce-d837a5d948ff")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR021")
 					(unit 1)
@@ -38378,7 +38801,7 @@
 			(uuid "1527a0cd-b2f6-4111-90a8-25e8b92e4c5e")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C12")
 					(unit 1)
@@ -38455,7 +38878,7 @@
 			(uuid "c1f00859-0b43-47c3-aba2-1686df025367")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR033")
 					(unit 1)
@@ -38537,7 +38960,7 @@
 			(uuid "0318ac9b-f609-43e2-a63c-170dc4fd250d")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R7")
 					(unit 1)
@@ -38620,6 +39043,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.02"
+			(at 439.42 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B"
 			(uuid "dd70e607-ef83-4246-a7f7-11bfd6e07a65")
 		)
@@ -38633,7 +39065,7 @@
 			(uuid "4c4261d3-7604-4dbd-b59c-6ca7ddc07c54")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW9")
 					(unit 1)
@@ -38727,7 +39159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "None"
+		(property "Price" "0.1080"
 			(at -81.28 111.76 0)
 			(effects
 				(font
@@ -38829,7 +39261,7 @@
 			(uuid "6b2e99e9-1f3b-4d22-8005-2364854d9910")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "J10")
 					(unit 1)
@@ -38900,7 +39332,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR074")
 					(unit 1)
@@ -38985,7 +39417,7 @@
 			(uuid "e3eaa809-e086-4fe4-9ebf-ae3d8d72c4a4")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R26")
 					(unit 1)
@@ -39068,7 +39500,7 @@
 			(uuid "f6bd2f51-33f3-43ec-bd72-36e5f2ad3e37")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW12")
 					(unit 1)
@@ -39139,7 +39571,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR072")
 					(unit 1)
@@ -39222,7 +39654,7 @@
 			(uuid "ab290e31-18b0-49ba-a312-fff1839120dc")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R16")
 					(unit 1)
@@ -39304,7 +39736,7 @@
 			(uuid "118ec14e-9db3-42e4-b0eb-800ab4dadeee")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R29")
 					(unit 1)
@@ -39381,7 +39813,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR075")
 					(unit 1)
@@ -39458,6 +39890,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 453.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d9d4faf-def2-4b2e-baea-8c940f9c1c8d")
 		)
@@ -39477,7 +39918,7 @@
 			(uuid "e46e9fcb-6384-4597-8209-8cae9df927fd")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D11")
 					(unit 1)
@@ -39554,7 +39995,7 @@
 			(uuid "5ee96f59-5fd5-4173-b2ad-465441f97f45")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW11")
 					(unit 1)
@@ -39651,7 +40092,7 @@
 			(uuid "f17d726d-6cf5-4dc6-8044-ed24c0b542fe")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R31")
 					(unit 1)
@@ -39748,7 +40189,7 @@
 			(uuid "c2ddfc47-36bd-4c75-8303-c329eaecc8c6")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R41")
 					(unit 1)
@@ -39813,7 +40254,7 @@
 			(uuid "5d64de45-7f6a-47df-83d9-02e18f2857b5")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR017")
 					(unit 1)
@@ -39890,7 +40331,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR047")
 					(unit 1)
@@ -39988,6 +40429,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.037"
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc5f2cbc-bfa3-4c72-94a9-46c8733bf90e")
 		)
@@ -40007,7 +40457,7 @@
 			(uuid "0dbddd7a-ff02-4946-92b1-7c927353b338")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "Q4")
 					(unit 1)
@@ -40108,7 +40558,7 @@
 			(uuid "bb400820-4420-436d-bda1-b90f0ddddbc5")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R40")
 					(unit 1)
@@ -40204,6 +40654,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.59"
+			(at 38.1 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dbb4bc91-ea80-486c-8063-cc60baac9d2f")
 		)
@@ -40247,7 +40706,7 @@
 			(uuid "66b025c5-63ba-4817-b7b0-c4347d358760")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "U5")
 					(unit 1)
@@ -40335,7 +40794,7 @@
 			(uuid "d7874b95-3c58-44fd-88f8-571d3ab1d644")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R6")
 					(unit 1)
@@ -40437,6 +40896,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0179"
+			(at -29.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9dd1002e-d570-4c8f-a778-44f19da90306")
 		)
@@ -40444,7 +40912,7 @@
 			(uuid "2ab55fd2-f9ec-4155-a5de-3700cea134a3")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D6")
 					(unit 1)
@@ -40540,6 +41008,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0179"
+			(at -29.21 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0be193cd-f1fc-47a6-a42c-91c42a0e985e")
 		)
@@ -40547,7 +41024,7 @@
 			(uuid "711e995d-4d8c-4c2e-b58e-f105834e6266")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D7")
 					(unit 1)
@@ -40618,7 +41095,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR071")
 					(unit 1)
@@ -40701,7 +41178,7 @@
 			(uuid "4c04fbef-2fde-4218-994c-7deac0f88340")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW4")
 					(unit 1)
@@ -40779,7 +41256,7 @@
 			(uuid "1cec6fd6-83ae-493e-b00b-94a28a41372e")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C10")
 					(unit 1)
@@ -40866,6 +41343,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "1.11"
+			(at 97.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04060679-f21f-4bd6-93ad-7ee88c6385a5")
 		)
@@ -40891,7 +41377,7 @@
 			(uuid "9be63363-fb3d-4149-a668-606021a7e35d")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "U6")
 					(unit 1)
@@ -40975,7 +41461,7 @@
 			(uuid "8549e620-ce8f-4b62-b351-ac510cea59e1")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C24")
 					(unit 1)
@@ -41057,7 +41543,7 @@
 			(uuid "829d1719-18a2-473b-98af-47dea545a1e7")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R35")
 					(unit 1)
@@ -41128,6 +41614,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 453.39 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7da42cb9-fe51-4275-9d54-c53c0b6aec42")
 		)
@@ -41153,7 +41648,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D5")
 					(unit 1)
@@ -41226,7 +41721,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR027")
 					(unit 1)
@@ -41308,7 +41803,7 @@
 			(uuid "9989751a-934a-407c-9314-7cbda2e01756")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R1")
 					(unit 1)
@@ -41392,7 +41887,7 @@
 			(uuid "b45b2d08-af34-4084-98d7-03e65e294926")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C20")
 					(unit 1)
@@ -41495,7 +41990,7 @@
 			(uuid "ce9d5862-6796-4807-871f-ed71ff8127e8")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R33")
 					(unit 1)
@@ -41627,6 +42122,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.48"
+			(at 110.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7027d4b4-190f-4753-a8db-11c68f45628f")
 		)
@@ -41652,7 +42156,7 @@
 			(uuid "698bf587-5038-4220-b410-f8444e39d9c1")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "J13")
 					(unit 1)
@@ -41717,7 +42221,7 @@
 			(uuid "9eef36bb-bd70-403a-95fa-4a8099848210")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR040")
 					(unit 1)
@@ -41802,7 +42306,7 @@
 			(uuid "02550d14-4c04-4b61-af3b-82bfd8c942c1")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "J9")
 					(unit 1)
@@ -41873,6 +42377,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 453.39 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7dc2bc66-095f-47f6-8603-e6747d05bc12")
 		)
@@ -41898,7 +42411,7 @@
 					(unit 3)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D5")
 					(unit 3)
@@ -41963,7 +42476,7 @@
 			(uuid "c9950485-bc44-454d-bfe7-fa76685b5b03")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR035")
 					(unit 1)
@@ -42060,7 +42573,7 @@
 			(uuid "e5d7ed1b-d311-4db8-8dad-5cb5a866caca")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "J4")
 					(unit 1)
@@ -42138,7 +42651,7 @@
 			(uuid "73753196-5d47-4d3b-a773-aa72b6ebdf25")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C16")
 					(unit 1)
@@ -42222,7 +42735,7 @@
 			(uuid "ef306298-00ec-4c19-942d-d03f200e56cd")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "J8")
 					(unit 1)
@@ -42287,7 +42800,7 @@
 			(uuid "96a341d8-2be9-4af3-81dd-6cd965499262")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR086")
 					(unit 1)
@@ -42358,7 +42871,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR067")
 					(unit 1)
@@ -42437,7 +42950,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR055")
 					(unit 1)
@@ -42508,7 +43021,7 @@
 			(uuid "c931d21f-ab2c-4e45-b307-1dd27da34a7c")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR038")
 					(unit 1)
@@ -42583,7 +43096,7 @@
 			(uuid "036a1fbc-4531-4874-ab19-9afee357d577")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C33")
 					(unit 1)
@@ -42661,6 +43174,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0449"
+			(at 218.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9fcf263c-5d51-4e63-ad25-7b064e4eea54")
 		)
@@ -42668,7 +43190,7 @@
 			(uuid "dc1ebbdf-3e83-48d7-bb37-ac667ce5a7f2")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D9")
 					(unit 1)
@@ -42766,6 +43288,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.037"
+			(at 46.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "824f80b8-92fb-4eb5-a2dd-66a271f20582")
 		)
@@ -42785,7 +43316,7 @@
 			(uuid "9e84c4db-f724-45ed-9a85-f33173e3f261")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "Q3")
 					(unit 2)
@@ -42856,7 +43387,7 @@
 			(uuid "b31a9de3-26e8-4970-8646-f0cc59888145")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR089")
 					(unit 1)
@@ -42933,6 +43464,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.02"
+			(at 439.42 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B"
 			(uuid "647fe700-ef7f-45e4-8c9d-6ee97f54c04d")
 		)
@@ -42946,7 +43486,7 @@
 			(uuid "f9bb1da1-a1a7-4c8e-b9e8-c0d57217bca6")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW17")
 					(unit 1)
@@ -43017,7 +43557,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR011")
 					(unit 1)
@@ -43092,7 +43632,7 @@
 			(uuid "67839a1b-4a80-4322-b0d6-30002bbecaf6")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C26")
 					(unit 1)
@@ -43171,6 +43711,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0506"
+			(at 261.62 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20e1144d-f2b8-4e48-afb4-fe6833afd766")
 		)
@@ -43184,7 +43733,7 @@
 			(uuid "0b3a81b9-1e5a-4988-ad2a-467d0ff224ba")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "L3")
 					(unit 1)
@@ -43282,6 +43831,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.037"
+			(at 21.59 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "abe24e16-e2ab-4af2-aee1-29f44693c6cf")
 		)
@@ -43301,7 +43859,7 @@
 			(uuid "7a251b9f-ea6c-4858-94ca-3ea91e209419")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "Q3")
 					(unit 1)
@@ -43377,6 +43935,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 453.39 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b1bc310-5628-4a6c-9422-ec5ea7b0e692")
 		)
@@ -43402,7 +43969,7 @@
 					(unit 3)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D4")
 					(unit 3)
@@ -43473,6 +44040,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 453.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16a72286-509d-471b-af8e-cc63510be4fe")
 		)
@@ -43492,7 +44068,7 @@
 			(uuid "e46e9fcb-6384-4597-8209-8cae9df927fe")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D8")
 					(unit 1)
@@ -43586,7 +44162,7 @@
 			(uuid "18c3c31a-a896-4352-b2b6-ad00d3d2c764")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C13")
 					(unit 1)
@@ -43669,6 +44245,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 449.58 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5cbf8dbf-a2ec-4ba7-b997-7488e172d736")
 		)
@@ -43688,7 +44273,7 @@
 			(uuid "e46e9fcb-6384-4597-8209-8cae9df927ff")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D12")
 					(unit 1)
@@ -43754,6 +44339,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0050"
+			(at -49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "76654887-a9cc-4434-8bd8-6a38047e0bff")
 		)
@@ -43764,7 +44358,7 @@
 			(uuid "03bb1fe8-b5fe-485d-a338-47f1c86ecd5a")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "Q6")
 					(unit 1)
@@ -43835,7 +44429,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR073")
 					(unit 1)
@@ -43917,7 +44511,7 @@
 			(uuid "3d4886ae-c029-4022-a3b6-25d786083231")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R2")
 					(unit 1)
@@ -44007,7 +44601,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C19")
 					(unit 1)
@@ -44089,7 +44683,7 @@
 			(uuid "e4d292c2-6722-4494-bca0-e3bd050db204")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R5")
 					(unit 1)
@@ -44191,6 +44785,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.59"
+			(at 38.1 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a6b7a2e-a409-4eb1-a430-ea05539868b1")
 		)
@@ -44234,7 +44837,7 @@
 			(uuid "e277c973-a40e-41f6-8b05-a3d4c8dc43c0")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "U10")
 					(unit 1)
@@ -44311,7 +44914,7 @@
 			(uuid "518acc3c-b4c8-4dd1-8fb6-18f84867a2b8")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR06")
 					(unit 1)
@@ -44396,7 +44999,7 @@
 			(uuid "829d24f0-636e-4f7b-870a-aa07bd6e9fee")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "J6")
 					(unit 1)
@@ -44475,7 +45078,7 @@
 			(uuid "672e565b-0061-486b-a253-b64a5a790523")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R23")
 					(unit 1)
@@ -44559,6 +45162,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0449"
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3307185-fefb-40c5-8270-5fba74bb0025")
 		)
@@ -44566,7 +45178,7 @@
 			(uuid "ab063c3b-60a3-4579-ae0e-d494b96f4d94")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D10")
 					(unit 1)
@@ -44677,7 +45289,7 @@
 			(uuid "16703524-76c1-4f62-a91d-338ab1cdb6f3")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C1")
 					(unit 1)
@@ -44748,7 +45360,7 @@
 			(uuid "18eeb947-601b-4b85-a5ff-b17ec57e4081")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR041")
 					(unit 1)
@@ -44827,7 +45439,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR026")
 					(unit 1)
@@ -44909,7 +45521,7 @@
 			(uuid "e4efa65a-3e07-43b1-96f3-66db0a30b6ac")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "R11")
 					(unit 1)
@@ -44986,6 +45598,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 449.58 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41212121-7805-4ad4-b1e0-d584b487f11a")
 		)
@@ -45005,7 +45626,7 @@
 			(uuid "510e9954-df13-43dd-9087-4b0e70d493c1")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D13")
 					(unit 2)
@@ -45077,7 +45698,7 @@
 					(unit 1)
 				)
 			)
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR069")
 					(unit 1)
@@ -45156,7 +45777,7 @@
 			(uuid "4797aece-b784-4e8d-973d-bbbbad974e2b")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "J7")
 					(unit 1)
@@ -45227,6 +45848,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0186"
+			(at 452.12 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b1bc310-5628-4a6c-9422-ec5ea7b0e693")
 		)
@@ -45246,7 +45876,7 @@
 			(uuid "3566f79b-aebc-4d5b-9a21-ac34cb1b2bdd")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D11")
 					(unit 3)
@@ -45325,6 +45955,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0506"
+			(at 238.76 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27448f83-2086-4711-9b13-b2905f3126ae")
 		)
@@ -45338,7 +45977,7 @@
 			(uuid "11581938-b16b-4679-b864-cb3a5b116dd3")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "L2")
 					(unit 1)
@@ -45409,7 +46048,7 @@
 			(uuid "0dea898b-a096-4578-a4a0-f4f1dcb883be")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR014")
 					(unit 1)
@@ -45494,6 +46133,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0506"
+			(at 261.62 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18daf944-31c4-4ef6-a48f-e48df98073ab")
 		)
@@ -45507,7 +46155,7 @@
 			(uuid "f9b4cf9a-34f5-49fa-8722-0593a964b26e")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "L12")
 					(unit 1)
@@ -45572,7 +46220,7 @@
 			(uuid "f5662959-1eb6-4f54-bf17-76d5e1204196")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR020")
 					(unit 1)
@@ -45655,7 +46303,7 @@
 			(uuid "d5651f32-49bd-4641-8532-5cd61003fc70")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW13")
 					(unit 1)
@@ -45724,7 +46372,7 @@
 			(uuid "23534229-3ed4-4d99-acb6-e5cf9d1ce7d5")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C27")
 					(unit 1)
@@ -45802,7 +46450,7 @@
 			(uuid "db90c49f-b3df-4b5c-adc5-fa0f4c06b1e3")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "C14")
 					(unit 1)
@@ -45885,7 +46533,7 @@
 			(uuid "893763a1-656c-48a0-8dcd-621cddb61add")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW1")
 					(unit 1)
@@ -45981,6 +46629,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" "0.0179"
+			(at -29.21 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dacae6e4-66de-4740-9fd3-74339e515a60")
 		)
@@ -45988,7 +46645,7 @@
 			(uuid "799a5458-5f07-4eda-973c-7d914921dba9")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D15")
 					(unit 1)
@@ -46053,7 +46710,7 @@
 			(uuid "cedfd2b3-f5ed-46bd-a750-43c33be32a08")
 		)
 		(instances
-			(project "UGC_Main"
+			(project "UGC_Main_R4"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR01")
 					(unit 1)

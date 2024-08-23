@@ -479,8 +479,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Production/MechTrigger_R3/Gerber/",
-      "pos_files": "../Production/MechTrigger_R3/Placement/",
+      "plot": "../Production/MechTrigger_R4/gerber/",
+      "pos_files": "../Production/MechTrigger_R4/position/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -520,7 +520,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -539,11 +539,35 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

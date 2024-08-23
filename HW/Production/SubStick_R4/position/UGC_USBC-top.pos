@@ -1,9 +1,0 @@
-### Footprint positions - created on Thu Dec 14 14:41:39 2023 ###
-### Printed by KiCad version 7.0.6
-## Unit = mm, Angle = deg.
-## Side : top
-# Ref     Val                Package                     PosX       PosY       Rot  Side
-J1        UJ31-CH-G1-SMT-TR  CUI_UJ31-CH-G1-SMT-TR   231.6662  -154.0174  180.0000  top
-R1        5.1kohm            R_0603_1608Metric       230.2886  -158.3944  180.0000  top
-R2        5.1kohm            R_0603_1608Metric       227.2670  -158.3944    0.0000  top
-## End

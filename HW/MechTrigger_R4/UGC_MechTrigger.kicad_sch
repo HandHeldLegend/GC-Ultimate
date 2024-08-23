@@ -536,7 +536,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CPG135301D01"
+		(property "MPN" "CPG135301D03"
+			(at 240.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.45"
 			(at 240.03 133.35 0)
 			(effects
 				(font
