@@ -1,0 +1,64 @@
+Group A
+- Same Color (Multiple colors down the line)
+- Bead-blasted/matte exterior
+- No preference for internal finish
+
+BottomShell
+TopShell - For the TopShell, there are three press-fit inserts. It's critical that these fit properly. They are screw-in-expand type inserts
+
+GatePlateOctagon
+GatePlateRound
+
+________________
+
+Group B
+- Black Color
+- Bead-blasted/matte exterior
+- No preference for internal finish
+
+HomeButton
+CaptureButton
+PlusButton
+MinusButton
+SyncButton
+Z Button - new mold for ABS
+ZR Button - new mold for ABS
+
+________________
+
+Group C
+- Translucent/Transparent PC material (designed to have LEDs shine through)
+- Polished exterior finish
+- bead blasted interior
+
+Main_Buttons - new mold for ABS, new buttons design
+LightPipe
+GC_Split_Dpad (4 pc per kit, already completed mold, no need to redo)
+
+________________
+
+Group D
+- Internal components
+- Finish is not important, just dimensions 
+
+Kailh_Stem (2pc per kit)
+MechTriggerBracket
+
+________________
+
+Group E
+
+- High polish inside and outside is important
+- Color doesn't matter
+
+MembraneTriggerHolder (2pc per kit)
+
+________________
+
+Group F
+
+- High polish inside
+- Bead blasted exterior finish
+
+Trigger R - new mold for ABS
+Trigger L - new mold for ABS
