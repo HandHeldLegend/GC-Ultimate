@@ -10,7 +10,7 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'Main_Rubber.step',
-/* time_stamp */ '2024-09-03T23:43:00-07:00',
+/* time_stamp */ '2024-09-04T16:07:38-07:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
@@ -4289,12 +4289,12 @@ SOLID_ANGLE_UNIT()
 #3492=SHAPE_REPRESENTATION('',(#911,#996),#3480);
 #3493=SHAPE_REPRESENTATION('',(#912),#3481);
 #3494=PRODUCT_DEFINITION_CONTEXT('part definition',#3502,'design');
-#3495=PRODUCT_DEFINITION('MainStickFull','MainStickFull v11',#3497,#3494);
+#3495=PRODUCT_DEFINITION('MainStickFull','MainStickFull v16',#3497,#3494);
 #3496=PRODUCT_DEFINITION('MainRubberCap v3','MainRubberCap v3',#3498,#3494);
 #3497=PRODUCT_DEFINITION_FORMATION('',$,#3504);
 #3498=PRODUCT_DEFINITION_FORMATION('',$,#3505);
-#3499=PRODUCT_RELATED_PRODUCT_CATEGORY('MainStickFull v11',
-'MainStickFull v11',(#3504));
+#3499=PRODUCT_RELATED_PRODUCT_CATEGORY('MainStickFull v16',
+'MainStickFull v16',(#3504));
 #3500=PRODUCT_RELATED_PRODUCT_CATEGORY('MainRubberCap v3',
 'MainRubberCap v3',(#3505));
 #3501=APPLICATION_PROTOCOL_DEFINITION('international standard',
@@ -4302,7 +4302,7 @@ SOLID_ANGLE_UNIT()
 #3502=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #3503=PRODUCT_CONTEXT('part definition',#3502,'mechanical');
-#3504=PRODUCT('MainStickFull','MainStickFull v11',$,(#3503));
+#3504=PRODUCT('MainStickFull','MainStickFull v16',$,(#3503));
 #3505=PRODUCT('MainRubberCap v3','MainRubberCap v3',$,(#3503));
 #3506=PRESENTATION_STYLE_ASSIGNMENT((#3507));
 #3507=SURFACE_STYLE_USAGE(.BOTH.,#3508);
