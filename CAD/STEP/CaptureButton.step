@@ -10,11 +10,11 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 'CaptureButton.step',
-/* time_stamp */ '2024-08-25T20:59:48-07:00',
+/* time_stamp */ '2024-09-23T15:50:28-07:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
-/* originating_system */ 'Autodesk Translation Framework v13.14.0.145',
+/* originating_system */ 'Autodesk Translation Framework v13.20.0.188',
 
 /* authorisation */ '');
 
@@ -1161,10 +1161,10 @@ SOLID_ANGLE_UNIT()
 #967=SURFACE_STYLE_FILL_AREA(#969);
 #968=SURFACE_STYLE_FILL_AREA(#970);
 #969=FILL_AREA_STYLE('Steel - Satin',(#971));
-#970=FILL_AREA_STYLE('Shell',(#972));
+#970=FILL_AREA_STYLE('Cool Gray (1)',(#972));
 #971=FILL_AREA_STYLE_COLOUR('Steel - Satin',#973);
-#972=FILL_AREA_STYLE_COLOUR('Shell',#974);
+#972=FILL_AREA_STYLE_COLOUR('Cool Gray (1)',#974);
 #973=COLOUR_RGB('Steel - Satin',0.627450980392157,0.627450980392157,0.627450980392157);
-#974=COLOUR_RGB('Shell',0.231372549019608,0.223529411764706,0.223529411764706);
+#974=COLOUR_RGB('Cool Gray (1)',0.694117647058824,0.701960784313725,0.701960784313725);
 ENDSEC;
 END-ISO-10303-21;
