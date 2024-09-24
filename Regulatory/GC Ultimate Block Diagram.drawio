@@ -1,0 +1,148 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Page-1" id="nflLbrfmD6Lowy0-oLH6">
+    <mxGraphModel dx="2377" dy="1097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="usCb7e6nANIUvglYFB21-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-1" target="usCb7e6nANIUvglYFB21-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-1" value="12MHz Oscillator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-2" target="usCb7e6nANIUvglYFB21-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-2" target="usCb7e6nANIUvglYFB21-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-2" target="usCb7e6nANIUvglYFB21-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="460" />
+              <mxPoint x="-40" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-2" value="RP2040 Microcontroller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-3" target="usCb7e6nANIUvglYFB21-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-3" value="5V Power Supply" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-4" target="usCb7e6nANIUvglYFB21-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-4" value="Battery Power Supply" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-5" target="usCb7e6nANIUvglYFB21-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-210" y="620" />
+              <mxPoint x="-210" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-5" target="usCb7e6nANIUvglYFB21-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-210" y="610" />
+              <mxPoint x="-130" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-5" target="usCb7e6nANIUvglYFB21-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="690" />
+              <mxPoint x="220" y="400" />
+              <mxPoint x="370" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-5" target="usCb7e6nANIUvglYFB21-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-5" target="usCb7e6nANIUvglYFB21-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-5" target="usCb7e6nANIUvglYFB21-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="690" />
+              <mxPoint x="220" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-5" target="usCb7e6nANIUvglYFB21-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="690" />
+              <mxPoint x="220" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-5" value="3.3v Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-6" target="usCb7e6nANIUvglYFB21-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-6" value="Position Sensors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-7" value="Addressable LED Indicators" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-8" value="ESP32 Wireless Peripheral" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-9" target="usCb7e6nANIUvglYFB21-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-9" value="Input Buttons" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-10" value="Haptic Driver Output" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-11" target="usCb7e6nANIUvglYFB21-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="390" />
+              <mxPoint x="-40" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-11" value="IMU Sensors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-12" target="usCb7e6nANIUvglYFB21-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-12" value="Battery Control IC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="usCb7e6nANIUvglYFB21-13" target="usCb7e6nANIUvglYFB21-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="340" />
+              <mxPoint x="-40" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="usCb7e6nANIUvglYFB21-13" value="ADC Conversion ICs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
