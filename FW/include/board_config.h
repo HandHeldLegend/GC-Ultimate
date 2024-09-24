@@ -1,6 +1,9 @@
 #ifndef BOARD_CONFIG_H
 #define BOARD_CONFIG_H
 
+#define HOJA_POWER_CONSUMPTION_SOURCE 1200
+#define HOJA_POWER_CONSUMPTION_RATE 150 // mA
+
 #define HOJA_BT_LOGGING_DEBUG 0
 
 // Device stuff
@@ -9,11 +12,11 @@
 
 #if (HOJA_DEVICE_ID == 0xC001) // GC Ultimate Prototype
 #define GC_ULT_TYPE 0
-#elif (HOJA_DEVICE_ID == 0xC002) // GC Ultimate R4
+#elif (HOJA_DEVICE_ID == 0xC002) || (HOJA_DEVICE_ID == 0xC003) // GC Ultimate R4
 #define GC_ULT_TYPE 1
 #endif
 
-#define HOJA_FW_VERSION 0x0A13
+#define HOJA_FW_VERSION 0x0A14
 
 #if (GC_ULT_TYPE == 0)
 
@@ -85,7 +88,7 @@
 // URL that will display to open a config tool
 #define HOJA_WEBUSB_URL     "handheldlegend.github.io/hoja_config/"
 #define HOJA_MANUFACTURER   "HHL"
-#define HOJA_PRODUCT        "GCU R4"
+#define HOJA_PRODUCT        "GC Ultimate"
 
 #define HOJA_CAPABILITY_ANALOG_STICK_L 1
 #define HOJA_CAPABILITY_ANALOG_STICK_R 1
@@ -110,10 +113,10 @@
 #define HOJA_RGB_GROUP_CAPTURE  {-1}
 #define HOJA_RGB_GROUP_HOME     {-1}
 #define HOJA_RGB_GROUP_PLUS     {-1}
-#define HOJA_RGB_GROUP_Y        {-1}
-#define HOJA_RGB_GROUP_X        {-1}
-#define HOJA_RGB_GROUP_A        {-1}
-#define HOJA_RGB_GROUP_B        {-1}
+#define HOJA_RGB_GROUP_Y        {6}
+#define HOJA_RGB_GROUP_X        {8}
+#define HOJA_RGB_GROUP_A        {7}
+#define HOJA_RGB_GROUP_B        {5}
 #define HOJA_RGB_GROUP_L        {-1}
 #define HOJA_RGB_GROUP_R        {-1}
 #define HOJA_RGB_GROUP_ZR       {-1}
@@ -126,8 +129,5 @@
 #define HOJA_I2C_SCL 23
 
 #endif
-
-#define HOJA_ANALOG_HAIRTRIGGER_L 45
-#define HOJA_ANALOG_HAIRTRIGGER_R 45
 
 #endif
