@@ -16,7 +16,7 @@
 #define GC_ULT_TYPE 1
 #endif
 
-#define HOJA_FW_VERSION 0x0A13
+#define HOJA_FW_VERSION 0x0A14
 
 #if (GC_ULT_TYPE == 0)
 
@@ -129,8 +129,5 @@
 #define HOJA_I2C_SCL 23
 
 #endif
-
-#define HOJA_ANALOG_HAIRTRIGGER_L 45
-#define HOJA_ANALOG_HAIRTRIGGER_R 45
 
 #endif

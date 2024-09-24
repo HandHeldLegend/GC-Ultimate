@@ -37,6 +37,8 @@ void app_rumble_output()
 
 bool testing = false;
 
+void app_rumble_set(float amphi, float amplo);
+
 void app_rumble_task(uint32_t timestamp)
 {
     static interval_s interval = {0};
