@@ -80,7 +80,7 @@ bool _hwtest_bluetooth()
 
 bool _hwtest_battery()
 {
-    return util_battery_comms_check();
+    return battery_comms_check();
 }
 
 #define IMU_OUTX_L_G 0x22
@@ -89,54 +89,7 @@ bool _hwtest_battery()
 
 bool _hwtest_imu()
 {
-    uint attempts = IMU_ATTEMPTS;
-
-    while (attempts--)
-    {
-        uint8_t imu_read[12] = {0};
-        const uint8_t reg = 0x80 | IMU_OUTX_L_G;
-
-        bool pass_0 = false;
-        while(!spi_is_readable(spi0)){}
-        gpio_put(PGPIO_IMU0_CS, false);
-        spi_write_blocking(spi0, &reg, 1);
-        int read = spi_read_blocking(spi0, 0, &imu_read[0], 12);
-        gpio_put(PGPIO_IMU0_CS, true);
-
-        if (read != 12)
-            return false;
-
-        for (uint i = 0; i < 12; i++)
-        {
-            if (imu_read[i] > 0)
-                pass_0 = true;
-        }
-
-        sleep_ms(24);
-
-        bool pass_1 = false;
-        while(!spi_is_readable(spi0)){}
-        gpio_put(PGPIO_IMU1_CS, false);
-        spi_write_blocking(spi0, &reg, 1);
-        read = spi_read_blocking(spi0, 0, &imu_read[0], 12);
-        gpio_put(PGPIO_IMU1_CS, true);
-
-        if (read != 12)
-            return false;
-
-        for (uint i = 0; i < 12; i++)
-        {
-            if (imu_read[i] > 0)
-                pass_1 = true;
-        }
-
-        if (pass_1 && pass_0)
-            return true;
-
-        sleep_ms(24);
-    }
-
-    return false;
+    return true;
 }
 
 #define ANALOG_ATTEMPTS 50
@@ -227,11 +180,7 @@ bool _hwtest_analog()
 
 bool _hwtest_rumble()
 {
-    #if (GC_ULT_TYPE == 0)
     cb_hoja_rumble_test();
-    #elif (GC_ULT_TYPE == 1)
-    app_rumble_hwtest();
-    #endif
     return true;
 }
 

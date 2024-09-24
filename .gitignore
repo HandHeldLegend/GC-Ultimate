@@ -14,3 +14,27 @@ HW/MechTrigger_R4/UGC_MechTrigger-backups/
 HW/Socket_Trigger_Test/socket_test-backups/
 
 HW/SubStick_R4/UGC_SubStick-backups/
+
+HW/Main_R4K/sym-lib-table
+
+HW/Main_R4K/fp-lib-table
+
+HW/Main_R4K/fp-info-cache
+
+HW/Main_R4K/UGC_Main_R4K-backups/
+
+HW/MechTrigger_R4K/fp-info-cache
+
+HW/MechTrigger_R4K/fp-lib-table
+
+HW/MechTrigger_R4K/sym-lib-table
+
+HW/MechTrigger_R4K/UGC_MechTrigger_R4K-backups/
+
+HW/SubStick_R4K/fp-info-cache
+
+HW/SubStick_R4K/fp-lib-table
+
+HW/SubStick_R4K/sym-lib-table
+
+HW/SubStick_R4K/UGC_SubStick_R4K-backups/

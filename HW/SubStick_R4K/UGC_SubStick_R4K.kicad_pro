@@ -470,7 +470,7 @@
       "plot": "../Production/SubStick_R4K/gerber/",
       "pos_files": "../Production/SubStick_R4K/position/",
       "specctra_dsn": "",
-      "step": "../Production/SubStick_R4/UGC_SubStick_R4.step",
+      "step": "../../../../Downloads/UGC_SubStick_R4.step",
       "svg": "",
       "vrml": ""
     },

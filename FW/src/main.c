@@ -3,6 +3,10 @@
 #include "app_imu.h"
 #include "main.h"
 
+#define WIRELESS_TEST_ESP32DISABLED 1
+#define WIRELESS_TEST_ESP32FREQ 2
+#define TESTFW_WIRELESS_TYPE 0
+
 button_remap_s user_map = {
     .dpad_up = MAPCODE_DUP,
     .dpad_down = MAPCODE_DDOWN,
@@ -82,9 +86,11 @@ void cb_hoja_set_bluetooth_enabled(bool enable)
 {
     if(enable)
     {
+        #if (TESTFW_WIRELESS_TYPE != WIRELESS_TEST_ESP32DISABLED)
         //cb_hoja_set_uart_enabled(true);
         // Release ESP to be controlled externally
         _gpio_put_od(PGPIO_ESP_EN, true);
+        #endif 
     }
     else
     {
@@ -319,6 +325,8 @@ void cb_hoja_baseband_update_loop(button_data_s *buttons)
         cb_hoja_set_bluetooth_enabled(true);
         _esp_reset = false;
     }
+    sleep_ms(10);
+
 }
 
 int main()
@@ -367,24 +375,14 @@ int main()
     }
     else if (tmp.trigger_zr && tmp.button_plus)
     {
-        _config.input_method = INPUT_METHOD_BLUETOOTH;
-        // Release ESP to be controlled externally
-        cb_hoja_set_bluetooth_enabled(true);
-        cb_hoja_set_uart_enabled(true);
-
-        sleep_ms(3500);
-
-        for(;;)
-        {
-            cb_hoja_read_buttons(&tmp);
-            if(tmp.trigger_l)
-            {
-                watchdog_reboot(0, 0, 0);
-            }
-
-            sleep_ms(150);
-        }
+        _config.input_method    = INPUT_METHOD_BLUETOOTH;
+        _config.input_mode      = INPUT_MODE_BASEBANDUPDATE;
     }
+
+    #if (TESTFW_WIRELESS_TYPE == WIRELESS_TEST_ESP32FREQ)
+        _config.input_method    = INPUT_METHOD_BLUETOOTH;
+        _config.input_mode      = INPUT_MODE_BASEBANDUPDATE;
+    #endif
 
     hoja_init(&_config);
 }
