@@ -369,11 +369,11 @@ int main()
             .input_mode     = INPUT_MODE_LOAD,
         };
 
-    if(tmp.button_plus && tmp.trigger_zl)
+    if(tmp.button_plus && tmp.trigger_l)
     {
         reset_usb_boot(0, 0);
     }
-    else if (tmp.trigger_zr && tmp.button_plus)
+    else if (tmp.trigger_r && tmp.button_plus)
     {
         _config.input_method    = INPUT_METHOD_BLUETOOTH;
         _config.input_mode      = INPUT_MODE_BASEBANDUPDATE;

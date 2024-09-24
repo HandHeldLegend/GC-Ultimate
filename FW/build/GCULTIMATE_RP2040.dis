@@ -1063,13 +1063,13 @@ Disassembly of section .text:
 10000918:	466a      	mov	r2, sp
 1000091a:	8013      	strh	r3, [r2, #0]
 1000091c:	7862      	ldrb	r2, [r4, #1]
-1000091e:	2312      	movs	r3, #18
+1000091e:	2311      	movs	r3, #17
 10000920:	4013      	ands	r3, r2
-10000922:	2b12      	cmp	r3, #18
+10000922:	2b11      	cmp	r3, #17
 10000924:	d009      	beq.n	1000093a <main+0xa2>
-10000926:	2318      	movs	r3, #24
+10000926:	2314      	movs	r3, #20
 10000928:	4013      	ands	r3, r2
-1000092a:	2b18      	cmp	r3, #24
+1000092a:	2b14      	cmp	r3, #20
 1000092c:	d00c      	beq.n	10000948 <main+0xb0>
 1000092e:	4668      	mov	r0, sp
 10000930:	f000 fd26 	bl	10001380 <hoja_init>
@@ -1082,7 +1082,7 @@ Disassembly of section .text:
 10000942:	2100      	movs	r1, #0
 10000944:	0008      	movs	r0, r1
 10000946:	4798      	blx	r3
-10000948:	3b16      	subs	r3, #22
+10000948:	3b12      	subs	r3, #18
 1000094a:	466a      	mov	r2, sp
 1000094c:	7013      	strb	r3, [r2, #0]
 1000094e:	3305      	adds	r3, #5
