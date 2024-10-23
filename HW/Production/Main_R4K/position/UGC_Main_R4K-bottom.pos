@@ -1,18 +1,24 @@
-### Footprint positions - created on 2024-08-31T11:23:43-0700 ###
+### Footprint positions - created on 2024-10-23T05:41:50-0700 ###
 ### Printed by KiCad version 8.0.2
 ## Unit = mm, Angle = deg.
 ## Side : bottom
-# Ref     Val                     Package                                     PosX       PosY       Rot  Side
-B1        Battery                 JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical   232.5476  -111.2855    0.0000  bottom
-J1        SM02B-SURS-TF_LF__SN_   JST_SM02B-SURS-TF_LF__SN_               278.3840  -139.5648  180.0000  bottom
-J5        UJ31-CH-G1-SMT-TR       CUI_UJ31-CH-G1-SMT-TR                   215.7336   -90.7094    0.0000  bottom
-J6        Trigger                 JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical   158.6230  -127.6350   90.0000  bottom
-J7        Trigger                 JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical   279.5016  -127.6350   90.0000  bottom
-J10       SM02B-SURS-TF_LF__SN_   JST_SM02B-SURS-TF_LF__SN_               165.9636  -139.5648  180.0000  bottom
-J13       503480-0640             5034800640                              268.9902  -141.1566  180.0000  bottom
-RV1       Slider_GCC-Gamecube_MB  GCC_Slider_MillMax                      193.4837  -101.4344  180.0000  bottom
-RV2       Slider_GCC-Gamecube_MB  GCC_Slider_MillMax                      243.4837  -101.4344  180.0000  bottom
-SW14      SW_TS-1187A             TS-1187A-C-E-B                          218.4837  -135.4844  180.0000  bottom
-SW15      1TS026A-1000-0550       1TS026A-1000-0550                       226.6252  -134.9206    0.0000  bottom
-U7        MCP3002                 MSOP-8_3x3mm_P0.65mm                    271.6276  -135.0772  180.0000  bottom
+# Ref     Val                      Package                                     PosX       PosY       Rot  Side
+B1        Battery                  JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical   232.5476  -111.2855    0.0000  bottom
+J1        SM02B-SURS-TF_LF__SN_    JST_SM02B-SURS-TF_LF__SN_               278.3840  -139.5648  180.0000  bottom
+J5        UJ31-CH-G1-SMT-TR        CUI_UJ31-CH-G1-SMT-TR                   215.7336   -90.7094    0.0000  bottom
+J6        Trigger                  JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical   158.6230  -127.6350   90.0000  bottom
+J7        Trigger                  JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical   279.5016  -127.6350   90.0000  bottom
+J10       SM02B-SURS-TF_LF__SN_    JST_SM02B-SURS-TF_LF__SN_               165.9636  -139.5648  180.0000  bottom
+J13       503480-0640              5034800640                              269.2908  -139.7762  180.0000  bottom
+RV1       Slider_GCC-Gamecube_MB   GCC_Slider_MillMaxSocketed              193.4837  -101.4344  180.0000  bottom
+RV2       Slider_GCC-Gamecube_MB   GCC_Slider_MillMaxSocketed              243.4837  -101.4344  180.0000  bottom
+S1        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 193.4837  -101.4344  180.0000  bottom
+S2        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 190.9837  -101.4344  180.0000  bottom
+S3        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 195.9837  -101.4344  180.0000  bottom
+S4        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 243.4837  -101.4344  180.0000  bottom
+S5        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 240.9837  -101.4344  180.0000  bottom
+S6        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 245.9837  -101.4344  180.0000  bottom
+SW14      SW_TS-1187A              TS-1187A-C-E-B                          218.4837  -135.4844  180.0000  bottom
+SW15      1TS026A-1000-0550        1TS026A-1000-0550                       226.6252  -134.9206    0.0000  bottom
+U7        MCP3002                  MSOP-8_3x3mm_P0.65mm                    271.6276  -135.0772  180.0000  bottom
 ## End

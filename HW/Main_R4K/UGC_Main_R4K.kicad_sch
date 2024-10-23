@@ -239,6 +239,126 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x01_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Socket"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -6750,29 +6870,29 @@
 				)
 			)
 		)
-		(symbol "hhl:Slider_GCC-Gamecube_MillMax_MB"
+		(symbol "hhl:Slider_GCC-Gamecube_SolderInsert"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "RV"
-				(at -8.255 0 90)
+				(at -2.286 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Slider_GCC-Gamecube_MillMax_MB"
-				(at -6.35 0 90)
+			(property "Value" "Slider_GCC-Gamecube_SolderInsert"
+				(at 0 13.716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "hhl:GCC_Slider_MillMax"
+			(property "Footprint" "hhl:GCC_Slider_MillMaxSocketed"
 				(at 0 11.43 0)
 				(effects
 					(font
@@ -6800,7 +6920,7 @@
 				)
 			)
 			(property "Price" "0.2624"
-				(at 0 0 0)
+				(at 4.572 3.302 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6809,7 +6929,7 @@
 				)
 			)
 			(property "MPN" "RD7091008A"
-				(at 0 0 0)
+				(at 7.366 4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6826,10 +6946,45 @@
 					(hide yes)
 				)
 			)
-			(symbol "Slider_GCC-Gamecube_MillMax_MB_0_1"
+			(symbol "Slider_GCC-Gamecube_SolderInsert_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 1.524 0)
+						(xy 0 -3.81) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 1.524 0)
 					)
 					(stroke
 						(width 0)
@@ -6851,70 +7006,29 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "Slider_GCC-Gamecube_MillMax_MB_1_1"
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
+			(symbol "Slider_GCC-Gamecube_SolderInsert_1_1"
+				(text "1"
+					(at -0.762 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "Signal"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
+				(text "2"
+					(at 4.318 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
+				(text "3"
+					(at -0.762 3.556 0)
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -26037,6 +26151,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 408.94 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "136c944c-d380-4923-9cb8-766eec1b5b22")
+		(property "Reference" "S6"
+			(at 411.226 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4015-0-43-80-30-27-10-0"
+			(at 407.67 41.9101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hhl:4015-0-43-80-30-27-10-0"
+			(at 408.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 408.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 408.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4015-0-43-80-30-27-10-0"
+			(at 408.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dc96dff-2590-48e6-8dc4-4b95f652d58b")
+		)
+		(instances
+			(project "UGC_Main_R4K"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "S6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 259.08 297.18 0)
 		(unit 1)
@@ -28399,6 +28588,82 @@
 			(project "UGC_Main_R4K"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "L11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 386.08 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2507b6cb-6847-4de8-85ae-61c2df2efe9d")
+		(property "Reference" "S2"
+			(at 386.334 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4015-0-43-80-30-27-10-0"
+			(at 387.3499 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hhl:4015-0-43-80-30-27-10-0"
+			(at 386.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 386.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4015-0-43-80-30-27-10-0"
+			(at 386.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d44a4f9f-c673-45be-80b0-0c020c5d4a21")
+		)
+		(instances
+			(project "UGC_Main_R4K"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -34544,32 +34809,33 @@
 		)
 	)
 	(symbol
-		(lib_id "hhl:Slider_GCC-Gamecube_MillMax_MB")
+		(lib_id "hhl:Slider_GCC-Gamecube_SolderInsert")
 		(at 417.83 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5eb738f4-6c82-41b2-b0e5-71d4584fd967")
 		(property "Reference" "RV2"
-			(at 417.83 46.99 90)
+			(at 415.798 45.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Slider_GCC-Gamecube_MB"
-			(at 417.83 49.53 90)
+			(at 404.876 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "hhl:GCC_Slider_MillMax"
+		(property "Footprint" "hhl:GCC_Slider_MillMaxSocketed"
 			(at 406.4 43.18 0)
 			(effects
 				(font
@@ -34597,7 +34863,7 @@
 			)
 		)
 		(property "MPN" "RD7091008A"
-			(at 417.83 43.18 0)
+			(at 413.004 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34615,22 +34881,13 @@
 			)
 		)
 		(property "Price" "0.2624"
-			(at 417.83 43.18 0)
+			(at 414.528 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "bd3bd837-7400-4e4f-b410-9982fe841af5")
-		)
-		(pin "2"
-			(uuid "a3490b0e-720f-4b4e-bfcb-4a84d75fd52a")
-		)
-		(pin "3"
-			(uuid "81838ac5-a312-4726-9821-02711744870e")
 		)
 		(instances
 			(project "UGC_Main_R4K"
@@ -37186,32 +37443,33 @@
 		)
 	)
 	(symbol
-		(lib_id "hhl:Slider_GCC-Gamecube_MillMax_MB")
+		(lib_id "hhl:Slider_GCC-Gamecube_SolderInsert")
 		(at 386.08 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "87767447-d42c-4c1e-a60b-8058896b79be")
 		(property "Reference" "RV1"
-			(at 386.08 46.99 90)
+			(at 384.048 45.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Slider_GCC-Gamecube_MB"
-			(at 386.08 49.53 90)
+			(at 373.38 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "hhl:GCC_Slider_MillMax"
+		(property "Footprint" "hhl:GCC_Slider_MillMaxSocketed"
 			(at 374.65 43.18 0)
 			(effects
 				(font
@@ -37239,7 +37497,7 @@
 			)
 		)
 		(property "MPN" "RD7091008A"
-			(at 386.08 43.18 0)
+			(at 381.254 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37257,22 +37515,13 @@
 			)
 		)
 		(property "Price" "0.2624"
-			(at 386.08 43.18 0)
+			(at 382.778 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "11d8377c-20e2-4c56-b302-24e2f72508ae")
-		)
-		(pin "2"
-			(uuid "9ff76fdd-5d10-40ef-b01a-01f7572e255d")
-		)
-		(pin "3"
-			(uuid "3b62649a-d8c2-4fa2-aa4f-0c7af4fbc8ec")
 		)
 		(instances
 			(project "UGC_Main_R4K"
@@ -40882,6 +41131,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 417.83 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac7b9285-d085-4ec9-b7d1-a5a8db610065")
+		(property "Reference" "S5"
+			(at 418.084 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4015-0-43-80-30-27-10-0"
+			(at 419.0999 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hhl:4015-0-43-80-30-27-10-0"
+			(at 417.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 417.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 417.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4015-0-43-80-30-27-10-0"
+			(at 417.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0d421ea-bcff-42d7-b2f9-c6c61edbe7d1")
+		)
+		(instances
+			(project "UGC_Main_R4K"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 111.76 85.09 0)
 		(unit 1)
@@ -43772,6 +44097,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 426.72 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccc352b4-e958-47e9-ba34-8d732c4ec29e")
+		(property "Reference" "S4"
+			(at 423.418 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4015-0-43-80-30-27-10-0"
+			(at 427.99 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hhl:4015-0-43-80-30-27-10-0"
+			(at 426.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 426.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 426.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4015-0-43-80-30-27-10-0"
+			(at 426.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6426b299-10c0-4c42-adc3-b934c25658b9")
+		)
+		(instances
+			(project "UGC_Main_R4K"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "hhl:503480-0640")
 		(at 53.34 287.02 180)
 		(unit 1)
@@ -46299,6 +46700,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 377.19 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb9d7063-aa27-41d4-884e-f10a664fb9ec")
+		(property "Reference" "S3"
+			(at 379.222 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4015-0-43-80-30-27-10-0"
+			(at 375.92 41.9101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hhl:4015-0-43-80-30-27-10-0"
+			(at 377.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 377.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4015-0-43-80-30-27-10-0"
+			(at 377.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75cbaa92-1d5d-498d-b677-a7419b79ac9b")
+		)
+		(instances
+			(project "UGC_Main_R4K"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 168.91 194.31 180)
 		(unit 1)
@@ -47653,6 +48129,82 @@
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D11")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 394.97 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5471dd2-9378-4d21-a432-9f8ec342fd97")
+		(property "Reference" "S1"
+			(at 392.684 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4015-0-43-80-30-27-10-0"
+			(at 396.24 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "hhl:4015-0-43-80-30-27-10-0"
+			(at 394.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 394.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 394.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "4015-0-43-80-30-27-10-0"
+			(at 394.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56b9a9fe-acb5-4d07-97de-b90cdfd1d330")
+		)
+		(instances
+			(project "UGC_Main_R4K"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "S1")
+					(unit 1)
 				)
 			)
 		)

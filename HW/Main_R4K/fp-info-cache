@@ -1,4 +1,4 @@
-23446688784243955
+23451879267228626
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95354,6 +95354,13 @@ Through hole pin header THT 1x04 2.00mm single row
 4
 4
 hhl
+4015-0-43-80-30-27-10-0
+
+
+0
+1
+1
+hhl
 78171-0002
 
 
@@ -95451,6 +95458,13 @@ GCC_Slider_MillMax
 0
 5
 4
+hhl
+GCC_Slider_MillMaxSocketed
+
+
+0
+2
+1
 hhl
 GCT_USB4105-GF-A-060
 
@@ -95717,6 +95731,13 @@ molex_5034800540_ribbon
 0
 5
 5
+hhl
+molex_5034800640_ribbon
+
+
+0
+6
+6
 hhl
 molex_5051101492_14P
 
