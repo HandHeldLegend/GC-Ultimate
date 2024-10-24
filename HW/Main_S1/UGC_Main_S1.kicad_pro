@@ -59,7 +59,7 @@
         }
       ],
       "drc_exclusions": [
-        "track_dangling|230765300|115497277|11d7b458-e5c0-4b17-bf87-5335b90ac3d2|00000000-0000-0000-0000-000000000000"
+        "hole_near_hole|222533635|89904400|780350d3-861e-4034-a88b-bf1b75a89181|2d1b3fcd-5ca9-44e4-887a-93cbbc11e42b"
       ],
       "meta": {
         "version": 2
@@ -460,7 +460,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "UGC_Main_R4K.kicad_pro",
+    "filename": "UGC_Main_S1.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -495,8 +495,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Production/Main_R4K/gerber/",
-      "pos_files": "../Production/Main_R4K/position/",
+      "plot": "../Production/Main_S1/gerber/",
+      "pos_files": "../Production/Main_S1/position/",
       "specctra_dsn": "",
       "step": "../../../../Downloads/UGC_Main.step",
       "svg": "",
