@@ -2421,6 +2421,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3168077"
+			(at 165.1 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a961276-a47c-4394-afee-6adadc6e8591")
 		)
@@ -2555,7 +2564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".047u"
+		(property "Value" "47nF"
 			(at 162.179 144.907 0)
 			(effects
 				(font
@@ -2564,7 +2573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 164.1348 142.24 0)
 			(effects
 				(font
@@ -2591,7 +2600,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C519554"
 			(at 165.1 146.05 0)
 			(effects
 				(font
@@ -2600,7 +2609,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0603JRX7R9BB473"
 			(at 165.1 146.05 0)
 			(effects
 				(font
@@ -2610,6 +2619,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0026"
 			(at 165.1 146.05 0)
 			(effects
 				(font
@@ -2689,6 +2707,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138165"
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0201FR-071KL "
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0006"
 			(at 152.4 139.7 0)
 			(effects
 				(font
@@ -2985,7 +3030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".047u"
+		(property "Value" "47nF"
 			(at 144.399 143.637 0)
 			(effects
 				(font
@@ -2994,7 +3039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 146.3548 140.97 0)
 			(effects
 				(font
@@ -3021,7 +3066,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C519554"
 			(at 147.32 144.78 0)
 			(effects
 				(font
@@ -3030,7 +3075,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0603JRX7R9BB473"
 			(at 147.32 144.78 0)
 			(effects
 				(font
@@ -3040,6 +3085,15 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 147.32 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0026"
 			(at 147.32 144.78 0)
 			(effects
 				(font
@@ -3293,6 +3347,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138165"
+			(at 170.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0201FR-071KL "
+			(at 170.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0006"
+			(at 170.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ebcb252d-e97c-41c2-bf7c-c385261e1d59")
 		)
@@ -3367,6 +3448,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 115.57 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 115.57 115.57 0)
 			(effects
 				(font
