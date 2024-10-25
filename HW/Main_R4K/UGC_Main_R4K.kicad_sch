@@ -25599,7 +25599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.0006"
+		(property "Price" "0.0005"
 			(at 156.21 133.35 0)
 			(effects
 				(font
@@ -36592,7 +36592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.0006"
+		(property "Price" "0.0005"
 			(at 156.21 129.54 0)
 			(effects
 				(font
@@ -38219,7 +38219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.0006"
+		(property "Price" "0.0005"
 			(at 424.18 234.95 0)
 			(effects
 				(font
@@ -38597,7 +38597,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C85891"
+		(property "LCSC" "C326803"
 			(at 325.12 212.09 0)
 			(effects
 				(font
@@ -38606,7 +38606,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM0335C1H150JA01D"
+		(property "MPN" "CC0402FRNPO9BN150"
 			(at 325.12 212.09 0)
 			(effects
 				(font
@@ -38615,7 +38615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.0011"
+		(property "Price" "0.0022"
 			(at 325.12 212.09 0)
 			(effects
 				(font
@@ -42144,7 +42144,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C490808"
+		(property "LCSC" "C273268"
 			(at 294.64 288.29 0)
 			(effects
 				(font
@@ -42153,7 +42153,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERA1AEB103C"
+		(property "MPN" "RC0201FR-0727RL "
 			(at 294.64 288.29 0)
 			(effects
 				(font
@@ -42162,7 +42162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.0523"
+		(property "Price" "0.0006"
 			(at 294.64 288.29 0)
 			(effects
 				(font
@@ -43629,7 +43629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.0006"
+		(property "Price" "0.0005"
 			(at 224.79 331.47 0)
 			(effects
 				(font
@@ -44317,7 +44317,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C490808"
+		(property "LCSC" "C273268"
 			(at 294.64 285.75 0)
 			(effects
 				(font
@@ -44326,7 +44326,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERA1AEB103C"
+		(property "MPN" "RC0201FR-0727RL "
 			(at 294.64 285.75 0)
 			(effects
 				(font
@@ -44335,7 +44335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.0523"
+		(property "Price" "0.0006"
 			(at 294.64 285.75 0)
 			(effects
 				(font
@@ -45183,7 +45183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.0006"
+		(property "Price" "0.0005"
 			(at 393.7 237.49 0)
 			(effects
 				(font
@@ -45786,7 +45786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.0006"
+		(property "Price" "0.0005"
 			(at 224.79 276.86 0)
 			(effects
 				(font
@@ -46962,7 +46962,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C85891"
+		(property "LCSC" "C326803"
 			(at 325.12 222.25 0)
 			(effects
 				(font
@@ -46971,7 +46971,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM0335C1H150JA01D"
+		(property "MPN" "CC0402FRNPO9BN150"
 			(at 325.12 222.25 0)
 			(effects
 				(font
@@ -46980,7 +46980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.0011"
+		(property "Price" "0.0022"
 			(at 325.12 222.25 0)
 			(effects
 				(font

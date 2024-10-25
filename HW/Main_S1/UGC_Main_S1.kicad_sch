@@ -20172,7 +20172,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60491"
+		(property "LCSC" "C60490"
 			(at 199.39 359.41 0)
 			(effects
 				(font
@@ -20181,7 +20181,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-07100KL "
+		(property "MPN" "RC0402FR-0710KL"
 			(at 199.39 359.41 0)
 			(effects
 				(font
@@ -23083,7 +23083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.002"
+		(property "Price" "0.0022"
 			(at 325.12 212.09 0)
 			(effects
 				(font
@@ -32067,7 +32067,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C490808"
+		(property "LCSC" "C273268"
 			(at 294.64 288.29 0)
 			(effects
 				(font
@@ -32076,7 +32076,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERA1AEB103C"
+		(property "MPN" "RC0201FR-0727RL "
 			(at 294.64 288.29 0)
 			(effects
 				(font
@@ -32085,7 +32085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.0523"
+		(property "Price" "0.0006"
 			(at 294.64 288.29 0)
 			(effects
 				(font
@@ -33209,7 +33209,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60491"
+		(property "LCSC" "C60490"
 			(at 199.39 304.8 0)
 			(effects
 				(font
@@ -33218,7 +33218,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-07100KL "
+		(property "MPN" "RC0402FR-0710KL"
 			(at 199.39 304.8 0)
 			(effects
 				(font
@@ -33728,7 +33728,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C490808"
+		(property "LCSC" "C273268"
 			(at 294.64 285.75 0)
 			(effects
 				(font
@@ -33737,7 +33737,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERA1AEB103C"
+		(property "MPN" "RC0201FR-0727RL "
 			(at 294.64 285.75 0)
 			(effects
 				(font
@@ -33746,7 +33746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.0523"
+		(property "Price" "0.0006"
 			(at 294.64 285.75 0)
 			(effects
 				(font
@@ -35001,7 +35001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.002"
+		(property "Price" "0.0022"
 			(at 325.12 222.25 0)
 			(effects
 				(font
@@ -38346,7 +38346,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C60491"
+		(property "LCSC" "C60490"
 			(at 287.02 278.13 0)
 			(effects
 				(font
@@ -38355,7 +38355,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-07100KL "
+		(property "MPN" "RC0402FR-0710KL"
 			(at 287.02 278.13 0)
 			(effects
 				(font
