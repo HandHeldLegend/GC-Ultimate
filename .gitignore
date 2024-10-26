@@ -50,3 +50,5 @@ FW/build/.ninja_log
 FW/build/CMakeCache.txt
 
 HW/Socket_Trigger_Test_Solder/socket_test-backups/
+
+HW/Socket_Trigger_Test_Solder/
