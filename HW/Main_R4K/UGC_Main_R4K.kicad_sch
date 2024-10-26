@@ -24589,6 +24589,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" ""
+			(at 440.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "220c7db2-98db-4f61-8df4-6a9511740fef")
 		)
@@ -24937,6 +24946,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 276.86 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "feadc90c-91ab-4fe4-9fe3-c5c8d450cc04")
 		)
@@ -25040,6 +25058,15 @@
 			)
 		)
 		(property "MPN" "BAS16VY,115"
+			(at 412.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 412.75 162.56 0)
 			(effects
 				(font
@@ -25165,6 +25192,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 408.94 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b1bc310-5628-4a6c-9422-ec5ea7b0e690")
 		)
@@ -25273,6 +25309,15 @@
 			)
 		)
 		(property "Price" "0.0006"
+			(at 215.9 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 215.9 298.45 0)
 			(effects
 				(font
@@ -25394,6 +25439,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 320.04 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db44cc54-ac79-4f62-bd48-cdc89355e87f")
 		)
@@ -25491,6 +25545,15 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 311.15 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 311.15 261.62 0)
 			(effects
 				(font
@@ -25608,6 +25671,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 156.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc8a81a8-07b2-435a-8e67-24a120d268d4")
 		)
@@ -25712,6 +25784,15 @@
 			)
 		)
 		(property "Price" "0.0006"
+			(at 199.39 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 199.39 359.41 0)
 			(effects
 				(font
@@ -25869,6 +25950,15 @@
 			)
 		)
 		(property "LCSC" "C3168077"
+			(at 431.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 431.8 123.19 0)
 			(effects
 				(font
@@ -26075,6 +26165,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 158.75 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf1aa30b-3278-496c-adbc-e6b1da935efe")
 		)
@@ -26196,6 +26295,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 224.79 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a65a8598-64dc-4806-99cf-e0e63a35f8ab")
 		)
@@ -26292,6 +26400,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 408.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6dc96dff-2590-48e6-8dc4-4b95f652d58b")
 		)
@@ -26377,6 +26494,15 @@
 			)
 		)
 		(property "Price" "0.0015"
+			(at 259.08 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 259.08 297.18 0)
 			(effects
 				(font
@@ -26483,6 +26609,15 @@
 			)
 		)
 		(property "Price" "0.0006"
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 90.17 111.76 0)
 			(effects
 				(font
@@ -26646,6 +26781,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" ""
+			(at 233.68 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "616a2dbb-edf3-4d47-8333-289b1b5536e8")
 		)
@@ -26740,6 +26884,15 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 341.63 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 341.63 255.27 0)
 			(effects
 				(font
@@ -26937,6 +27090,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 247.65 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e048f481-9ccd-4207-9aa9-269edce83c94")
 		)
@@ -27043,6 +27205,15 @@
 			)
 		)
 		(property "Price" "0.0006"
+			(at 381 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 381 34.29 0)
 			(effects
 				(font
@@ -27161,6 +27332,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 276.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "da8750fc-229f-4604-b791-61e01ede47b3")
 		)
@@ -27271,6 +27451,15 @@
 			)
 		)
 		(property "Price" "0.0006"
+			(at 450.85 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 450.85 34.29 0)
 			(effects
 				(font
@@ -27457,6 +27646,15 @@
 			)
 		)
 		(property "LCSC" "C27636112"
+			(at 248.92 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 248.92 218.44 0)
 			(effects
 				(font
@@ -27653,6 +27851,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 408.94 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41212121-7805-4ad4-b1e0-d584b487f116")
 		)
@@ -27760,6 +27967,15 @@
 			)
 		)
 		(property "Price" "0.0006"
+			(at 200.66 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 200.66 26.67 0)
 			(effects
 				(font
@@ -27880,6 +28096,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 294.64 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb2f77d1-b37d-4b75-b68d-631859b2365d")
 		)
@@ -27991,6 +28216,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 424.18 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41212121-7805-4ad4-b1e0-d584b487f117")
 		)
@@ -28087,6 +28321,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 398.78 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 398.78 359.41 0)
 			(effects
 				(font
@@ -28230,6 +28473,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 405.13 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 405.13 359.41 0)
 			(effects
 				(font
@@ -28585,6 +28837,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "db364f06-616c-4d7c-8485-ee00660c2f6d")
 		)
@@ -28921,6 +29182,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 299.72 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52259586-3263-4549-9730-c59d90eaad18")
 		)
@@ -29024,6 +29294,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 386.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d44a4f9f-c673-45be-80b0-0c020c5d4a21")
 		)
@@ -29106,6 +29385,24 @@
 			)
 		)
 		(property "Price" "0.02"
+			(at 398.78 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
+			(at 398.78 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C480267"
 			(at 398.78 339.09 0)
 			(effects
 				(font
@@ -29223,6 +29520,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 180.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b974a294-fede-44b7-8bc0-a84f51626216")
 		)
@@ -29326,6 +29632,15 @@
 			)
 		)
 		(property "Price" "0.0050"
+			(at 347.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 347.98 43.18 0)
 			(effects
 				(font
@@ -29775,6 +30090,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 153.67 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45536228-3764-40d7-8277-d9f434d0e983")
 		)
@@ -30047,6 +30371,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" ""
+			(at 402.59 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "273de063-fa7e-432c-8c56-cf42bd841472")
 		)
@@ -30132,6 +30465,24 @@
 			)
 		)
 		(property "Price" "0.02"
+			(at 398.78 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
+			(at 398.78 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C480267"
 			(at 398.78 328.93 0)
 			(effects
 				(font
@@ -30241,6 +30592,15 @@
 			)
 		)
 		(property "LCSC" "C27636112"
+			(at 234.95 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 234.95 247.65 0)
 			(effects
 				(font
@@ -30579,6 +30939,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 193.04 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14cf315b-8fb7-4724-b27d-e4299deb88d8")
 		)
@@ -30760,6 +31129,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 345.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43adb627-fa05-44e6-911b-afac500a33f9")
 		)
@@ -30841,6 +31219,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 387.35 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 387.35 234.95 0)
 			(effects
 				(font
@@ -31098,6 +31485,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 345.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "883deb9f-67b8-487f-a137-c3656a9a8c72")
 		)
@@ -31218,6 +31614,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 204.47 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f491958-0816-4a17-b5f9-46bcffe7ba04")
 		)
@@ -31311,6 +31716,15 @@
 			)
 		)
 		(property "Price" "0.082"
+			(at 402.59 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 402.59 280.67 0)
 			(effects
 				(font
@@ -31416,6 +31830,15 @@
 			)
 		)
 		(property "MPN" "BAS16VY,115"
+			(at 424.18 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 424.18 280.67 0)
 			(effects
 				(font
@@ -31597,6 +32020,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" ""
+			(at 411.48 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d42e4389-ef3a-4a68-8a60-cca208eaa8f2")
 		)
@@ -31753,6 +32185,15 @@
 			)
 		)
 		(property "MPN" "MMBT2222A"
+			(at 227.33 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 227.33 298.45 0)
 			(effects
 				(font
@@ -31939,6 +32380,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 148.59 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f6e8d14-9585-4299-966e-83ca10c575b3")
 		)
@@ -32043,6 +32493,15 @@
 			)
 		)
 		(property "LCSC" "C2040"
+			(at 325.12 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 325.12 316.23 0)
 			(effects
 				(font
@@ -32299,7 +32758,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7499302"
+		(property "LCSC" "C5175230"
 			(at 191.77 219.71 0)
 			(effects
 				(font
@@ -32308,7 +32767,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PH2.0 mm Female"
+		(property "MPN" "HDGC2001WV-2P "
 			(at 191.77 219.71 0)
 			(effects
 				(font
@@ -32318,6 +32777,15 @@
 			)
 		)
 		(property "Price" "0.0098"
+			(at 191.77 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 191.77 219.71 0)
 			(effects
 				(font
@@ -32517,6 +32985,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 76.2 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62105836-a448-4897-933b-3cdb8bc8fafa")
 		)
@@ -32675,6 +33152,15 @@
 			)
 		)
 		(property "Price" "1.90"
+			(at 115.57 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 115.57 279.4 0)
 			(effects
 				(font
@@ -32896,6 +33382,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 224.79 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c43e952-3a49-48f2-8fde-dc59a4e3c0a1")
 		)
@@ -32993,6 +33488,15 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 341.63 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 341.63 246.38 0)
 			(effects
 				(font
@@ -33265,6 +33769,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 194.31 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1cb94823-fb07-455c-8166-f53203bfe327")
 		)
@@ -33368,6 +33881,15 @@
 			)
 		)
 		(property "Price" "0.0050"
+			(at 264.16 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 264.16 223.52 0)
 			(effects
 				(font
@@ -33523,6 +34045,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 238.76 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 238.76 281.94 0)
 			(effects
 				(font
@@ -33695,6 +34226,15 @@
 			)
 		)
 		(property "Price" "0.13"
+			(at 214.63 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 214.63 34.29 0)
 			(effects
 				(font
@@ -33910,6 +34450,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" ""
+			(at 88.9 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1360585-440f-4e9b-b7f3-14fa32da0f54")
 		)
@@ -34029,6 +34578,15 @@
 			)
 		)
 		(property "Price" "0.0006"
+			(at 226.06 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 226.06 247.65 0)
 			(effects
 				(font
@@ -34205,6 +34763,15 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 449.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 449.58 73.66 0)
 			(effects
 				(font
@@ -34408,6 +34975,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 111.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7873abf5-c636-47b1-8d78-1935fed2396c")
 		)
@@ -34582,6 +35158,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 427.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e264ce7-c420-4cd8-ae1b-6bc7bcc9ba1d")
 		)
@@ -34697,6 +35282,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" ""
+			(at 156.21 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "095fdb77-a485-4416-bad5-c924badcb25a")
 		)
@@ -34800,6 +35394,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 233.68 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 233.68 292.1 0)
 			(effects
 				(font
@@ -35128,6 +35731,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 158.75 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f796659-1bd4-4491-8764-e354bbb0c2f5")
 		)
@@ -35232,6 +35844,15 @@
 			)
 		)
 		(property "Price" "1.23"
+			(at 241.3 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 241.3 229.87 0)
 			(effects
 				(font
@@ -35435,6 +36056,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40bca41a-78c3-4881-952b-6f398b64526e")
 		)
@@ -35547,6 +36177,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 111.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97e82b66-8f61-435e-b69d-0ae6085a1472")
 		)
@@ -35638,6 +36277,24 @@
 			)
 		)
 		(property "Price" "0.02"
+			(at 403.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
+			(at 403.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C480267"
 			(at 403.86 124.46 0)
 			(effects
 				(font
@@ -35757,6 +36414,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 417.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "UGC_Main_R4K"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
@@ -35849,6 +36515,15 @@
 			)
 		)
 		(property "Price" "0.0006"
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 90.17 138.43 0)
 			(effects
 				(font
@@ -35960,6 +36635,15 @@
 			)
 		)
 		(property "MPN" "BAS16VY,115"
+			(at 433.07 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 433.07 234.95 0)
 			(effects
 				(font
@@ -36136,6 +36820,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" ""
+			(at 250.19 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff4f5435-a007-481c-bdf4-29cf482aa398")
 		)
@@ -36299,6 +36992,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 402.59 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 402.59 259.08 0)
 			(effects
 				(font
@@ -36492,6 +37194,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 422.91 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7148d4a-c49c-4f36-bc92-9808ff1baa24")
 		)
@@ -36593,6 +37304,15 @@
 			)
 		)
 		(property "Price" "0.0005"
+			(at 156.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 156.21 129.54 0)
 			(effects
 				(font
@@ -36848,6 +37568,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 408.94 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b1bc310-5628-4a6c-9422-ec5ea7b0e691")
 		)
@@ -36964,6 +37693,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 152.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88208c73-ee08-4be7-8ef7-7ce85f80dbe5")
 		)
@@ -37070,6 +37808,15 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 208.28 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 208.28 359.41 0)
 			(effects
 				(font
@@ -37237,6 +37984,15 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 208.28 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 208.28 304.8 0)
 			(effects
 				(font
@@ -37557,6 +38313,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 408.94 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be9cc9ec-8a90-4165-a915-d705158138fe")
 		)
@@ -37745,6 +38510,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 354.33 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab503fd9-6e9e-4474-9d66-1c9c42965bb6")
 		)
@@ -37847,6 +38621,15 @@
 			)
 		)
 		(property "Price" "0.0458"
+			(at 429.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 429.26 59.69 0)
 			(effects
 				(font
@@ -37969,6 +38752,15 @@
 			)
 		)
 		(property "LCSC" "C2890035"
+			(at 276.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 276.86 158.75 0)
 			(effects
 				(font
@@ -38228,6 +39020,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 424.18 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7d1013d-c276-46e3-acb4-dac113065234")
 		)
@@ -38463,6 +39264,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 386.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "UGC_Main_R4K"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
@@ -38616,6 +39426,15 @@
 			)
 		)
 		(property "Price" "0.0022"
+			(at 325.12 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 325.12 212.09 0)
 			(effects
 				(font
@@ -38794,6 +39613,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 264.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7464f48-9ef0-4212-a13e-9d1024c55a0e")
 		)
@@ -38884,6 +39712,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 402.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 402.59 139.7 0)
 			(effects
 				(font
@@ -39146,6 +39983,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 450.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9cf6f4cc-9fb1-4909-896a-bdfa5b12425e")
 		)
@@ -39257,6 +40103,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 420.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41212121-7805-4ad4-b1e0-d584b487f118")
 		)
@@ -39349,6 +40204,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 356.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 356.87 38.1 0)
 			(effects
 				(font
@@ -39636,6 +40500,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 194.31 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ce07d7a-32e6-4909-91b4-8bf0e05819c0")
 		)
@@ -39730,6 +40603,15 @@
 			)
 		)
 		(property "Price" " 0.2381"
+			(at 340.36 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 340.36 217.17 0)
 			(effects
 				(font
@@ -39841,6 +40723,15 @@
 			)
 		)
 		(property "Price" "0.0050"
+			(at 283.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 283.21 43.18 0)
 			(effects
 				(font
@@ -39969,6 +40860,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 101.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a728db9-d6e9-4f56-b120-4195d7a5aa5a")
 		)
@@ -40057,6 +40957,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 411.48 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 411.48 269.24 0)
 			(effects
 				(font
@@ -40211,6 +41120,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" ""
+			(at 387.35 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8d5cb03-dcb8-45fa-818d-cd9698cc76f9")
 		)
@@ -40322,6 +41240,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 391.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcfd7c0c-b8d9-4a11-9bbf-6222bed0579d")
 		)
@@ -40398,6 +41325,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 238.76 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 238.76 336.55 0)
 			(effects
 				(font
@@ -40500,6 +41436,15 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 182.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 182.88 121.92 0)
 			(effects
 				(font
@@ -40628,6 +41573,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 412.75 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a6f985c-f605-4d38-9565-9624ecf72132")
 		)
@@ -40739,6 +41693,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 341.63 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67ee477f-e3eb-4f79-b72f-c2ac4abcdd0e")
 		)
@@ -40842,6 +41805,15 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 199.39 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 199.39 247.65 0)
 			(effects
 				(font
@@ -41023,6 +41995,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" ""
+			(at 320.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d598e177-5864-46c7-b775-2a7a71c519a2")
 		)
@@ -41171,6 +42152,15 @@
 			)
 		)
 		(property "MPN" "BAS16VY,115"
+			(at 412.75 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 412.75 151.13 0)
 			(effects
 				(font
@@ -41353,6 +42343,15 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 199.39 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 199.39 44.45 0)
 			(effects
 				(font
@@ -41674,6 +42673,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 162.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6038477b-a412-4c6f-a44d-a3d020e3781f")
 		)
@@ -41765,6 +42773,24 @@
 			)
 		)
 		(property "Price" "0.02"
+			(at 440.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
+			(at 440.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C480267"
 			(at 440.69 102.87 0)
 			(effects
 				(font
@@ -41865,6 +42891,15 @@
 			)
 		)
 		(property "Price" "0.0006"
+			(at 354.33 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 354.33 222.25 0)
 			(effects
 				(font
@@ -42056,6 +43091,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 21.59 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3acf9f4f-4717-4d9f-8435-6b9e7b456a06")
 		)
@@ -42171,6 +43215,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 294.64 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d1e1bf6-2988-49b9-8101-d8c0f449add3")
 		)
@@ -42262,6 +43315,24 @@
 			)
 		)
 		(property "Price" "0.02"
+			(at 398.78 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
+			(at 398.78 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C480267"
 			(at 398.78 308.61 0)
 			(effects
 				(font
@@ -42475,6 +43546,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 195.58 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c89bde3-4090-4e09-9e77-3c31646be6f2")
 		)
@@ -42655,6 +43735,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 417.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0d421ea-bcff-42d7-b2f9-c6c61edbe7d1")
 		)
@@ -42758,6 +43847,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 111.76 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b04d21f8-cc7f-4e5b-a600-5035ec04822d")
 		)
@@ -42842,6 +43940,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 402.59 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 402.59 162.56 0)
 			(effects
 				(font
@@ -43031,6 +44138,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 148.59 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a83ce580-4628-4b2a-9569-27c7e60e5ca7")
 		)
@@ -43132,6 +44248,15 @@
 			)
 		)
 		(property "Price" "0.0006"
+			(at 191.77 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 191.77 39.37 0)
 			(effects
 				(font
@@ -43328,6 +44453,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 412.75 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d9d4faf-def2-4b2e-baea-8c940f9c1c8d")
 		)
@@ -43418,6 +44552,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 402.59 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 402.59 151.13 0)
 			(effects
 				(font
@@ -43532,6 +44675,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 199.39 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63598b95-7cc5-4de7-b3f9-3ac2f88359c5")
 		)
@@ -43630,6 +44782,15 @@
 			)
 		)
 		(property "Price" "0.0005"
+			(at 224.79 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 224.79 331.47 0)
 			(effects
 				(font
@@ -43894,6 +45055,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 101.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc5f2cbc-bfa3-4c72-94a9-46c8733bf90e")
 		)
@@ -44008,6 +45178,15 @@
 			)
 		)
 		(property "Price" "0.0006"
+			(at 215.9 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 215.9 353.06 0)
 			(effects
 				(font
@@ -44193,6 +45372,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 39.37 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dbb4bc91-ea80-486c-8063-cc60baac9d2f")
 		)
@@ -44344,6 +45532,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 294.64 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1c55bfd-c36e-47fa-97ff-42cdffcf7430")
 		)
@@ -44462,6 +45659,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 247.65 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9dd1002e-d570-4c8f-a778-44f19da90306")
 		)
@@ -44566,6 +45772,15 @@
 			)
 		)
 		(property "Price" "0.0179"
+			(at 247.65 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 247.65 297.18 0)
 			(effects
 				(font
@@ -44737,6 +45952,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" ""
+			(at 402.59 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c452f1e4-ec4a-4216-a6e4-e9df4448787c")
 		)
@@ -44834,6 +46058,15 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 354.33 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 354.33 264.16 0)
 			(effects
 				(font
@@ -44946,6 +46179,15 @@
 			)
 		)
 		(property "LCSC" "C635958"
+			(at 88.9 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 88.9 212.09 0)
 			(effects
 				(font
@@ -45083,6 +46325,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 294.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c5dad74-5850-4980-9793-f533d548af8a")
 		)
@@ -45192,6 +46443,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 393.7 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "010a6de8-750e-4a5a-b967-c4248e1c5e80")
 		)
@@ -45289,6 +46549,15 @@
 			)
 		)
 		(property "MPN" "BAS16VY,115"
+			(at 424.18 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 424.18 269.24 0)
 			(effects
 				(font
@@ -45497,6 +46766,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 96.52 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c937bbd-8c99-4f63-b1da-16cc276ef488")
 		)
@@ -45608,6 +46886,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 173.99 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6154ee55-33f3-43b0-b7f8-0b08458b18a9")
 		)
@@ -45684,6 +46971,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 411.48 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 411.48 248.92 0)
 			(effects
 				(font
@@ -45795,6 +47091,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 224.79 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9bb9e166-d301-4538-82c9-cce2a065d3b1")
 		)
@@ -45884,6 +47189,15 @@
 			)
 		)
 		(property "Price" "0.754"
+			(at 426.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 426.72 43.18 0)
 			(effects
 				(font
@@ -46038,6 +47352,15 @@
 			)
 		)
 		(property "LCSC" "C3168077"
+			(at 53.34 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 53.34 287.02 0)
 			(effects
 				(font
@@ -46241,6 +47564,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" ""
+			(at 403.86 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f64c783-6fea-4ed6-9890-a845f816c753")
 		)
@@ -46338,6 +47670,15 @@
 			)
 		)
 		(property "MPN" "BAS16VY,115"
+			(at 424.18 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 424.18 289.56 0)
 			(effects
 				(font
@@ -46523,6 +47864,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" ""
+			(at 36.83 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a746d31f-caea-470a-aa04-3880aad16c59")
 		)
@@ -46640,6 +47990,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 259.08 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ca942bf-c946-43ac-99b8-a66b987b344d")
 		)
@@ -46743,6 +48102,15 @@
 			)
 		)
 		(property "Price" ""
+			(at 403.86 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 403.86 231.14 0)
 			(effects
 				(font
@@ -46981,6 +48349,15 @@
 			)
 		)
 		(property "Price" "0.0022"
+			(at 325.12 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 325.12 222.25 0)
 			(effects
 				(font
@@ -47235,6 +48612,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 259.08 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "895d4ba8-a56d-4956-a294-ccbd62064e08")
 		)
@@ -47330,6 +48716,15 @@
 			)
 		)
 		(property "LCSC" "C27636112"
+			(at 270.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 270.51 62.23 0)
 			(effects
 				(font
@@ -47444,6 +48839,15 @@
 			)
 		)
 		(property "Price" "0.037"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 101.6 91.44 0)
 			(effects
 				(font
@@ -47620,6 +49024,24 @@
 			)
 		)
 		(property "Price" "0.02"
+			(at 398.78 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
+			(at 398.78 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C480267"
 			(at 398.78 318.77 0)
 			(effects
 				(font
@@ -47807,6 +49229,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 259.08 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c160b04-a397-4cb2-9795-a430a1a97c2e")
 		)
@@ -47903,6 +49334,15 @@
 			)
 		)
 		(property "LCSC" "C2890035"
+			(at 322.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 322.58 101.6 0)
 			(effects
 				(font
@@ -48023,6 +49463,15 @@
 			)
 		)
 		(property "Price" "0.037"
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 76.2 80.01 0)
 			(effects
 				(font
@@ -48153,6 +49602,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 424.18 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b1bc310-5628-4a6c-9422-ec5ea7b0e692")
 		)
@@ -48268,6 +49726,15 @@
 			)
 		)
 		(property "MPN" "BAS16VY,115"
+			(at 412.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 412.75 139.7 0)
 			(effects
 				(font
@@ -48400,6 +49867,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 50.8 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "829700ff-244a-49a3-925a-0d675f4e4615")
 		)
@@ -48517,6 +49993,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 408.94 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5cbf8dbf-a2ec-4ba7-b997-7488e172d736")
 		)
@@ -48621,6 +50106,15 @@
 			)
 		)
 		(property "MPN" "MMBT2222A"
+			(at 227.33 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 227.33 353.06 0)
 			(effects
 				(font
@@ -48812,6 +50306,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 81.28 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "22f376b4-1f85-4c57-bbce-78afa0f1ccc6")
 		)
@@ -48914,6 +50417,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 377.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75cbaa92-1d5d-498d-b677-a7419b79ac9b")
 		)
@@ -49008,6 +50520,15 @@
 			)
 		)
 		(property "Price" "0.0050"
+			(at 168.91 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 168.91 194.31 0)
 			(effects
 				(font
@@ -49131,6 +50652,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 287.02 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5666f74-b1b6-4d82-932f-969cb13d14ad")
 		)
@@ -49241,6 +50771,15 @@
 			)
 		)
 		(property "Price" "0.59"
+			(at 39.37 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 39.37 233.68 0)
 			(effects
 				(font
@@ -49447,7 +50986,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7499302"
+		(property "LCSC" "C5175230"
 			(at 401.32 217.17 0)
 			(effects
 				(font
@@ -49456,7 +50995,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PH2.0 mm Female"
+		(property "MPN" "HDGC2001WV-2P "
 			(at 401.32 217.17 0)
 			(effects
 				(font
@@ -49466,6 +51005,15 @@
 			)
 		)
 		(property "Price" "0.0098"
+			(at 401.32 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 401.32 217.17 0)
 			(effects
 				(font
@@ -49580,6 +51128,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c142a57-f827-4545-b0ec-32560ddd7e2d")
 		)
@@ -49681,6 +51238,15 @@
 			)
 		)
 		(property "LCSC" "C27636112"
+			(at 318.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 318.77 59.69 0)
 			(effects
 				(font
@@ -49801,6 +51367,15 @@
 			)
 		)
 		(property "Price" "0.0026"
+			(at 91.44 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 91.44 292.1 0)
 			(effects
 				(font
@@ -50068,6 +51643,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 313.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e458071a-dae7-4e72-9521-2643f982a3e7")
 		)
@@ -50171,6 +51755,15 @@
 			)
 		)
 		(property "MPN" "BAS16VY,115"
+			(at 408.94 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 408.94 349.25 0)
 			(effects
 				(font
@@ -50342,7 +51935,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7499302"
+		(property "LCSC" "C5175230"
 			(at 401.32 295.91 0)
 			(effects
 				(font
@@ -50351,7 +51944,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PH2.0 mm Female"
+		(property "MPN" "HDGC2001WV-2P "
 			(at 401.32 295.91 0)
 			(effects
 				(font
@@ -50361,6 +51954,15 @@
 			)
 		)
 		(property "Price" "0.0098"
+			(at 401.32 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 401.32 295.91 0)
 			(effects
 				(font
@@ -50466,6 +52068,15 @@
 			)
 		)
 		(property "MPN" "BAS16VY,115"
+			(at 411.48 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 411.48 210.82 0)
 			(effects
 				(font
@@ -50583,6 +52194,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 394.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56b9a9fe-acb5-4d07-97de-b90cdfd1d330")
 		)
@@ -50676,6 +52296,15 @@
 			)
 		)
 		(property "LCSC" "C2890035"
+			(at 299.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 299.72 101.6 0)
 			(effects
 				(font
@@ -50871,6 +52500,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 322.58 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18daf944-31c4-4ef6-a48f-e48df98073ab")
 		)
@@ -51034,6 +52672,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" ""
+			(at 398.78 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41b8d432-49ae-4774-b533-b786f807765c")
 		)
@@ -51122,6 +52769,15 @@
 			)
 		)
 		(property "Price" "0.0015"
+			(at 259.08 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 259.08 351.79 0)
 			(effects
 				(font
@@ -51235,6 +52891,15 @@
 				(hide yes)
 			)
 		)
+		(property "Confirmed" "YES"
+			(at 196.85 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54ae2c4f-2868-462d-abe9-ea8578eb79b2")
 		)
@@ -51319,6 +52984,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 402.59 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" ""
 			(at 402.59 248.92 0)
 			(effects
 				(font
@@ -51431,6 +53105,15 @@
 			)
 		)
 		(property "Price" "0.0179"
+			(at 247.65 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
 			(at 247.65 341.63 0)
 			(effects
 				(font
