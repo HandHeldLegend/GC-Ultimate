@@ -40,3 +40,13 @@ HW/SubStick_R4K/sym-lib-table
 HW/SubStick_R4K/UGC_SubStick_R4K-backups/
 
 HW/Main_S1/UGC_Main_S1-backups/
+
+FW/build/.cmake/
+
+FW/build/.ninja_deps
+
+FW/build/.ninja_log
+
+FW/build/CMakeCache.txt
+
+HW/Socket_Trigger_Test_Solder/socket_test-backups/
