@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "hhl")(type "KiCad")(uri "${KIPRJMOD}/../Library/hhl.pretty")(options "")(descr ""))
-)

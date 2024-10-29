@@ -709,6 +709,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Confirmed",
+          "name": "Confirmed",
+          "show": false
         }
       ],
       "filter_string": "",

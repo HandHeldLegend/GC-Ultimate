@@ -58,9 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "track_dangling|230765300|115497277|11d7b458-e5c0-4b17-bf87-5335b90ac3d2|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -498,7 +496,7 @@
       "plot": "../Production/Main_R4K/gerber/",
       "pos_files": "../Production/Main_R4K/position/",
       "specctra_dsn": "",
-      "step": "../../../../Downloads/UGC_Main.step",
+      "step": "../../../../Downloads/UGC_MainNuPort.step",
       "svg": "",
       "vrml": ""
     },
@@ -723,7 +721,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

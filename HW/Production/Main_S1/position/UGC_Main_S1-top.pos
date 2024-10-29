@@ -1,4 +1,4 @@
-### Footprint positions - created on 2024-10-25T03:52:57-0700 ###
+### Footprint positions - created on 2024-10-29T10:05:45-0700 ###
 ### Printed by KiCad version 8.0.2
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -104,6 +104,7 @@ SW13      SW_Push               ring_dpad                                     20
 SW17      SW_TS-1187A           TS-1187A-C-E-B                                214.0462  -118.5164  -90.0000  top
 SW18      SW_TS-1187A           TS-1187A-C-E-B                                222.9212  -127.3914   90.0000  top
 SW19      SW_TS-1187A           TS-1187A-C-E-B                                214.0462  -127.3914  -90.0000  top
+U1        ST_LSM6               LGA14                                         206.7520  -114.7500    0.0000  top
 U4        TPS630001RCR          VREG_V62_16624-01YE                           228.6254  -118.9736   90.0000  top
 U6        MCP3002               MSOP-8_3x3mm_P0.65mm                          196.0372  -119.4308    0.0000  top
 U8        RP2040                QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm           223.4848  -107.4081   90.0000  top
