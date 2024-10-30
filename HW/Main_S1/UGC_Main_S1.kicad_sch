@@ -19136,7 +19136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" " 8Mbit 133MHz USON-8-EP(2x3) NOR FLASH ROHS"
 			(at 440.69 71.12 0)
 			(effects
 				(font
@@ -19173,6 +19173,24 @@
 			)
 		)
 		(property "Price" "0.22"
+			(at 440.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 440.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "USON-8-EP(2x3) "
 			(at 440.69 71.12 0)
 			(effects
 				(font
@@ -19407,7 +19425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0606 RGB LEDs(Built-in IC) ROHS"
 			(at 276.86 130.81 0)
 			(effects
 				(font
@@ -19444,6 +19462,24 @@
 			)
 		)
 		(property "LCSC" "C2890035"
+			(at 276.86 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 276.86 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0606"
 			(at 276.86 130.81 0)
 			(effects
 				(font
@@ -19518,7 +19554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 412.75 162.56 0)
 			(effects
 				(font
@@ -19555,6 +19591,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 412.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 412.75 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 412.75 162.56 0)
 			(effects
 				(font
@@ -19635,7 +19689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 408.94 359.41 0)
 			(effects
 				(font
@@ -19672,6 +19726,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 408.94 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 408.94 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 408.94 359.41 0)
 			(effects
 				(font
@@ -19751,7 +19823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 100Ω"
 			(at 215.9 298.45 0)
 			(effects
 				(font
@@ -19788,6 +19860,24 @@
 			)
 		)
 		(property "Price" "0.0005"
+			(at 215.9 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.9 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 215.9 298.45 0)
 			(effects
 				(font
@@ -19855,7 +19945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.3A 2.2uH ±20% 80mΩ 1008 Inductors (SMD) ROHS "
 			(at 320.04 24.13 0)
 			(effects
 				(font
@@ -19901,6 +19991,24 @@
 			)
 		)
 		(property "Price" "0.0208"
+			(at 320.04 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 320.04 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1008"
 			(at 320.04 24.13 0)
 			(effects
 				(font
@@ -19969,7 +20077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 100nF X7R ±10%"
 			(at 311.15 261.62 0)
 			(effects
 				(font
@@ -20006,6 +20114,24 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 311.15 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 311.15 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 311.15 261.62 0)
 			(effects
 				(font
@@ -20081,7 +20207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ"
 			(at 199.39 359.41 0)
 			(effects
 				(font
@@ -20118,6 +20244,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 199.39 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 199.39 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 199.39 359.41 0)
 			(effects
 				(font
@@ -20187,7 +20331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" " Flip type -40℃~+85℃ 6P Dual-sided contacts / top and bottom connection Horizontal attachment 0.5mm SMD,P=0.5mm,Surface Mount，Right Angle FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
 			(at 431.8 123.19 0)
 			(effects
 				(font
@@ -20236,7 +20380,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "503480-0640"
+		(property "MPN" "5034800640"
 			(at 450.85 918.11 0)
 			(effects
 				(font
@@ -20275,6 +20419,24 @@
 			)
 		)
 		(property "LCSC" "C3168077"
+			(at 431.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 431.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD,P=0.5mm,Surface Mount，Right Angle "
 			(at 431.8 123.19 0)
 			(effects
 				(font
@@ -20424,7 +20586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40V Independent Type 1A 550mV SOD-523 Schottky Diodes ROHS "
 			(at 224.79 341.63 0)
 			(effects
 				(font
@@ -20470,6 +20632,24 @@
 			)
 		)
 		(property "Price" "0.0179"
+			(at 224.79 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 224.79 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-523 "
 			(at 224.79 341.63 0)
 			(effects
 				(font
@@ -20574,6 +20754,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 408.94 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6dc96dff-2590-48e6-8dc4-4b95f652d58b")
 		)
@@ -20631,7 +20820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 1uF X5R ±10%"
 			(at 259.08 297.18 0)
 			(effects
 				(font
@@ -20659,6 +20848,24 @@
 			)
 		)
 		(property "Price" "0.0009"
+			(at 259.08 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 259.08 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 259.08 297.18 0)
 			(effects
 				(font
@@ -20728,7 +20935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ"
 			(at 90.17 111.76 0)
 			(effects
 				(font
@@ -20765,6 +20972,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 90.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 90.17 111.76 0)
 			(effects
 				(font
@@ -20928,6 +21153,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 233.68 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "616a2dbb-edf3-4d47-8333-289b1b5536e8")
 		)
@@ -20985,7 +21219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 100nF X7R ±10%"
 			(at 341.63 255.27 0)
 			(effects
 				(font
@@ -21022,6 +21256,24 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 341.63 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 341.63 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 341.63 255.27 0)
 			(effects
 				(font
@@ -21094,7 +21346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40V Independent Type 1A 550mV SOD-523 Schottky Diodes ROHS "
 			(at 247.65 351.79 0)
 			(effects
 				(font
@@ -21140,6 +21392,24 @@
 			)
 		)
 		(property "Price" "0.0179"
+			(at 247.65 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 247.65 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-523 "
 			(at 247.65 351.79 0)
 			(effects
 				(font
@@ -21208,7 +21478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 75kΩ"
 			(at 381 34.29 0)
 			(effects
 				(font
@@ -21254,6 +21524,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 381 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 381 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 381 34.29 0)
 			(effects
 				(font
@@ -21327,7 +21615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0606 RGB LEDs(Built-in IC) ROHS"
 			(at 276.86 101.6 0)
 			(effects
 				(font
@@ -21364,6 +21652,24 @@
 			)
 		)
 		(property "LCSC" "C2890035"
+			(at 276.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 276.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0606"
 			(at 276.86 101.6 0)
 			(effects
 				(font
@@ -21592,7 +21898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 408.94 318.77 0)
 			(effects
 				(font
@@ -21629,6 +21935,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 408.94 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 408.94 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 408.94 318.77 0)
 			(effects
 				(font
@@ -21710,7 +22034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 100Ω"
 			(at 294.64 41.91 0)
 			(effects
 				(font
@@ -21747,6 +22071,24 @@
 			)
 		)
 		(property "Price" "0.0005"
+			(at 294.64 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 294.64 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 294.64 41.91 0)
 			(effects
 				(font
@@ -21821,7 +22163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 424.18 248.92 0)
 			(effects
 				(font
@@ -21858,6 +22200,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 424.18 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 424.18 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 424.18 248.92 0)
 			(effects
 				(font
@@ -21962,6 +22322,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 398.78 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 398.78 359.41 0)
 			(effects
 				(font
@@ -22113,6 +22482,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 405.13 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a1441ca-bf3f-4a62-9271-7a7681904c80")
 		)
@@ -22190,7 +22568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
+		(property "Package" "-"
 			(at 106.68 34.29 0)
 			(effects
 				(font
@@ -22310,6 +22688,15 @@
 			)
 		)
 		(property "LCSC" "C22359729"
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 106.68 34.29 0)
 			(effects
 				(font
@@ -22538,7 +22925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0606 RGB LEDs(Built-in IC) ROHS"
 			(at 299.72 158.75 0)
 			(effects
 				(font
@@ -22575,6 +22962,24 @@
 			)
 		)
 		(property "LCSC" "C2890035"
+			(at 299.72 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 299.72 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0606"
 			(at 299.72 158.75 0)
 			(effects
 				(font
@@ -22686,6 +23091,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 386.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d44a4f9f-c673-45be-80b0-0c020c5d4a21")
 		)
@@ -22715,7 +23129,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_TS-1187A"
+		(property "Value" "TS-1187A-C-A-B "
 			(at 398.78 335.28 0)
 			(effects
 				(font
@@ -22777,6 +23191,24 @@
 			)
 		)
 		(property "LCSC" "C318887"
+			(at 398.78 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 398.78 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
 			(at 398.78 339.09 0)
 			(effects
 				(font
@@ -22851,7 +23283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10V 10uF X5R ±10%"
 			(at 347.98 43.18 0)
 			(effects
 				(font
@@ -22888,6 +23320,24 @@
 			)
 		)
 		(property "Price" "0.0050"
+			(at 347.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 347.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 347.98 43.18 0)
 			(effects
 				(font
@@ -23039,7 +23489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 15pF NP0 ±1%"
 			(at 325.12 212.09 0)
 			(effects
 				(font
@@ -23067,6 +23517,24 @@
 			)
 		)
 		(property "Price" "0.0022"
+			(at 325.12 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 325.12 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 325.12 212.09 0)
 			(effects
 				(font
@@ -23199,7 +23667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Custom right angle silicone tactile switch 5mm button height"
 			(at 402.59 173.99 0)
 			(effects
 				(font
@@ -23227,6 +23695,15 @@
 			)
 		)
 		(property "Price" "0.082"
+			(at 402.59 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 402.59 173.99 0)
 			(effects
 				(font
@@ -23267,7 +23744,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_TS-1187A"
+		(property "Value" "TS-1187A-C-A-B "
 			(at 398.78 325.12 0)
 			(effects
 				(font
@@ -23329,6 +23806,24 @@
 			)
 		)
 		(property "LCSC" "C318887"
+			(at 398.78 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 398.78 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
 			(at 398.78 328.93 0)
 			(effects
 				(font
@@ -23531,7 +24026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ"
 			(at 354.33 222.25 0)
 			(effects
 				(font
@@ -23559,6 +24054,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 354.33 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 354.33 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 354.33 222.25 0)
 			(effects
 				(font
@@ -23697,7 +24210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0606 RGB LEDs(Built-in IC) ROHS"
 			(at 345.44 101.6 0)
 			(effects
 				(font
@@ -23734,6 +24247,24 @@
 			)
 		)
 		(property "LCSC" "C2890035"
+			(at 345.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 345.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0606"
 			(at 345.44 101.6 0)
 			(effects
 				(font
@@ -23823,6 +24354,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 387.35 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 387.35 234.95 0)
 			(effects
 				(font
@@ -23964,7 +24504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0606 RGB LEDs(Built-in IC) ROHS"
 			(at 345.44 158.75 0)
 			(effects
 				(font
@@ -24001,6 +24541,24 @@
 			)
 		)
 		(property "LCSC" "C2890035"
+			(at 345.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 345.44 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0606"
 			(at 345.44 158.75 0)
 			(effects
 				(font
@@ -24073,7 +24631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" " Accelerometer gyroscope LGA-14(2.5x3) Accelerometers ROHS "
 			(at 57.15 165.1 0)
 			(effects
 				(font
@@ -24128,6 +24686,24 @@
 			)
 		)
 		(property "Confirmed" "YES"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LGA-14(2.5x3) "
 			(at 57.15 165.1 0)
 			(effects
 				(font
@@ -24231,7 +24807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Custom right angle silicone tactile switch 5mm button height"
 			(at 402.59 280.67 0)
 			(effects
 				(font
@@ -24259,6 +24835,15 @@
 			)
 		)
 		(property "Price" "0.082"
+			(at 402.59 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 402.59 280.67 0)
 			(effects
 				(font
@@ -24327,7 +24912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 424.18 280.67 0)
 			(effects
 				(font
@@ -24364,6 +24949,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 424.18 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 424.18 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 424.18 280.67 0)
 			(effects
 				(font
@@ -24545,6 +25148,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 411.48 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d42e4389-ef3a-4a68-8a60-cca208eaa8f2")
 		)
@@ -24701,6 +25313,24 @@
 			)
 		)
 		(property "MPN" "MMBT2222A"
+			(at 227.33 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 227.33 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" " SOT-23"
 			(at 227.33 298.45 0)
 			(effects
 				(font
@@ -24909,7 +25539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8Mbit 133MHz USON-8-EP(2x3) NOR FLASH ROHS"
 			(at 325.12 316.23 0)
 			(effects
 				(font
@@ -24946,6 +25576,24 @@
 			)
 		)
 		(property "LCSC" "C2040"
+			(at 325.12 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 325.12 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LQFN-56(7x7)"
 			(at 325.12 316.23 0)
 			(effects
 				(font
@@ -25262,7 +25910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 47nF X7R ±5%"
 			(at 142.24 222.25 0)
 			(effects
 				(font
@@ -25308,6 +25956,24 @@
 			)
 		)
 		(property "Price" "0.0026"
+			(at 142.24 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 142.24 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 142.24 222.25 0)
 			(effects
 				(font
@@ -25482,6 +26148,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 181.61 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "S1"
 			(uuid "c1d611aa-822e-421d-a03f-9cef4e380c3c")
 		)
@@ -25641,7 +26316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40V Independent Type 1A 550mV SOD-523 Schottky Diodes ROHS "
 			(at 224.79 287.02 0)
 			(effects
 				(font
@@ -25687,6 +26362,24 @@
 			)
 		)
 		(property "Price" "0.0179"
+			(at 224.79 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 224.79 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-523 "
 			(at 224.79 287.02 0)
 			(effects
 				(font
@@ -25755,7 +26448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 100nF X7R ±10%"
 			(at 341.63 246.38 0)
 			(effects
 				(font
@@ -25792,6 +26485,24 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 341.63 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 341.63 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 341.63 246.38 0)
 			(effects
 				(font
@@ -26099,6 +26810,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 238.76 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a39ed2a-db05-4ad7-8abd-ff3a3f3c2bc7")
 		)
@@ -26228,7 +26948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 positions 2.7V~5.5V 200kHz SPI MSOP-8 Analog to Digital Converters (ADC) ROHS "
 			(at 154.94 176.53 0)
 			(effects
 				(font
@@ -26265,6 +26985,24 @@
 			)
 		)
 		(property "LCSC" "C635958"
+			(at 154.94 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 154.94 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "MSOP-8 "
 			(at 154.94 176.53 0)
 			(effects
 				(font
@@ -26422,7 +27160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 100nF X7R ±10%"
 			(at 449.58 60.96 0)
 			(effects
 				(font
@@ -26459,6 +27197,24 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 449.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 449.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 449.58 60.96 0)
 			(effects
 				(font
@@ -26617,7 +27373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ"
 			(at 111.76 138.43 0)
 			(effects
 				(font
@@ -26654,6 +27410,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 111.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 111.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 111.76 138.43 0)
 			(effects
 				(font
@@ -26726,7 +27500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ"
 			(at 427.99 67.31 0)
 			(effects
 				(font
@@ -26763,6 +27537,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 427.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 427.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 427.99 67.31 0)
 			(effects
 				(font
@@ -26853,6 +27645,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 233.68 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 233.68 292.1 0)
 			(effects
 				(font
@@ -27127,7 +27928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ"
 			(at 149.86 35.56 0)
 			(effects
 				(font
@@ -27164,6 +27965,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 149.86 35.56 0)
 			(effects
 				(font
@@ -27239,7 +28058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ"
 			(at 111.76 111.76 0)
 			(effects
 				(font
@@ -27276,6 +28095,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 111.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 111.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 111.76 111.76 0)
 			(effects
 				(font
@@ -27322,7 +28159,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_TS-1187A"
+		(property "Value" "TS-1187A-C-A-B "
 			(at 403.86 120.65 0)
 			(effects
 				(font
@@ -27392,6 +28229,24 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 403.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
+			(at 403.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B"
 			(uuid "275a989a-f1fa-4734-8a33-08acde2060a5")
 		)
@@ -27420,7 +28275,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5eb738f4-6c82-41b2-b0e5-71d4584fd967")
 		(property "Reference" "RV2"
 			(at 415.798 45.466 90)
@@ -27458,7 +28313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PACKAGED SEPARATELY"
 			(at 417.83 43.18 0)
 			(effects
 				(font
@@ -27494,7 +28349,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C127475"
+		(property "LCSC" "-"
+			(at 417.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 417.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "-"
 			(at 417.83 43.18 0)
 			(effects
 				(font
@@ -27558,7 +28431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ"
 			(at 90.17 138.43 0)
 			(effects
 				(font
@@ -27595,6 +28468,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 90.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 90.17 138.43 0)
 			(effects
 				(font
@@ -27669,7 +28560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 433.07 234.95 0)
 			(effects
 				(font
@@ -27706,6 +28597,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 433.07 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 433.07 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 433.07 234.95 0)
 			(effects
 				(font
@@ -27962,6 +28871,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 402.59 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "038b68b4-d97f-420b-a8a3-0b31c7e14117")
 		)
@@ -28022,7 +28940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 75kΩ"
 			(at 422.91 34.29 0)
 			(effects
 				(font
@@ -28068,6 +28986,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 422.91 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 422.91 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 422.91 34.29 0)
 			(effects
 				(font
@@ -28278,7 +29214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 408.94 328.93 0)
 			(effects
 				(font
@@ -28315,6 +29251,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 408.94 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 408.94 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 408.94 328.93 0)
 			(effects
 				(font
@@ -28395,7 +29349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 100nF X7R ±10%"
 			(at 208.28 359.41 0)
 			(effects
 				(font
@@ -28423,6 +29377,24 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 208.28 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 208.28 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 208.28 359.41 0)
 			(effects
 				(font
@@ -28562,7 +29534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 100nF X7R ±10%"
 			(at 208.28 304.8 0)
 			(effects
 				(font
@@ -28590,6 +29562,24 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 208.28 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 208.28 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 208.28 304.8 0)
 			(effects
 				(font
@@ -28865,7 +29855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 408.94 339.09 0)
 			(effects
 				(font
@@ -28902,6 +29892,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 408.94 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 408.94 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 408.94 339.09 0)
 			(effects
 				(font
@@ -28982,7 +29990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 100nF X7R ±10%"
 			(at 354.33 255.27 0)
 			(effects
 				(font
@@ -29019,6 +30027,24 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 354.33 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 354.33 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 354.33 255.27 0)
 			(effects
 				(font
@@ -29092,7 +30118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0606 RGB LEDs(Built-in IC) ROHS"
 			(at 276.86 158.75 0)
 			(effects
 				(font
@@ -29129,6 +30155,24 @@
 			)
 		)
 		(property "LCSC" "C2890035"
+			(at 276.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 276.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0606"
 			(at 276.86 158.75 0)
 			(effects
 				(font
@@ -29343,7 +30387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±1% 0Ω"
 			(at 424.18 234.95 0)
 			(effects
 				(font
@@ -29380,6 +30424,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 424.18 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 424.18 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 424.18 234.95 0)
 			(effects
 				(font
@@ -29475,7 +30537,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "87767447-d42c-4c1e-a60b-8058896b79be")
 		(property "Reference" "RV1"
 			(at 384.048 45.466 90)
@@ -29513,7 +30575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PACKAGED SEPARATELY"
 			(at 386.08 43.18 0)
 			(effects
 				(font
@@ -29549,7 +30611,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C127475"
+		(property "LCSC" "-"
+			(at 386.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 386.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "-"
 			(at 386.08 43.18 0)
 			(effects
 				(font
@@ -29722,6 +30802,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 264.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7464f48-9ef0-4212-a13e-9d1024c55a0e")
 		)
@@ -29812,6 +30901,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 402.59 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 402.59 139.7 0)
 			(effects
 				(font
@@ -29951,7 +31049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 420.37 185.42 0)
 			(effects
 				(font
@@ -29988,6 +31086,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 420.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 420.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 420.37 185.42 0)
 			(effects
 				(font
@@ -30096,6 +31212,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 356.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "46845304-5ee3-4834-8a49-7a657ee039ea")
 		)
@@ -30190,7 +31315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
+		(property "Package" "SMD,P=0.8mm,Surface Mount，Right Angle"
 			(at 194.31 337.82 0)
 			(effects
 				(font
@@ -30298,6 +31423,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 194.31 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ce07d7a-32e6-4909-91b4-8bf0e05819c0")
 		)
@@ -30364,7 +31498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10V 10uF X5R ±10%"
 			(at 283.21 43.18 0)
 			(effects
 				(font
@@ -30401,6 +31535,24 @@
 			)
 		)
 		(property "Price" "0.0050"
+			(at 283.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 283.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 283.21 43.18 0)
 			(effects
 				(font
@@ -30484,7 +31636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 200mA 200mW 3.5Ω@10V,220mA 1.5V@250uA 2 N-Channel SC-70-6(SOT-363) MOSFETs ROHS"
 			(at 101.6 144.78 0)
 			(effects
 				(font
@@ -30521,6 +31673,24 @@
 			)
 		)
 		(property "Price" "0.037"
+			(at 101.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 101.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SC-70-6(SOT-363)"
 			(at 101.6 144.78 0)
 			(effects
 				(font
@@ -30625,6 +31795,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 411.48 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81ce6a8c-9ab2-4f5a-9ab5-ceef8dadf831")
 		)
@@ -30700,6 +31879,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 387.35 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8d5cb03-dcb8-45fa-818d-cd9698cc76f9")
 		)
@@ -30757,7 +31945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 75kΩ"
 			(at 391.16 34.29 0)
 			(effects
 				(font
@@ -30803,6 +31991,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 391.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 391.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 391.16 34.29 0)
 			(effects
 				(font
@@ -30895,6 +32101,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 238.76 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64b413b2-01a8-48df-abc5-d34ef9941edf")
 		)
@@ -30952,7 +32167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 75kΩ"
 			(at 412.75 34.29 0)
 			(effects
 				(font
@@ -30998,6 +32213,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 412.75 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 412.75 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 412.75 34.29 0)
 			(effects
 				(font
@@ -31072,7 +32305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 1uF X5R ±10%"
 			(at 341.63 264.16 0)
 			(effects
 				(font
@@ -31109,6 +32342,24 @@
 			)
 		)
 		(property "Price" "0.0009"
+			(at 341.63 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 341.63 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 341.63 264.16 0)
 			(effects
 				(font
@@ -31290,6 +32541,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 320.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d598e177-5864-46c7-b775-2a7a71c519a2")
 		)
@@ -31401,7 +32661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 412.75 151.13 0)
 			(effects
 				(font
@@ -31438,6 +32698,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 412.75 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 412.75 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 412.75 151.13 0)
 			(effects
 				(font
@@ -31785,7 +33063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ"
 			(at 162.56 35.56 0)
 			(effects
 				(font
@@ -31822,6 +33100,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 162.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 162.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 162.56 35.56 0)
 			(effects
 				(font
@@ -31868,7 +33164,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_TS-1187A"
+		(property "Value" "TS-1187A-C-A-B "
 			(at 440.69 86.36 0)
 			(effects
 				(font
@@ -31930,6 +33226,24 @@
 			)
 		)
 		(property "LCSC" "C318887"
+			(at 440.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 440.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
 			(at 440.69 90.17 0)
 			(effects
 				(font
@@ -32073,7 +33387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 100nF X7R ±10%"
 			(at 87.63 184.15 0)
 			(effects
 				(font
@@ -32119,6 +33433,24 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 87.63 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 87.63 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 87.63 184.15 0)
 			(effects
 				(font
@@ -32197,7 +33529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 27Ω"
 			(at 294.64 288.29 0)
 			(effects
 				(font
@@ -32234,6 +33566,24 @@
 			)
 		)
 		(property "Price" "0.0006"
+			(at 294.64 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 294.64 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0201"
 			(at 294.64 288.29 0)
 			(effects
 				(font
@@ -32280,7 +33630,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_TS-1187A"
+		(property "Value" "TS-1187A-C-A-B "
 			(at 398.78 304.8 0)
 			(effects
 				(font
@@ -32342,6 +33692,24 @@
 			)
 		)
 		(property "LCSC" "C318887"
+			(at 398.78 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 398.78 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
 			(at 398.78 308.61 0)
 			(effects
 				(font
@@ -32447,7 +33815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
+		(property "Package" "SMD,P=0.8mm,Surface Mount，Right Angle"
 			(at 195.58 283.21 0)
 			(effects
 				(font
@@ -32547,6 +33915,15 @@
 			)
 		)
 		(property "LCSC" "C566239"
+			(at 195.58 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 195.58 283.21 0)
 			(effects
 				(font
@@ -32735,6 +34112,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 417.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0d421ea-bcff-42d7-b2f9-c6c61edbe7d1")
 		)
@@ -32793,7 +34179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ"
 			(at 111.76 85.09 0)
 			(effects
 				(font
@@ -32830,6 +34216,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 111.76 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 111.76 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 111.76 85.09 0)
 			(effects
 				(font
@@ -32922,6 +34326,15 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 402.59 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 402.59 162.56 0)
 			(effects
 				(font
@@ -33144,7 +34557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 412.75 173.99 0)
 			(effects
 				(font
@@ -33181,6 +34594,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 412.75 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 412.75 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 412.75 173.99 0)
 			(effects
 				(font
@@ -33287,6 +34718,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 402.59 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4863594-44a3-4e7c-8383-cd351e570057")
 		)
@@ -33348,7 +34788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ"
 			(at 199.39 304.8 0)
 			(effects
 				(font
@@ -33385,6 +34825,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 199.39 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 199.39 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 199.39 304.8 0)
 			(effects
 				(font
@@ -33454,7 +34912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±1% 0Ω"
 			(at 224.79 331.47 0)
 			(effects
 				(font
@@ -33491,6 +34949,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 224.79 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 224.79 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 224.79 331.47 0)
 			(effects
 				(font
@@ -33633,7 +35109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 200mA 200mW 3.5Ω@10V,220mA 1.5V@250uA 2 N-Channel SC-70-6(SOT-363) MOSFETs ROHS"
 			(at 101.6 118.11 0)
 			(effects
 				(font
@@ -33670,6 +35146,24 @@
 			)
 		)
 		(property "Price" "0.037"
+			(at 101.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 101.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SC-70-6(SOT-363)"
 			(at 101.6 118.11 0)
 			(effects
 				(font
@@ -33755,7 +35249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 100Ω"
 			(at 215.9 353.06 0)
 			(effects
 				(font
@@ -33792,6 +35286,24 @@
 			)
 		)
 		(property "Price" "0.0005"
+			(at 215.9 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 215.9 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 215.9 353.06 0)
 			(effects
 				(font
@@ -33858,7 +35370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 27Ω"
 			(at 294.64 285.75 0)
 			(effects
 				(font
@@ -33895,6 +35407,24 @@
 			)
 		)
 		(property "Price" "0.0006"
+			(at 294.64 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 294.64 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0201"
 			(at 294.64 285.75 0)
 			(effects
 				(font
@@ -33967,7 +35497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40V Independent Type 1A 550mV SOD-523 Schottky Diodes ROHS "
 			(at 247.65 287.02 0)
 			(effects
 				(font
@@ -34013,6 +35543,24 @@
 			)
 		)
 		(property "Price" "0.0179"
+			(at 247.65 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 247.65 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-523 "
 			(at 247.65 287.02 0)
 			(effects
 				(font
@@ -34079,7 +35627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40V Independent Type 1A 550mV SOD-523 Schottky Diodes ROHS "
 			(at 247.65 297.18 0)
 			(effects
 				(font
@@ -34125,6 +35673,24 @@
 			)
 		)
 		(property "Price" "0.0179"
+			(at 247.65 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 247.65 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-523 "
 			(at 247.65 297.18 0)
 			(effects
 				(font
@@ -34296,6 +35862,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 402.59 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c452f1e4-ec4a-4216-a6e4-e9df4448787c")
 		)
@@ -34356,7 +35931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 100nF X7R ±10%"
 			(at 354.33 264.16 0)
 			(effects
 				(font
@@ -34393,6 +35968,24 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 354.33 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 354.33 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 354.33 264.16 0)
 			(effects
 				(font
@@ -34468,7 +36061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 positions 2.7V~5.5V 200kHz SPI MSOP-8 Analog to Digital Converters (ADC) ROHS "
 			(at 154.94 143.51 0)
 			(effects
 				(font
@@ -34505,6 +36098,24 @@
 			)
 		)
 		(property "LCSC" "C635958"
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "MSOP-8 "
 			(at 154.94 143.51 0)
 			(effects
 				(font
@@ -34597,7 +36208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 100nF X7R ±10%"
 			(at 294.64 54.61 0)
 			(effects
 				(font
@@ -34634,6 +36245,24 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 294.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 294.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 294.64 54.61 0)
 			(effects
 				(font
@@ -34706,7 +36335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±1% 0Ω"
 			(at 393.7 237.49 0)
 			(effects
 				(font
@@ -34743,6 +36372,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 393.7 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 393.7 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 393.7 237.49 0)
 			(effects
 				(font
@@ -34811,7 +36458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 424.18 269.24 0)
 			(effects
 				(font
@@ -34848,6 +36495,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 424.18 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 424.18 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 424.18 269.24 0)
 			(effects
 				(font
@@ -35011,7 +36676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ"
 			(at 162.56 219.71 0)
 			(effects
 				(font
@@ -35048,6 +36713,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 162.56 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 162.56 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 162.56 219.71 0)
 			(effects
 				(font
@@ -35122,7 +36805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 15pF NP0 ±1%"
 			(at 325.12 222.25 0)
 			(effects
 				(font
@@ -35150,6 +36833,24 @@
 			)
 		)
 		(property "Price" "0.0022"
+			(at 325.12 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 325.12 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 325.12 222.25 0)
 			(effects
 				(font
@@ -35236,6 +36937,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 411.48 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcecd7f0-b2d8-4742-95be-5626cbb9984c")
 		)
@@ -35294,7 +37004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±1% 0Ω"
 			(at 224.79 276.86 0)
 			(effects
 				(font
@@ -35331,6 +37041,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 224.79 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 224.79 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 224.79 276.86 0)
 			(effects
 				(font
@@ -35436,6 +37164,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 426.72 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6426b299-10c0-4c42-adc3-b934c25658b9")
 		)
@@ -35494,7 +37231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" " Flip type -40℃~+85℃ 6P Dual-sided contacts / top and bottom connection Horizontal attachment 0.5mm SMD,P=0.5mm,Surface Mount，Right Angle FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
 			(at 119.38 218.44 0)
 			(effects
 				(font
@@ -35543,7 +37280,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "503480-0640"
+		(property "MPN" "5034800640"
 			(at 100.33 -576.48 0)
 			(effects
 				(font
@@ -35582,6 +37319,24 @@
 			)
 		)
 		(property "LCSC" "C3168077"
+			(at 119.38 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 119.38 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD,P=0.5mm,Surface Mount，Right Angle "
 			(at 119.38 218.44 0)
 			(effects
 				(font
@@ -35669,7 +37424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "-"
 			(at 403.86 195.58 0)
 			(effects
 				(font
@@ -35687,7 +37442,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7499302"
+		(property "LCSC" "-"
 			(at 403.86 195.58 0)
 			(effects
 				(font
@@ -35696,7 +37451,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PH2.0 mm Female"
+		(property "MPN" "-"
 			(at 403.86 195.58 0)
 			(effects
 				(font
@@ -35706,6 +37461,24 @@
 			)
 		)
 		(property "Price" "0.0098"
+			(at 403.86 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "-"
+			(at 403.86 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "-"
 			(at 403.86 195.58 0)
 			(effects
 				(font
@@ -35774,7 +37547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 424.18 289.56 0)
 			(effects
 				(font
@@ -35811,6 +37584,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 424.18 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 424.18 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 424.18 289.56 0)
 			(effects
 				(font
@@ -36061,6 +37852,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 102.87 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a746d31f-caea-470a-aa04-3880aad16c59")
 		)
@@ -36133,7 +37933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "-"
 			(at 403.86 231.14 0)
 			(effects
 				(font
@@ -36151,7 +37951,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7499302"
+		(property "LCSC" "-"
 			(at 403.86 231.14 0)
 			(effects
 				(font
@@ -36160,7 +37960,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PH2.0 mm Female"
+		(property "MPN" "-"
 			(at 403.86 231.14 0)
 			(effects
 				(font
@@ -36170,6 +37970,24 @@
 			)
 		)
 		(property "Price" "0.0098"
+			(at 403.86 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "-"
+			(at 403.86 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "-"
 			(at 403.86 231.14 0)
 			(effects
 				(font
@@ -36451,7 +38269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 1uF X5R ±10%"
 			(at 259.08 276.86 0)
 			(effects
 				(font
@@ -36479,6 +38297,24 @@
 			)
 		)
 		(property "Price" "0.0009"
+			(at 259.08 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 259.08 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 259.08 276.86 0)
 			(effects
 				(font
@@ -36545,7 +38381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SOD-323 Schottky Diodes ROHS "
 			(at 270.51 62.23 0)
 			(effects
 				(font
@@ -36582,6 +38418,24 @@
 			)
 		)
 		(property "LCSC" "C27636112"
+			(at 270.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 270.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-323 "
 			(at 270.51 62.23 0)
 			(effects
 				(font
@@ -36724,7 +38578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 200mA 200mW 3.5Ω@10V,220mA 1.5V@250uA 2 N-Channel SC-70-6(SOT-363) MOSFETs ROHS"
 			(at 101.6 91.44 0)
 			(effects
 				(font
@@ -36761,6 +38615,24 @@
 			)
 		)
 		(property "Price" "0.037"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SC-70-6(SOT-363)"
 			(at 101.6 91.44 0)
 			(effects
 				(font
@@ -36884,7 +38756,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_TS-1187A"
+		(property "Value" "TS-1187A-C-A-B "
 			(at 398.78 314.96 0)
 			(effects
 				(font
@@ -36946,6 +38818,24 @@
 			)
 		)
 		(property "LCSC" "C318887"
+			(at 398.78 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 398.78 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
 			(at 398.78 318.77 0)
 			(effects
 				(font
@@ -37097,7 +38987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 1uF X5R ±10%"
 			(at 259.08 331.47 0)
 			(effects
 				(font
@@ -37125,6 +39015,24 @@
 			)
 		)
 		(property "Price" "0.0009"
+			(at 259.08 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 259.08 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 259.08 331.47 0)
 			(effects
 				(font
@@ -37192,7 +39100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0606 RGB LEDs(Built-in IC) ROHS"
 			(at 322.58 101.6 0)
 			(effects
 				(font
@@ -37229,6 +39137,24 @@
 			)
 		)
 		(property "LCSC" "C2890035"
+			(at 322.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 322.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0606"
 			(at 322.58 101.6 0)
 			(effects
 				(font
@@ -37377,7 +39303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 200mA 200mW 3.5Ω@10V,220mA 1.5V@250uA 2 N-Channel SC-70-6(SOT-363) MOSFETs ROHS"
 			(at 76.2 80.01 0)
 			(effects
 				(font
@@ -37414,6 +39340,24 @@
 			)
 		)
 		(property "Price" "0.037"
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SC-70-6(SOT-363)"
 			(at 76.2 80.01 0)
 			(effects
 				(font
@@ -37500,7 +39444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "12MHz SMD3225-4P Crystals ROHS "
 			(at 340.36 217.17 0)
 			(effects
 				(font
@@ -37528,6 +39472,24 @@
 			)
 		)
 		(property "Price" " 0.2381"
+			(at 340.36 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 340.36 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD3225-4P "
 			(at 340.36 217.17 0)
 			(effects
 				(font
@@ -37601,7 +39563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 424.18 259.08 0)
 			(effects
 				(font
@@ -37638,6 +39600,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 424.18 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 424.18 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 424.18 259.08 0)
 			(effects
 				(font
@@ -37724,7 +39704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 412.75 139.7 0)
 			(effects
 				(font
@@ -37761,6 +39741,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 412.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 412.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 412.75 139.7 0)
 			(effects
 				(font
@@ -37839,7 +39837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 100nF X7R ±10%"
 			(at 116.84 184.15 0)
 			(effects
 				(font
@@ -37885,6 +39883,24 @@
 			)
 		)
 		(property "Price" "0.0007"
+			(at 116.84 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 116.84 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 116.84 184.15 0)
 			(effects
 				(font
@@ -37965,7 +39981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 408.94 308.61 0)
 			(effects
 				(font
@@ -38002,6 +40018,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 408.94 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 408.94 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 408.94 308.61 0)
 			(effects
 				(font
@@ -38114,6 +40148,24 @@
 			)
 		)
 		(property "MPN" "MMBT2222A"
+			(at 227.33 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 227.33 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" " SOT-23"
 			(at 227.33 353.06 0)
 			(effects
 				(font
@@ -38260,7 +40312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ"
 			(at 147.32 217.17 0)
 			(effects
 				(font
@@ -38297,6 +40349,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 147.32 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 147.32 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 147.32 217.17 0)
 			(effects
 				(font
@@ -38407,6 +40477,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 377.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75cbaa92-1d5d-498d-b677-a7419b79ac9b")
 		)
@@ -38462,7 +40541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 10kΩ"
 			(at 287.02 278.13 0)
 			(effects
 				(font
@@ -38499,6 +40578,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 287.02 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 287.02 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 287.02 278.13 0)
 			(effects
 				(font
@@ -38571,7 +40668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" " Accelerometer gyroscope LGA-14(2.5x3) Accelerometers ROHS "
 			(at 105.41 165.1 0)
 			(effects
 				(font
@@ -38617,6 +40714,24 @@
 			)
 		)
 		(property "Price" "0.59"
+			(at 105.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 105.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "LGA-14(2.5x3) "
 			(at 105.41 165.1 0)
 			(effects
 				(font
@@ -38805,7 +40920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1x2P 1 2P PH 2mm 2 2A Direct Insert Plugin,P=2mm Wire To Board Connector ROHS "
 			(at 401.32 217.17 0)
 			(effects
 				(font
@@ -38823,7 +40938,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7499302"
+		(property "LCSC" "C5175230"
 			(at 401.32 217.17 0)
 			(effects
 				(font
@@ -38832,7 +40947,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PH2.0 mm Female"
+		(property "MPN" "HDGC2001WV-2P "
 			(at 401.32 217.17 0)
 			(effects
 				(font
@@ -38842,6 +40957,24 @@
 			)
 		)
 		(property "Price" "0.0098"
+			(at 401.32 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 401.32 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Plugin,P=2mm"
 			(at 401.32 217.17 0)
 			(effects
 				(font
@@ -38911,7 +41044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 1kΩ"
 			(at 90.17 85.09 0)
 			(effects
 				(font
@@ -38948,6 +41081,24 @@
 			)
 		)
 		(property "Price" "0.0004"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 90.17 85.09 0)
 			(effects
 				(font
@@ -39020,7 +41171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SOD-323 Schottky Diodes ROHS "
 			(at 318.77 59.69 0)
 			(effects
 				(font
@@ -39057,6 +41208,24 @@
 			)
 		)
 		(property "LCSC" "C27636112"
+			(at 318.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 318.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-323 "
 			(at 318.77 59.69 0)
 			(effects
 				(font
@@ -39131,7 +41300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 47nF X7R ±5%"
 			(at 157.48 223.52 0)
 			(effects
 				(font
@@ -39177,6 +41346,24 @@
 			)
 		)
 		(property "Price" "0.0026"
+			(at 157.48 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 157.48 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
 			(at 157.48 223.52 0)
 			(effects
 				(font
@@ -39328,7 +41515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 330Ω"
 			(at 313.69 85.09 0)
 			(effects
 				(font
@@ -39365,6 +41552,24 @@
 			)
 		)
 		(property "Price" "0.0005"
+			(at 313.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 313.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 313.69 85.09 0)
 			(effects
 				(font
@@ -39439,7 +41644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 408.94 349.25 0)
 			(effects
 				(font
@@ -39476,6 +41681,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 408.94 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 408.94 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 408.94 349.25 0)
 			(effects
 				(font
@@ -39629,7 +41852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1x2P 1 2P PH 2mm 2 2A Direct Insert Plugin,P=2mm Wire To Board Connector ROHS "
 			(at 401.32 295.91 0)
 			(effects
 				(font
@@ -39647,7 +41870,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7499302"
+		(property "LCSC" "C5175230"
 			(at 401.32 295.91 0)
 			(effects
 				(font
@@ -39656,7 +41879,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PH2.0 mm Female"
+		(property "MPN" "HDGC2001WV-2P "
 			(at 401.32 295.91 0)
 			(effects
 				(font
@@ -39666,6 +41889,24 @@
 			)
 		)
 		(property "Price" "0.0098"
+			(at 401.32 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 401.32 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "Plugin,P=2mm"
 			(at 401.32 295.91 0)
 			(effects
 				(font
@@ -39734,7 +41975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3 Independent 200mA 1.25V@150mA 100V SOT-363 Diodes - General Purpose ROHS "
 			(at 411.48 210.82 0)
 			(effects
 				(font
@@ -39771,6 +42012,24 @@
 			)
 		)
 		(property "LCSC" "C135826"
+			(at 411.48 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 411.48 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-363 "
 			(at 411.48 210.82 0)
 			(effects
 				(font
@@ -39888,6 +42147,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 394.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56b9a9fe-acb5-4d07-97de-b90cdfd1d330")
 		)
@@ -39944,7 +42212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0606 RGB LEDs(Built-in IC) ROHS"
 			(at 299.72 101.6 0)
 			(effects
 				(font
@@ -39981,6 +42249,24 @@
 			)
 		)
 		(property "LCSC" "C2890035"
+			(at 299.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 299.72 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0606"
 			(at 299.72 101.6 0)
 			(effects
 				(font
@@ -40131,7 +42417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0606 RGB LEDs(Built-in IC) ROHS"
 			(at 322.58 158.75 0)
 			(effects
 				(font
@@ -40168,6 +42454,24 @@
 			)
 		)
 		(property "LCSC" "C2890035"
+			(at 322.58 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 322.58 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0606"
 			(at 322.58 158.75 0)
 			(effects
 				(font
@@ -40339,6 +42643,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 398.78 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41b8d432-49ae-4774-b533-b786f807765c")
 		)
@@ -40399,7 +42712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6.3V 1uF X5R ±10%"
 			(at 259.08 351.79 0)
 			(effects
 				(font
@@ -40427,6 +42740,24 @@
 			)
 		)
 		(property "Price" "0.0009"
+			(at 259.08 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 259.08 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
 			(at 259.08 351.79 0)
 			(effects
 				(font
@@ -40521,6 +42852,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" ""
+			(at 402.59 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a51c038-1d84-4785-8625-4317d52a8f01")
 		)
@@ -40579,7 +42919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40V Independent Type 1A 550mV SOD-523 Schottky Diodes ROHS "
 			(at 247.65 341.63 0)
 			(effects
 				(font
@@ -40625,6 +42965,24 @@
 			)
 		)
 		(property "Price" "0.0179"
+			(at 247.65 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 247.65 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-523 "
 			(at 247.65 341.63 0)
 			(effects
 				(font
