@@ -1,4 +1,4 @@
-23453609231106442
+23457127908306916
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95648,6 +95648,13 @@ TL3315NFxxxQ
 4
 4
 hhl
+TMUX1204DQAR
+TMUX1204DQAR-3
+Switch
+0
+10
+10
+hhl
 TS-1187A-C-E-B
 
 
@@ -95689,6 +95696,13 @@ USB4085-GF-A
 0
 20
 17
+hhl
+USB405603A
+USB4056-03-A-3
+Connector
+0
+28
+28
 hhl
 USON(1.5x1.5mm,0.45mm)
 

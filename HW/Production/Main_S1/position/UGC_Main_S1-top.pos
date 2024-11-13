@@ -1,4 +1,4 @@
-### Footprint positions - created on 2024-10-29T10:05:45-0700 ###
+### Footprint positions - created on 2024-11-12T17:28:58-0800 ###
 ### Printed by KiCad version 8.0.2
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -18,6 +18,7 @@ C12       100nF                 C_0402_1005Metric                             20
 C13       100nF                 C_0402_1005Metric                             197.7136  -116.8400    0.0000  top
 C14       15pF                  C_0402_1005Metric                             230.5812  -107.7468  -90.0000  top
 C15       15pF                  C_0402_1005Metric                             230.6066  -105.2094   90.0000  top
+C16       100nF                 C_0402_1005Metric                             207.0164  -111.7616  180.0000  top
 C23       10uF                  C_0805_2012Metric                             226.7204  -123.0376  -90.0000  top
 C24       100nF                 C_0402_1005Metric                             228.7455  -115.4996    0.0000  top
 C25       100nF                 C_0402_1005Metric                             271.1379  -133.9379    0.0000  top
@@ -44,16 +45,16 @@ J2        503480-0640           5034800640                                    23
 J4        Conn_01x06_Pin        PinHeader_1x06_P2.00mm_Vertical               278.3802  -144.1958  -90.0000  top
 J8        Conn_01x02            PinHeader_1x02_P2.00mm_Vertical               253.4572  -131.7752   90.0000  top
 J9        Conn_01x02            PinHeader_1x02_P2.00mm_Vertical               173.9552  -136.3472   90.0000  top
-L1        SK6805-EC-15          SK6805-EC-15                                  186.3337  -110.0844   -3.0000  top
-L2        SK6805-EC-15          SK6805-EC-15                                  168.3337  -110.0844   -3.0000  top
-L3        SK6805-EC-15          SK6805-EC-15                                  168.3337  -123.0844   -3.0000  top
-L4        SK6805-EC-15          SK6805-EC-15                                  186.3337  -123.0844   -3.0000  top
+L1        SK6805-EC-10          SK6805-EC-10                                  186.3337  -110.0844   -3.0000  top
+L2        SK6805-EC-10          SK6805-EC-10                                  168.3337  -110.0844   -3.0000  top
+L3        SK6805-EC-10          SK6805-EC-10                                  168.3337  -123.0844   -3.0000  top
+L4        SK6805-EC-10          SK6805-EC-10                                  186.3337  -123.0844   -3.0000  top
 L5        1.3A_2.2uH_±20%_80mΩ  L_1008_2520Metric                             229.6922  -122.7836  180.0000  top
-L6        SK6805-EC-15          SK6805-EC-15                                  218.4837  -142.5636    0.0000  top
-L10       SK6805-EC-15          SK6805-EC-15                                  244.4573  -129.1425    0.0000  top
-L11       SK6805-EC-15          SK6805-EC-15                                  255.8915  -107.2126    0.0000  top
-L12       SK6805-EC-15          SK6805-EC-15                                  259.6337  -121.5844    0.0000  top
-L13       SK6805-EC-15          SK6805-EC-15                                  274.1466  -118.0940    0.0000  top
+L6        SK6805-EC-10          SK6805-EC-10                                  218.4837  -142.5636    0.0000  top
+L10       SK6805-EC-10          SK6805-EC-10                                  244.4573  -129.1425    0.0000  top
+L11       SK6805-EC-10          SK6805-EC-10                                  255.8915  -107.2126    0.0000  top
+L12       SK6805-EC-10          SK6805-EC-10                                  259.6337  -121.5844    0.0000  top
+L13       SK6805-EC-10          SK6805-EC-10                                  274.1466  -118.0940    0.0000  top
 Q3        BSS138DW              SOT-363_SC-70-6                               223.7740   -97.6884   90.0000  top
 Q4        BSS138DW              SOT-363_SC-70-6                               220.8784   -97.6884   90.0000  top
 Q5        MMBT2222A             SOT-23                                        168.0741  -133.4414  180.0000  top
@@ -88,25 +89,25 @@ R39       10k                   R_0402_1005Metric                             27
 R40       100R                  R_0402_1005Metric                             269.6718  -134.4930  -90.0000  top
 R41       0R                    R_0402_1005Metric                             280.1874  -135.3820    0.0000  top
 REF**     HHL_Logo              HHL_Logo                                      204.7300   -98.3700    0.0000  top
+S7        TMUX1204DQAR          TMUX1204DQAR                                  210.0170  -110.5000    0.0000  top
 SW1       SW_Push               ring_pad                                      259.6337  -116.5844  180.0000  top
 SW2       SW_Push               ring_pad                                      244.4573  -124.1425  180.0000  top
 SW3       SW_Push               ring_pad                                      274.1466  -113.0940  180.0000  top
 SW4       SW_Push               ring_pad                                      255.8915  -102.2126  180.0000  top
-SW5       SW_TS-1187A           TS-1187A-C-E-B                                218.4837  -136.4788  180.0000  top
+SW5       TS-1187A-C-A-B_       TS-1187A-C-E-B                                218.4837  -136.4788  180.0000  top
 SW6       GL18_SW               GL1807SYAE                                    177.3337  -116.5844   -3.0000  top
 SW7       SW_Push               Z_Switch_Edge_Omron                           168.3322  -100.8094   30.0000  top
 SW8       SW_Push               Z_Switch_Edge_Omron                           268.6351  -100.8094  -30.0000  top
-SW9       SW_TS-1187A           TS-1187A-C-E-B                                222.9212  -118.5164   90.0000  top
+SW9       TS-1187A-C-A-B_       TS-1187A-C-E-B                                222.9212  -118.5164   90.0000  top
 SW10      SW_Push               ring_dpad                                     196.2337  -138.6444  -90.0000  top
 SW11      SW_Push               ring_dpad                                     196.2337  -154.3444   90.0000  top
 SW12      SW_Push               ring_dpad                                     188.3837  -146.4944    0.0000  top
 SW13      SW_Push               ring_dpad                                     204.0837  -146.4944  180.0000  top
-SW17      SW_TS-1187A           TS-1187A-C-E-B                                214.0462  -118.5164  -90.0000  top
-SW18      SW_TS-1187A           TS-1187A-C-E-B                                222.9212  -127.3914   90.0000  top
-SW19      SW_TS-1187A           TS-1187A-C-E-B                                214.0462  -127.3914  -90.0000  top
+SW17      TS-1187A-C-A-B_       TS-1187A-C-E-B                                214.0462  -118.5164  -90.0000  top
+SW18      TS-1187A-C-A-B_       TS-1187A-C-E-B                                222.9212  -127.3914   90.0000  top
+SW19      TS-1187A-C-A-B_       TS-1187A-C-E-B                                214.0462  -127.3914  -90.0000  top
 U1        ST_LSM6               LGA14                                         206.7520  -114.7500    0.0000  top
 U4        TPS630001RCR          VREG_V62_16624-01YE                           228.6254  -118.9736   90.0000  top
-U6        MCP3002               MSOP-8_3x3mm_P0.65mm                          196.0372  -119.4308    0.0000  top
 U8        RP2040                QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm           223.4848  -107.4081   90.0000  top
 U9        GD25Q80EEIGR          USON-8-EP(2x3)                                217.6900  -110.2240   90.0000  top
 U10       ST_LSM6               LGA14                                         202.0896  -116.0272    0.0000  top
