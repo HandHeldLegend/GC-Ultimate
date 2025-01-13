@@ -14872,7 +14872,7 @@
 	)
 	(polyline
 		(pts
-			(xy 373.38 199.39) (xy 373.38 228.6)
+			(xy 373.38 185.42) (xy 373.38 228.6)
 		)
 		(stroke
 			(width 0)
@@ -15012,7 +15012,7 @@
 	)
 	(polyline
 		(pts
-			(xy 353.06 229.87) (xy 316.23 229.87)
+			(xy 353.06 229.87) (xy 300.99 229.87)
 		)
 		(stroke
 			(width 0)
@@ -16092,7 +16092,7 @@
 	)
 	(polyline
 		(pts
-			(xy 316.23 199.39) (xy 316.23 229.87)
+			(xy 300.99 185.42) (xy 300.99 229.87)
 		)
 		(stroke
 			(width 0)
@@ -18132,7 +18132,7 @@
 	)
 	(polyline
 		(pts
-			(xy 316.23 199.39) (xy 373.38 199.39)
+			(xy 300.99 185.42) (xy 373.38 185.42)
 		)
 		(stroke
 			(width 0)
@@ -19354,6 +19354,17 @@
 		)
 		(uuid "840e5b15-9f90-4d0e-abf3-8581bba55db4")
 	)
+	(text "Frequency: 12MHz\nLoad capacitance: 10pF\nTolerance: 30PPM\nESR: 50 Ohms\nDrive Level: 10 uW"
+		(exclude_from_sim no)
+		(at 302.006 205.74 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f0043a9-6d3f-4960-84e7-a62f3b1abfa7")
+	)
 	(text "B"
 		(exclude_from_sim no)
 		(at 393.7 358.902 0)
@@ -19365,9 +19376,9 @@
 		)
 		(uuid "9f34a012-4e0e-4b81-baf4-706699364503")
 	)
-	(text "Crystal"
+	(text "Crystal Oscillator"
 		(exclude_from_sim no)
-		(at 333.375 203.2 0)
+		(at 301.752 189.738 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -27952,8 +27963,8 @@
 				)
 			)
 		)
-		(property "Value" "CUS08F30"
-			(at 248.92 215.9 0)
+		(property "Value" "CUS08F30,H3F"
+			(at 244.094 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27987,7 +27998,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CUS08F30"
+		(property "MPN" "CUS08F30,H3F"
 			(at 248.92 218.44 0)
 			(effects
 				(font
@@ -28014,7 +28025,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C27636112"
+		(property "LCSC" "C150183"
 			(at 248.92 218.44 0)
 			(effects
 				(font
@@ -28032,7 +28043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.lcsc.com/product-detail/Schottky-Diodes_DOWO-CUS08F30_C27636112.html"
+		(property "Link" "https://www.lcsc.com/product-detail/Schottky-Diodes_TOSHIBA-CUS08F30-H3F_C150183.html?s_z=n_C150183"
 			(at 248.92 218.44 0)
 			(effects
 				(font
@@ -31168,8 +31179,8 @@
 				)
 			)
 		)
-		(property "Value" "CUS08F30"
-			(at 234.95 245.11 0)
+		(property "Value" "CUS08F30,H3F"
+			(at 239.014 244.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31203,7 +31214,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CUS08F30"
+		(property "MPN" "CUS08F30,H3F"
 			(at 234.95 247.65 0)
 			(effects
 				(font
@@ -31230,7 +31241,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C27636112"
+		(property "LCSC" "C150183"
 			(at 234.95 247.65 0)
 			(effects
 				(font
@@ -31248,7 +31259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.lcsc.com/product-detail/Schottky-Diodes_DOWO-CUS08F30_C27636112.html"
+		(property "Link" "https://www.lcsc.com/product-detail/Schottky-Diodes_TOSHIBA-CUS08F30-H3F_C150183.html?s_z=n_C150183"
 			(at 234.95 247.65 0)
 			(effects
 				(font
@@ -34607,7 +34618,7 @@
 		(dnp no)
 		(uuid "49becf4a-ac9c-49af-9c47-910543e1464f")
 		(property "Reference" "R13"
-			(at 195.58 248.92 90)
+			(at 193.04 251.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51119,7 +51130,7 @@
 				)
 			)
 		)
-		(property "Value" "CUS08F30"
+		(property "Value" "CUS08F30,H3F"
 			(at 273.05 62.23 0)
 			(effects
 				(font
@@ -51154,7 +51165,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CUS08F30"
+		(property "MPN" "CUS08F30,H3F"
 			(at 270.51 62.23 0)
 			(effects
 				(font
@@ -51181,7 +51192,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C27636112"
+		(property "LCSC" "C150183"
 			(at 270.51 62.23 0)
 			(effects
 				(font
@@ -51199,7 +51210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.lcsc.com/product-detail/Schottky-Diodes_DOWO-CUS08F30_C27636112.html"
+		(property "Link" "https://www.lcsc.com/product-detail/Schottky-Diodes_TOSHIBA-CUS08F30-H3F_C150183.html?s_z=n_C150183"
 			(at 270.51 62.23 0)
 			(effects
 				(font
@@ -53965,7 +53976,7 @@
 				)
 			)
 		)
-		(property "Value" "CUS08F30"
+		(property "Value" "CUS08F30,H3F"
 			(at 318.77 57.15 0)
 			(effects
 				(font
@@ -54000,7 +54011,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CUS08F30"
+		(property "MPN" "CUS08F30,H3F"
 			(at 318.77 59.69 0)
 			(effects
 				(font
@@ -54027,7 +54038,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C27636112"
+		(property "LCSC" "C150183"
 			(at 318.77 59.69 0)
 			(effects
 				(font
@@ -54045,7 +54056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.lcsc.com/product-detail/Schottky-Diodes_DOWO-CUS08F30_C27636112.html"
+		(property "Link" "https://www.lcsc.com/product-detail/Schottky-Diodes_TOSHIBA-CUS08F30-H3F_C150183.html?s_z=n_C150183"
 			(at 318.77 59.69 0)
 			(effects
 				(font
