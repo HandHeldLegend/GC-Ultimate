@@ -38166,7 +38166,7 @@
 				)
 			)
 		)
-		(property "Value" "CUS08F30"
+		(property "Value" "CUS08F30,H3F"
 			(at 273.05 62.23 0)
 			(effects
 				(font
@@ -38201,7 +38201,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CUS08F30"
+		(property "MPN" "CUS08F30,H3F"
 			(at 270.51 62.23 0)
 			(effects
 				(font
@@ -38228,7 +38228,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C27636112"
+		(property "LCSC" "C150183"
 			(at 270.51 62.23 0)
 			(effects
 				(font
@@ -40956,7 +40956,7 @@
 				)
 			)
 		)
-		(property "Value" "CUS08F30"
+		(property "Value" "CUS08F30,H3F"
 			(at 318.77 57.15 0)
 			(effects
 				(font
@@ -40991,7 +40991,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CUS08F30"
+		(property "MPN" "CUS08F30,H3F"
 			(at 318.77 59.69 0)
 			(effects
 				(font
@@ -41018,7 +41018,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C27636112"
+		(property "LCSC" "C150183"
 			(at 318.77 59.69 0)
 			(effects
 				(font
