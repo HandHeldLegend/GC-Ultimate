@@ -19255,6 +19255,28 @@
 			)
 		)
 	)
+	(global_label "BAT_LVL"
+		(shape input)
+		(at 355.6 351.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c268a7c-54b9-4fa9-bfe7-2511a854bf6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 365.3696 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "F"
 		(shape input)
 		(at 355.6 311.15 0)
@@ -22489,28 +22511,6 @@
 			)
 		)
 	)
-	(global_label "RGB_OUT"
-		(shape input)
-		(at 355.6 351.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d499d5ae-79d7-4554-97c2-874a85db02bf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 366.3304 351.7106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "X6"
 		(shape input)
 		(at 387.35 355.6 180)
@@ -23189,6 +23189,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB_OUT"
+		(shape input)
+		(at 355.6 295.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f497da9d-2856-48cf-aefe-f0707c87b9a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 366.3304 295.8306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
