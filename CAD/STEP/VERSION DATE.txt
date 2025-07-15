@@ -1,4 +1,0 @@
-Update December 18, 2024
-- Removed bad geometry for DPad well
-
-Update September 28, 2024
