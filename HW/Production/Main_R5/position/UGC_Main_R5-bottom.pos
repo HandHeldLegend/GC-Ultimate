@@ -1,0 +1,23 @@
+### Footprint positions - created on 2025-07-18T17:08:30-0700 ###
+### Printed by KiCad version 9.0.3
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                      Package                                     PosX       PosY       Rot  Side
+B1        Battery                  JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical   105.6144   -49.7355    0.0000  bottom
+J1        SM02B-SURS-TF_LF__SN_    JST_SM02B-SURS-TF_LF__SN_               151.4508   -78.0148  180.0000  bottom
+J3        Molex_5051100792         CON_5051100792_MOL                      142.9329   -75.3586  174.0000  bottom
+J6        Trigger                  JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical    31.6898   -66.0850   90.0000  bottom
+J7        Trigger                  JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical   152.5684   -66.0850   90.0000  bottom
+J10       SM02B-SURS-TF_LF__SN_    JST_SM02B-SURS-TF_LF__SN_                39.0304   -78.0148  180.0000  bottom
+J11       USB4056-03-A2            USB405603A                               91.5505   -22.9812    0.0000  bottom
+RV1       Slider_GCC-Gamecube_MB   GCC_Slider_MillMaxSocketed               66.5505   -39.8844  180.0000  bottom
+RV2       Slider_GCC-Gamecube_MB   GCC_Slider_MillMaxSocketed              116.5505   -39.8844  180.0000  bottom
+S1        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                  66.5505   -39.8844  180.0000  bottom
+S2        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                  64.0505   -39.8844  180.0000  bottom
+S3        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                  69.0505   -39.8844  180.0000  bottom
+S4        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 116.5505   -39.8844  180.0000  bottom
+S5        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 114.0505   -39.8844  180.0000  bottom
+S6        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 119.0505   -39.8844  180.0000  bottom
+SW14      TS-1187A-C-A-B           TS-1187A-C-E-B                           91.5505   -73.9344  180.0000  bottom
+SW15      1TS026A-1000-0550        1TS026A-1000-0550                        99.6920   -73.3706    0.0000  bottom
+## End

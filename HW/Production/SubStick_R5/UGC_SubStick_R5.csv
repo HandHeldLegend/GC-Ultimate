@@ -1,0 +1,6 @@
+"#","Reference","Qty","MPN","Description","Value","Package","LCSC","Link","DNP"
+"1","SW1","1","GL1807SYAE-002","TMR Analog Stick with button","GL18_SW","-","-","-",""
+"2","R1,R2","2","RC0201FR-071KL "," 50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 1kΩ","1k","0201","C138165","https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-071KL_C138165.html",""
+"3","C1,C2","2","CC0603JRX7R9BB473"," 50V 47nF X7R ±5%","47nF","0603","C519554","https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603JRX7R9BB473_C519554.html",""
+"4","J1","1","5051100792","-40℃~+105℃ Hinged Lid 7P Bottom Contact Surface Mount, Right Angle 0.5mm SMD,P=0.5mm,Surface Mount,Right Angle FFC, FPC (Flat Flexible) Connector Assemblies ROHS","Molex 5051100792","SMD,P=0.5mm,Surface Mount,Right Angle","C6689159","https://lcsc.com/product-detail/FFC-FPC-Flat-Flexible-Connector-Assemblies_MOLEX-5051100792_C6689159.html?s_z=n_5051100792",""
+"5","RGB1,RGB2,RGB3,RGB4","4","SK6805-EC-10","RGB LED","SK6805-EC-10","SK6805-EC-10","C22394946","https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf",""

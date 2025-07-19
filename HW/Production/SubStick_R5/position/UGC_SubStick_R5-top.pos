@@ -1,0 +1,15 @@
+### Footprint positions - created on 2025-07-18T17:19:43-0700 ###
+### Printed by KiCad version 9.0.3
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val           Package                 PosX       PosY       Rot  Side
+C1        47nF          C_0603_1608Metric    60.4012   -49.3014    0.0000  top
+C2        47nF          C_0603_1608Metric    70.3178   -33.7082  -90.0000  top
+R1        1k            R_0201_0603Metric    60.9092   -48.1330    0.0000  top
+R2        1k            R_0201_0603Metric    70.0532   -36.3982   90.0000  top
+RGB1      SK6805-EC-10  SK6805-EC-10         67.9250   -30.9967    0.0000  top
+RGB2      SK6805-EC-10  SK6805-EC-10         67.9250   -43.9967    0.0000  top
+RGB3      SK6805-EC-10  SK6805-EC-10         50.9250   -43.9967    0.0000  top
+RGB4      SK6805-EC-10  SK6805-EC-10         50.9250   -30.9967    0.0000  top
+SW1       GL18_SW       GL1807SYAE           59.4250   -37.4967    0.0000  top
+## End
