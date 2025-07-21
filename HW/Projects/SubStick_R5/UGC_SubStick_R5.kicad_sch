@@ -2610,7 +2610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 50V 47nF X7R ±5%"
+		(property "Description" "50V 47nF X7R ±5%"
 			(at 88.9 71.12 0)
 			(effects
 				(font
@@ -2799,7 +2799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 1kΩ"
+		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 1kΩ"
 			(at 76.2 64.77 0)
 			(effects
 				(font
@@ -3476,7 +3476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 50V 47nF X7R ±5%"
+		(property "Description" "50V 47nF X7R ±5%"
 			(at 71.12 69.85 0)
 			(effects
 				(font
@@ -3730,7 +3730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 1kΩ"
+		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 1kΩ"
 			(at 93.98 67.31 0)
 			(effects
 				(font
