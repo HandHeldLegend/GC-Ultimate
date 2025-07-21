@@ -1,14 +1,14 @@
-### Footprint positions - created on 2024-11-12T17:28:58-0800 ###
-### Printed by KiCad version 8.0.2
+### Footprint positions - created on 2025-07-21T15:48:48-0700 ###
+### Printed by KiCad version 9.0.3
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref     Val                      Package                                     PosX       PosY       Rot  Side
 J1        SM02B-SURS-TF_LF__SN_    JST_SM02B-SURS-TF_LF__SN_               278.3840  -139.5648  180.0000  bottom
-J5        UJ31-CH-G1-SMT-TR        CUI_UJ31-CH-G1-SMT-TR                   215.7336   -90.7094    0.0000  bottom
+J3        Molex_5051100792         CON_5051100792_MOL                      269.8661  -136.9086  174.0000  bottom
 J6        Trigger                  JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical   158.6230  -127.6350   90.0000  bottom
 J7        Trigger                  JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical   279.5016  -127.6350   90.0000  bottom
 J10       SM02B-SURS-TF_LF__SN_    JST_SM02B-SURS-TF_LF__SN_               165.9636  -139.5648  180.0000  bottom
-J13       503480-0640              5034800640                              269.2908  -139.7762  180.0000  bottom
+J11       USB4056-03-A2            USB405603A                              218.4837   -84.5312    0.0000  bottom
 RV1       Slider_GCC-Gamecube_MB   GCC_Slider_MillMaxSocketed              193.4837  -101.4344  180.0000  bottom
 RV2       Slider_GCC-Gamecube_MB   GCC_Slider_MillMaxSocketed              243.4837  -101.4344  180.0000  bottom
 S1        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 193.4837  -101.4344  180.0000  bottom
@@ -17,5 +17,5 @@ S3        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 195.9
 S4        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 243.4837  -101.4344  180.0000  bottom
 S5        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 240.9837  -101.4344  180.0000  bottom
 S6        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 245.9837  -101.4344  180.0000  bottom
-SW14      TS-1187A-C-A-B_          TS-1187A-C-E-B                          218.4837  -135.4844  180.0000  bottom
+SW14      TS-1187A-C-A-B           TS-1187A-C-E-B                          218.4837  -135.4844  180.0000  bottom
 ## End

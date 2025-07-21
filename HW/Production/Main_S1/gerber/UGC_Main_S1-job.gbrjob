@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.2"
+      "Version": "9.0.3"
     },
-    "CreationDate": "2024-11-12T17:29:26-08:00"
+    "CreationDate": "2025-07-21T15:48:26-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -15,7 +15,7 @@
     },
     "Size": {
       "X": 125.7764,
-      "Y": 76.6474
+      "Y": 76.5429
     },
     "LayerNumber": 4,
     "BoardThickness": 1.6,
@@ -49,12 +49,12 @@
     },
     {
       "Path": "UGC_Main_S1-In1_Cu.gbr",
-      "FileFunction": "Copper,L2,Inr",
+      "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
       "Path": "UGC_Main_S1-In2_Cu.gbr",
-      "FileFunction": "Copper,L3,Inr",
+      "FileFunction": "Copper,L7,Inr",
       "FilePolarity": "Positive"
     },
     {
