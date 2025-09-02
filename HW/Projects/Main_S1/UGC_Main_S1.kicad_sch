@@ -8458,6 +8458,16 @@
 		)
 		(uuid "00c2baa1-7f44-4537-91db-b5ae94dcd83f")
 	)
+	(text "idx 1"
+		(exclude_from_sim no)
+		(at 299.72 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "016f6f45-1b11-40d4-b0ba-3da37fe1d300")
+	)
 	(text "DL"
 		(exclude_from_sim no)
 		(at 396.494 150.622 0)
@@ -8556,6 +8566,16 @@
 		)
 		(uuid "28743140-b72f-43b5-a2b7-d67dcb43058d")
 	)
+	(text "idx 12 (X)"
+		(exclude_from_sim no)
+		(at 345.694 159.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "33e14627-dbe9-44fc-9138-6566ca5ddfac")
+	)
 	(text "USB I/O"
 		(exclude_from_sim no)
 		(at 72.39 22.098 0)
@@ -8566,6 +8586,36 @@
 			(justify left bottom)
 		)
 		(uuid "477f2b13-896d-442a-973b-2b60512914d6")
+	)
+	(text "idx 8"
+		(exclude_from_sim no)
+		(at 276.86 137.922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4970c2a8-3b4d-4470-a5b2-0a3624b5897a")
+	)
+	(text "idx 10 (Y)"
+		(exclude_from_sim no)
+		(at 299.72 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "563c6bfb-b972-4066-b382-af7c003250d3")
+	)
+	(text "idx 9 (B)"
+		(exclude_from_sim no)
+		(at 276.86 159.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ccea780-dde2-4657-a91f-1102aea7f322")
 	)
 	(text "Fn"
 		(exclude_from_sim no)
@@ -8599,6 +8649,16 @@
 			(justify left bottom)
 		)
 		(uuid "643f2a70-6ccf-48bb-915e-2aea5ab53866")
+	)
+	(text "idx 0"
+		(exclude_from_sim no)
+		(at 276.86 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "68d6d926-24fb-4dc5-8adf-2313e1a54319")
 	)
 	(text "IMU 1"
 		(exclude_from_sim no)
@@ -8644,6 +8704,26 @@
 		)
 		(uuid "6f9ca6e1-8aff-4693-8015-0ef533ce980c")
 	)
+	(text "idx 2"
+		(exclude_from_sim no)
+		(at 322.834 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "718f6d79-bfb2-4ddc-8dfc-9313bc51d9e9")
+	)
+	(text "idx 4 (left)"
+		(exclude_from_sim no)
+		(at 249.682 176.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "757ecb5b-6812-46dc-b8fb-f0648eaac099")
+	)
 	(text "Flash"
 		(exclude_from_sim no)
 		(at 402.59 58.42 0)
@@ -8687,6 +8767,26 @@
 		)
 		(uuid "a5acc0ea-8ed6-4a43-93ec-07385b12ca67")
 	)
+	(text "right stick\nidx 13\nidx 14\nidx 15\nidx 16"
+		(exclude_from_sim no)
+		(at 363.474 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a7fc7cba-1d67-4398-9990-48cd40cc735f")
+	)
+	(text "idx 11 (A)"
+		(exclude_from_sim no)
+		(at 322.58 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b45038d2-6c09-455d-8d1d-dc524441bb07")
+	)
 	(text "DD"
 		(exclude_from_sim no)
 		(at 396.748 162.052 0)
@@ -8709,6 +8809,16 @@
 		)
 		(uuid "ba2f9a4c-69dc-4f9d-afd0-0594f7508ccd")
 	)
+	(text "idx 3"
+		(exclude_from_sim no)
+		(at 345.44 102.108 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c51da789-2ca0-4d3d-92b1-5b175f4de105")
+	)
 	(text "Y"
 		(exclude_from_sim no)
 		(at 397.256 270.002 0)
@@ -8719,6 +8829,16 @@
 			(justify left bottom)
 		)
 		(uuid "c9a45687-3481-408d-a5d8-012defd354f7")
+	)
+	(text "idx 6 (right)"
+		(exclude_from_sim no)
+		(at 250.698 129.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd3ae7be-1a15-4a5d-9c8e-23900bc49f7d")
 	)
 	(text "3.3 Regulation"
 		(exclude_from_sim no)
@@ -8741,6 +8861,16 @@
 			(justify left bottom)
 		)
 		(uuid "d0708555-a411-4230-af3c-cf3d70168e00")
+	)
+	(text "idx 5 (down)"
+		(exclude_from_sim no)
+		(at 250.698 154.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d7a639fb-82a7-4fcb-92a5-a3713de6beb5")
 	)
 	(text "Analog\nTriggers"
 		(exclude_from_sim no)
@@ -8796,6 +8926,16 @@
 			(justify left bottom)
 		)
 		(uuid "e3fdd3e7-a0c3-40c5-8b57-2f64c9dabc9c")
+	)
+	(text "idx 7 (up)"
+		(exclude_from_sim no)
+		(at 249.682 108.458 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "efe06c91-8af0-4cdb-ac6d-ec27aeff27b3")
 	)
 	(text "ZL"
 		(exclude_from_sim no)
@@ -21082,7 +21222,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 276.86 130.81 0)
 			(effects
 				(font
@@ -21790,7 +21930,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 276.86 186.69 0)
 			(effects
 				(font
@@ -22683,7 +22823,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 238.76 176.53 0)
 			(effects
 				(font
@@ -23287,7 +23427,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 238.76 130.81 0)
 			(effects
 				(font
@@ -23967,7 +24107,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 276.86 101.6 0)
 			(effects
 				(font
@@ -24954,7 +25094,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 322.58 186.69 0)
 			(effects
 				(font
@@ -25231,7 +25371,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 299.72 158.75 0)
 			(effects
 				(font
@@ -26842,7 +26982,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 345.44 101.6 0)
 			(effects
 				(font
@@ -27059,7 +27199,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 345.44 158.75 0)
 			(effects
 				(font
@@ -32708,7 +32848,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 276.86 158.75 0)
 			(effects
 				(font
@@ -32836,7 +32976,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 345.44 186.69 0)
 			(effects
 				(font
@@ -33442,7 +33582,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 238.76 107.95 0)
 			(effects
 				(font
@@ -42024,7 +42164,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 322.58 101.6 0)
 			(effects
 				(font
@@ -42487,7 +42627,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 299.72 186.69 0)
 			(effects
 				(font
@@ -45272,7 +45412,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 299.72 101.6 0)
 			(effects
 				(font
@@ -45406,7 +45546,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 238.76 153.67 0)
 			(effects
 				(font
@@ -45534,7 +45674,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2890035"
+		(property "LCSC" ""
 			(at 322.58 158.75 0)
 			(effects
 				(font

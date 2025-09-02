@@ -519,7 +519,7 @@
       "plot": "../../Production/Main_S1/gerber/",
       "pos_files": "../../Production/Main_S1/position/",
       "specctra_dsn": "",
-      "step": "../../../../Downloads/UGC_Main.step",
+      "step": "../../../../Downloads/UGC_S1_Main.step",
       "svg": "",
       "vrml": ""
     },
