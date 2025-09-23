@@ -11883,16 +11883,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 218.44) (xy 245.11 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fad380c-a9aa-4a81-be9e-b0de6ff54e7f")
-	)
-	(wire
-		(pts
 			(xy 300.99 45.72) (xy 300.99 43.18)
 		)
 		(stroke
@@ -18053,16 +18043,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 218.44) (xy 254 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c890d44b-45bf-4dcd-be3a-ed36cde00a76")
-	)
-	(wire
-		(pts
 			(xy 238.76 281.94) (xy 247.65 281.94)
 		)
 		(stroke
@@ -20033,6 +20013,50 @@
 			)
 		)
 	)
+	(global_label "VBUS"
+		(shape input)
+		(at 189.23 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06cab933-e293-43c9-a1c7-c0265ad57ea2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.3462 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 189.23 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06dc392a-50b9-43e8-9811-8fa9bb33ecaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.3462 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "N_LATCH"
 		(shape input)
 		(at 236.22 167.64 0)
@@ -20354,6 +20378,28 @@
 		(uuid "190f2be4-c999-4b9d-b1f6-ff65de8790fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 359.8552 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 224.79 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19234417-f289-4f49-8bb8-2dd8aa43412d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.6738 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20869,28 +20915,6 @@
 			)
 		)
 	)
-	(global_label "+5V_PRE"
-		(shape input)
-		(at 189.23 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "33480851-030e-4a69-9450-cf93b15f42dc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.7177 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D+"
 		(shape bidirectional)
 		(at 224.79 38.1 0)
@@ -21124,6 +21148,28 @@
 		(uuid "3e2d3ed2-32f9-4903-bced-fe5799eaf8fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 359.9157 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 224.79 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ef72c2a-2157-4662-a456-3a9b628f3d0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.6738 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21630,28 +21676,6 @@
 		(uuid "5963222a-6ea9-4cf3-93d4-8a8e9581fdc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 461.3342 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+5V_PRE"
-		(shape input)
-		(at 224.79 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5f8f2a70-0fbb-4f64-8476-874671e6b99d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3023 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22185,6 +22209,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 198.12 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ca7fb41-182e-47f9-bd96-3af93d59a039")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.2362 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -23003,28 +23049,6 @@
 			)
 		)
 	)
-	(global_label "+5V_PRE"
-		(shape input)
-		(at 224.79 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ac6145d6-e683-48b4-8e2e-7eb9a157c29d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.3023 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LRA_L"
 		(shape input)
 		(at 198.12 298.45 180)
@@ -23131,28 +23155,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+5V_PRE"
-		(shape input)
-		(at 189.23 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b2e5b99a-41cc-46fe-8970-3ee01603d1f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.7177 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -23729,28 +23731,6 @@
 			)
 		)
 	)
-	(global_label "+5V_PRE"
-		(shape input)
-		(at 198.12 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d8ff1095-21a5-4c19-8007-1a50914f6104")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.6077 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ADC_ADDR_0"
 		(shape input)
 		(at 120.65 340.36 180)
@@ -23923,28 +23903,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+5V_PRE"
-		(shape input)
-		(at 234.95 218.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e89cad0a-6466-4e47-b100-b4e360d609c1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.4377 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -28622,166 +28580,6 @@
 			(project "UGC_Main_R5"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hhl:CUS08F30")
-		(at 248.92 218.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d93a4bb-9f70-471a-922f-ee4fe06d5fa5")
-		(property "Reference" "D2"
-			(at 248.92 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CUS08F30,H3F"
-			(at 244.094 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 248.92 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SOD-323 Schottky Diodes ROHS"
-			(at 248.92 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CUS08F30,H3F"
-			(at 248.92 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPN" ""
-			(at 248.92 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.0092"
-			(at 248.92 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C150183"
-			(at 248.92 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Confirmed" "YES"
-			(at 248.92 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.lcsc.com/product-detail/Schottky-Diodes_TOSHIBA-CUS08F30-H3F_C150183.html?s_z=n_C150183"
-			(at 248.92 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOD-323 "
-			(at 248.92 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_purchase_URL" ""
-			(at 248.92 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART_REV" ""
-			(at 248.92 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f836335-2c21-4805-9275-1d144603cd26")
-		)
-		(pin "2"
-			(uuid "24c3a627-2350-4c52-9c99-7bcd5f0434c8")
-		)
-		(instances
-			(project "GCP-2"
-				(path "/066be9b8-34d2-4336-ae00-5e5ce007fbe1"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project "UGC_Main_R5"
-				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "procon_gcc_main_pcb"
-				(path "/9ec9c1c0-f5f6-4920-ad47-c5d4aa989114"
-					(reference "D5")
 					(unit 1)
 				)
 			)

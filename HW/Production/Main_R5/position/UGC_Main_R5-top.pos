@@ -1,4 +1,4 @@
-### Footprint positions - created on 2025-09-02T15:00:00-0700 ###
+### Footprint positions - created on 2025-09-23T13:43:28-0700 ###
 ### Printed by KiCad version 9.0.3
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -33,7 +33,6 @@ C32       100nF                 C_0201_0603Metric                      43.9326  
 C33       1uF                   C_0201_0603Metric                      38.3192   -75.5338    0.0000  top
 C34       1uF                   C_0201_0603Metric                      39.9448   -75.5338    0.0000  top
 D1        CUS08F30,H3F          D_SOD-323_HandSoldering               108.2868   -52.6600  180.0000  top
-D2        CUS08F30,H3F          D_SOD-323_HandSoldering                87.4168   -34.9250   90.0000  top
 D3        M7C                   D_SOD-523                              37.7604   -74.3908  180.0000  top
 D4        BAS16VY,115           SOT-363_SC-70-6                       111.8268   -47.4056  180.0000  top
 D5        BAS16VY,115           SOT-363_SC-70-6                       112.6446   -44.5458  180.0000  top
