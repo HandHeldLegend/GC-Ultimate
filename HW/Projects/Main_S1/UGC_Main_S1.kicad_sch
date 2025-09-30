@@ -9072,12 +9072,6 @@
 		(uuid "139fb00f-c045-43b4-a6fc-7f458396d045")
 	)
 	(junction
-		(at 407.67 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14722643-2903-466d-9838-32684ba144b5")
-	)
-	(junction
 		(at 387.35 340.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9177,7 +9171,7 @@
 		(at 375.92 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "404cd1de-57ae-407a-b657-a5987ea9db67")
+		(uuid "3edb9921-950e-4bf0-a8c6-4b7f9a0c54be")
 	)
 	(junction
 		(at 347.98 255.27)
@@ -9238,6 +9232,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5741622a-0e41-40fe-88d9-475ae7254bb7")
+	)
+	(junction
+		(at 427.99 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a9f8801-1943-40de-abe8-ac4c1f91c5ed")
 	)
 	(junction
 		(at 387.35 175.26)
@@ -9370,6 +9370,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d276e9c-025e-4632-bf44-73b4877d43bf")
+	)
+	(junction
+		(at 396.24 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fe9e54f-ecbf-429d-94bf-d623a68c94b5")
 	)
 	(junction
 		(at 290.83 173.99)
@@ -9612,12 +9618,6 @@
 		(uuid "cb76915f-5999-4da8-b39f-1f50cabf8d94")
 	)
 	(junction
-		(at 427.99 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd0e425f-4f82-4465-8e82-17b10fc71078")
-	)
-	(junction
 		(at 238.76 336.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9726,6 +9726,12 @@
 		(uuid "e72553d8-872e-45da-9b0d-7aa23b06b653")
 	)
 	(junction
+		(at 407.67 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8de4db2-fb67-404c-a27e-ac20728fc820")
+	)
+	(junction
 		(at 341.63 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9754,12 +9760,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f42fa4b1-15ef-41b1-b311-457a927ace25")
-	)
-	(junction
-		(at 396.24 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4606db9-5ba6-4fed-bf18-1857beefefc1")
 	)
 	(junction
 		(at 360.68 255.27)
@@ -30309,16 +30309,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 407.67 43.18 270)
+		(lib_id "power:+3V3")
+		(at 407.67 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "588f6d55-4945-42f4-98c5-46412b265860")
-		(property "Reference" "#PWR070"
-			(at 401.32 43.18 0)
+		(uuid "595b3a6a-605e-4add-bd17-e7abefd4ece0")
+		(property "Reference" "#PWR050"
+			(at 411.48 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30326,13 +30326,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 407.67 45.72 90)
+		(property "Value" "+3V3"
+			(at 403.86 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -30363,18 +30362,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2119fe03-e445-424d-b896-185d4e35091d")
+			(uuid "2ae2ec7e-16ac-477d-81c4-1a1997eecde1")
 		)
 		(instances
-			(project "GCP-2"
-				(path "/066be9b8-34d2-4336-ae00-5e5ce007fbe1"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
 			(project "UGC_Main_S1"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
-					(reference "#PWR070")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -31204,6 +31197,72 @@
 			(project "procon_gcc_main_pcb"
 				(path "/9ec9c1c0-f5f6-4920-ad47-c5d4aa989114"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 396.24 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fcc5963-25ef-46c0-8ba1-b685411c65e4")
+		(property "Reference" "#PWR051"
+			(at 402.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 396.24 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 396.24 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.24 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 396.24 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fa4f6f3-a6be-4434-863d-6e94f41fdf6b")
+		)
+		(instances
+			(project "UGC_Main_S1"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -35042,6 +35101,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 375.92 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "958a549b-bf7d-4d73-8a5d-ddf2b6633802")
+		(property "Reference" "#PWR049"
+			(at 379.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 372.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 375.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6049ea63-14e6-406e-9d4d-c58b0a6a9a7c")
+		)
+		(instances
+			(project "UGC_Main_S1"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 387.35 358.14 90)
 		(unit 1)
@@ -37702,83 +37826,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 396.24 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af216aea-190d-4f54-8794-aba4b5249a71")
-		(property "Reference" "#PWR072"
-			(at 392.43 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 400.05 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 396.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 396.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 396.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1409692-c05a-44b2-ab30-74d65e7d592d")
-		)
-		(instances
-			(project "GCP-2"
-				(path "/066be9b8-34d2-4336-ae00-5e5ce007fbe1"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-			(project "UGC_Main_S1"
-				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-			(project "procon_gcc_main_pcb"
-				(path "/9ec9c1c0-f5f6-4920-ad47-c5d4aa989114"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "progcc_v3:BAS16VY,115")
 		(at 412.75 173.99 0)
 		(unit 1)
@@ -39199,83 +39246,6 @@
 			(project "UGC_Main_S1"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 427.99 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c52f7656-be3b-44a6-8589-078cbe65d773")
-		(property "Reference" "#PWR071"
-			(at 424.18 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 431.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 427.99 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 427.99 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 427.99 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb573ca6-1c26-40cd-965a-5450c438cfa4")
-		)
-		(instances
-			(project "GCP-2"
-				(path "/066be9b8-34d2-4336-ae00-5e5ce007fbe1"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-			(project "UGC_Main_S1"
-				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-			(project "procon_gcc_main_pcb"
-				(path "/9ec9c1c0-f5f6-4920-ad47-c5d4aa989114"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -41888,6 +41858,72 @@
 			(project "UGC_Main_S1"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 427.99 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da1327da-4386-48b9-ab99-34612f0ce22c")
+		(property "Reference" "#PWR052"
+			(at 434.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 427.99 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 427.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 427.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 427.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19625da3-41aa-4bcb-96dd-262ebd783b38")
+		)
+		(instances
+			(project "UGC_Main_S1"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -44894,78 +44930,6 @@
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D13")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 375.92 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f46c5b1d-98a2-4d65-b682-08be75f8f5d2")
-		(property "Reference" "#PWR069"
-			(at 369.57 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 375.92 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 375.92 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 375.92 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2f344d1-5ac6-4633-9faa-919bcb1bf1c4")
-		)
-		(instances
-			(project "GCP-2"
-				(path "/066be9b8-34d2-4336-ae00-5e5ce007fbe1"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-			(project "UGC_Main_S1"
-				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
-					(reference "#PWR069")
-					(unit 1)
 				)
 			)
 		)
