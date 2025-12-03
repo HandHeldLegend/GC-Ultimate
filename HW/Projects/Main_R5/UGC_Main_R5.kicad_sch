@@ -11583,7 +11583,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 306.07) (xy 355.6 306.07)
+			(xy 350.52 306.07) (xy 356.87 306.07)
 		)
 		(stroke
 			(width 0)
@@ -11620,6 +11620,16 @@
 			(type default)
 		)
 		(uuid "08ecf58a-442c-4cc0-9185-0eaa82af5bff")
+	)
+	(wire
+		(pts
+			(xy 364.49 326.39) (xy 360.68 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09223c6e-895b-4eb6-aee4-2ec0fcfe9c2e")
 	)
 	(wire
 		(pts
@@ -11893,7 +11903,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 331.47) (xy 355.6 331.47)
+			(xy 350.52 331.47) (xy 353.06 331.47)
 		)
 		(stroke
 			(width 0)
@@ -13123,6 +13133,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 308.61) (xy 364.49 308.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34eb82f0-2d2b-49c1-b49d-2b59e9147928")
+	)
+	(wire
+		(pts
 			(xy 375.92 34.29) (xy 377.19 34.29)
 		)
 		(stroke
@@ -13873,7 +13893,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 328.93) (xy 355.6 328.93)
+			(xy 350.52 328.93) (xy 353.06 328.93)
 		)
 		(stroke
 			(width 0)
@@ -14143,7 +14163,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 308.61) (xy 355.6 308.61)
+			(xy 350.52 308.61) (xy 356.87 308.61)
 		)
 		(stroke
 			(width 0)
@@ -14573,7 +14593,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 303.53) (xy 355.6 303.53)
+			(xy 350.52 303.53) (xy 356.87 303.53)
 		)
 		(stroke
 			(width 0)
@@ -15513,7 +15533,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 326.39) (xy 355.6 326.39)
+			(xy 350.52 326.39) (xy 353.06 326.39)
 		)
 		(stroke
 			(width 0)
@@ -15650,6 +15670,16 @@
 			(type default)
 		)
 		(uuid "804e0ae7-ef60-4755-ba38-656f97e157d4")
+	)
+	(wire
+		(pts
+			(xy 367.03 306.07) (xy 364.49 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80bd6ee5-ca63-4828-bef1-3844f6e54db5")
 	)
 	(wire
 		(pts
@@ -16230,6 +16260,16 @@
 			(type default)
 		)
 		(uuid "8e38cd07-63ae-44b7-b7b5-55598b0733c6")
+	)
+	(wire
+		(pts
+			(xy 367.03 303.53) (xy 364.49 303.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f32f6f0-55fc-4eed-89b4-3f968458588f")
 	)
 	(wire
 		(pts
@@ -19771,6 +19811,28 @@
 		)
 		(uuid "f855b157-d5d8-42d1-94e5-9b96c65d35e5")
 	)
+	(global_label "N_DATA_3.3"
+		(shape input)
+		(at 364.49 326.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00b13d63-d1bf-409e-b1f5-cebe6733c306")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 364.49 312.7005 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C1_SCL"
 		(shape input)
 		(at 355.6 336.55 0)
@@ -20651,6 +20713,28 @@
 			)
 		)
 	)
+	(global_label "H"
+		(shape input)
+		(at 367.03 306.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "241a515e-b70f-4d4e-92a1-01dad6c3a9a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 371.3457 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SIO3"
 		(shape input)
 		(at 452.12 82.55 0)
@@ -20840,28 +20924,6 @@
 		(uuid "2f5111f2-2576-4516-bd15-11efb0de6c5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 368.9267 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I"
-		(shape input)
-		(at 355.6 303.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2f5e75e0-6792-46c0-9f79-98a0e79b9c7c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.19 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21126,28 +21188,6 @@
 		(uuid "3c437aeb-4132-4a8b-9a3d-83fda2c9108a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 429.5842 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "H"
-		(shape input)
-		(at 355.6 306.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3e2d3ed2-32f9-4903-bced-fe5799eaf8fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.9157 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22015,6 +22055,28 @@
 			)
 		)
 	)
+	(global_label "I"
+		(shape input)
+		(at 367.03 303.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72a8bcf5-8255-4ab2-9a4e-a356a309acc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 370.62 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "N_CLOCK"
 		(shape input)
 		(at 189.23 35.56 180)
@@ -22367,6 +22429,28 @@
 			)
 		)
 	)
+	(global_label "N_CLOCK_3.3"
+		(shape input)
+		(at 353.06 331.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f973807-155a-4a7e-9950-80d92ff397d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 368.5033 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "XTAL_IN"
 		(shape input)
 		(at 298.45 323.85 180)
@@ -22407,28 +22491,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "G"
-		(shape input)
-		(at 355.6 308.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "82205421-c10e-4a14-8d68-e8e438ee229e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.8552 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -22864,6 +22926,28 @@
 		(uuid "a1c095f5-1f09-4e2d-9834-6575e120618b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 422.0852 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "G"
+		(shape input)
+		(at 367.03 308.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a22e25ae-dedb-4932-a0b6-522afac70232")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 371.2852 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23819,28 +23903,6 @@
 			)
 		)
 	)
-	(global_label "N_LATCH_3.3"
-		(shape input)
-		(at 355.6 328.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dd70b265-0734-4147-8fea-3d1e582a76f3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 369.8985 329.0094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C1_SDA"
 		(shape input)
 		(at 355.6 334.01 0)
@@ -24017,6 +24079,28 @@
 			)
 		)
 	)
+	(global_label "N_LATCH_3.3"
+		(shape input)
+		(at 353.06 328.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "edac42cc-4dab-4b78-a5bf-2aba210da877")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 368.0195 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS_SYS"
 		(shape input)
 		(at 271.78 69.85 0)
@@ -24105,28 +24189,6 @@
 			)
 		)
 	)
-	(global_label "N_CLOCK_3.3"
-		(shape input)
-		(at 355.6 331.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f15d8f1c-2b31-4f91-ae18-5495f491bf1f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 370.3823 331.5494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ABXY_RGB"
 		(shape input)
 		(at 264.16 175.26 180)
@@ -24206,28 +24268,6 @@
 		(uuid "f497da9d-2856-48cf-aefe-f0707c87b9a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 366.3304 295.8306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "N_DATA_3.3"
-		(shape input)
-		(at 355.6 326.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f4f3d827-1c3f-433a-8770-065716062327")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.6285 326.4694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34580,6 +34620,154 @@
 			(project "UGC_Main_R5"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 360.68 308.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45cf9b73-761f-4ee7-a549-abb607bdcac0")
+		(property "Reference" "R30"
+			(at 365.252 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 360.68 308.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 360.68 306.832 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 330Ω"
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPN" ""
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C274872"
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0201FR-07330RL "
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0006"
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07330RL_C274872.html"
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0201"
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CUI_purchase_URL" ""
+			(at 360.68 308.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_REV" ""
+			(at 360.68 308.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f015c56-8788-4d72-8643-5488210ed10e")
+		)
+		(pin "2"
+			(uuid "e7b6f6ab-1ebe-4269-aa11-09ed59903d85")
+		)
+		(instances
+			(project "UGC_Main_R5"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -45023,6 +45211,154 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 360.68 303.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fbff0bd-a184-4437-b7f0-0681769da259")
+		(property "Reference" "R52"
+			(at 365.252 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 360.68 303.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 360.68 301.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 330Ω"
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPN" ""
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C274872"
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0201FR-07330RL "
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0006"
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07330RL_C274872.html"
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0201"
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CUI_purchase_URL" ""
+			(at 360.68 303.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_REV" ""
+			(at 360.68 303.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89510814-840d-4317-9f14-de70b399437f")
+		)
+		(pin "2"
+			(uuid "7943eb58-3ab6-4822-b223-2c971c0c954b")
+		)
+		(instances
+			(project "UGC_Main_R5"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 142.24 222.25 0)
 		(unit 1)
@@ -52702,6 +53038,154 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 356.87 326.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d402fc07-b0b5-4657-8384-b10971c03b39")
+		(property "Reference" "R42"
+			(at 361.442 325.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 356.87 326.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 356.87 324.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 330Ω"
+			(at 356.87 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPN" ""
+			(at 356.87 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C274872"
+			(at 356.87 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0201FR-07330RL "
+			(at 356.87 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0006"
+			(at 356.87 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
+			(at 356.87 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07330RL_C274872.html"
+			(at 356.87 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0201"
+			(at 356.87 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CUI_purchase_URL" ""
+			(at 356.87 326.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_REV" ""
+			(at 356.87 326.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dae0f4fa-c97c-4095-8f61-203c34364f7a")
+		)
+		(pin "2"
+			(uuid "8679a0d0-1086-46fb-b74d-d6e273ce1c4a")
+		)
+		(instances
+			(project "UGC_Main_R5"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 325.12 222.25 270)
 		(unit 1)
@@ -54638,6 +55122,154 @@
 			(project "procon_gcc_main_pcb"
 				(path "/9ec9c1c0-f5f6-4920-ad47-c5d4aa989114"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 360.68 306.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e47c818c-a059-4baf-944d-146756f16976")
+		(property "Reference" "R14"
+			(at 365.252 304.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330R"
+			(at 360.68 306.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 360.68 304.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 330Ω"
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPN" ""
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C274872"
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0201FR-07330RL "
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0006"
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07330RL_C274872.html"
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0201"
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CUI_purchase_URL" ""
+			(at 360.68 306.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_REV" ""
+			(at 360.68 306.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a18d41ef-bb02-4d0d-98fc-b905c4ebb10e")
+		)
+		(pin "2"
+			(uuid "616bf02c-5575-44a3-8eaf-301354b84b06")
+		)
+		(instances
+			(project "UGC_Main_R5"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "R14")
 					(unit 1)
 				)
 			)
