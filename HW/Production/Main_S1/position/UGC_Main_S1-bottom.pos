@@ -1,21 +1,13 @@
-### Footprint positions - created on 2025-09-30T10:13:01-0700 ###
-### Printed by KiCad version 9.0.3
+### Footprint positions - created on 2025-12-11T22:21:46-0800 ###
+### Printed by KiCad version 9.0.6-rc2
 ## Unit = mm, Angle = deg.
 ## Side : bottom
-# Ref     Val                      Package                                     PosX       PosY       Rot  Side
-J1        SM02B-SURS-TF_LF__SN_    JST_SM02B-SURS-TF_LF__SN_               278.3840  -139.5648  180.0000  bottom
-J3        Molex_5051100792         CON_5051100792_MOL                      269.8661  -136.9086  174.0000  bottom
-J6        Trigger                  JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical   158.6230  -127.6350   90.0000  bottom
-J7        Trigger                  JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical   279.5016  -127.6350   90.0000  bottom
-J10       SM02B-SURS-TF_LF__SN_    JST_SM02B-SURS-TF_LF__SN_               165.9636  -139.5648  180.0000  bottom
-J11       USB4056-03-A2            USB405603A                              218.4837   -84.5312    0.0000  bottom
-RV1       Slider_GCC-Gamecube_MB   GCC_Slider_MillMaxSocketed              193.4837  -101.4344  180.0000  bottom
-RV2       Slider_GCC-Gamecube_MB   GCC_Slider_MillMaxSocketed              243.4837  -101.4344  180.0000  bottom
-S1        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 193.4837  -101.4344  180.0000  bottom
-S2        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 190.9837  -101.4344  180.0000  bottom
-S3        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 195.9837  -101.4344  180.0000  bottom
-S4        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 243.4837  -101.4344  180.0000  bottom
-S5        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 240.9837  -101.4344  180.0000  bottom
-S6        4015-0-43-80-30-27-10-0  4015-0-43-80-30-27-10-0                 245.9837  -101.4344  180.0000  bottom
-SW14      TS-1187A-C-A-B           TS-1187A-C-E-B                          218.4837  -135.4844  180.0000  bottom
+# Ref     Val                    Package                         PosX       PosY       Rot  Side
+J1        USB4056-03-A2          USB405603A                  218.4837   -84.5312    0.0000  bottom
+J2        Molex_5051100792       CON_5051100792_MOL          269.8661  -136.9086  174.0000  bottom
+J4        SM02B-SURS-TF_LF__SN_  JST_SM02B-SURS-TF_LF__SN_   278.3840  -139.5648  180.0000  bottom
+J5        SM02B-SURS-TF_LF__SN_  JST_SM02B-SURS-TF_LF__SN_   165.9636  -139.5648  180.0000  bottom
+J6        Conn_01x04_Socket      5051100492                  193.5637  -102.3844  180.0000  bottom
+J9        Conn_01x04_Socket      5051100492                  243.4037  -102.3844  180.0000  bottom
+SW17      TS-1187A-C-A-B         TS-1187A-C-E-B              218.4837  -135.4844  180.0000  bottom
 ## End

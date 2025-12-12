@@ -10,6 +10,251 @@
 		(company "Hand Held Legend, LLC")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -149,266 +394,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_3_Bridged12"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_3_Bridged12"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Solder Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Bridged12*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_3_Bridged12_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.016) (xy -1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 0.508)
-					(end -0.508 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -1.016 -1.016)
-					(mid -2.0276 0)
-					(end -1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 -1.016)
-					(mid -2.0276 0)
-					(end -1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.508 1.016)
-					(end 0.508 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 1.016)
-					(mid 2.0276 0)
-					(end 1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 1.016)
-					(mid 2.0276 0)
-					(end 1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.032 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_3_Bridged12_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "hhl:HAL4395SO5"
+		(symbol "Regulator_Linear:TLV70012_SOT23-5"
 			(pin_names
 				(offset 0.254)
 			)
@@ -424,7 +410,7 @@
 				)
 			)
 			(property "Value" "HAL4395"
-				(at 0 5.08 0)
+				(at 0 5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -442,7 +428,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.lcsc.com/datasheet/C49165022.pdf"
-				(at 0 1.27 0)
+				(at 0.254 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -451,7 +437,7 @@
 				)
 			)
 			(property "Description" "SOT-23-5L Linear, Compass (ICs) ROHS"
-				(at 0 0 0)
+				(at 3.048 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -477,7 +463,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "HAL4395SO5_0_1"
+			(symbol "TLV70012_SOT23-5_0_1"
 				(rectangle
 					(start -5.08 4.445)
 					(end 5.08 -5.08)
@@ -490,11 +476,11 @@
 					)
 				)
 			)
-			(symbol "HAL4395SO5_1_1"
+			(symbol "TLV70012_SOT23-5_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "IN"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -512,14 +498,14 @@
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "EN"
+					(name "~{EN}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -537,7 +523,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -564,7 +550,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin output line
 					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "OUT"
@@ -826,13 +812,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 62.23) (xy 152.4 60.96)
+			(xy 119.38 72.39) (xy 118.11 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02b52195-118a-4a22-9f3f-e37f5afd20e1")
+		(uuid "07a5a099-7d07-44c8-b2f0-e9fc1142289f")
 	)
 	(wire
 		(pts
@@ -856,6 +842,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 72.39) (xy 144.78 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0caec7c1-a10c-40d2-b86b-dccb1f36d38e")
+	)
+	(wire
+		(pts
 			(xy 102.87 95.25) (xy 104.14 95.25)
 		)
 		(stroke
@@ -866,33 +862,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 57.15) (xy 121.92 57.15)
+			(xy 146.05 69.85) (xy 144.78 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14ae0768-13da-438c-9859-b1913e2f88b8")
-	)
-	(wire
-		(pts
-			(xy 116.84 62.23) (xy 116.84 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "362e6dbd-7f37-411a-a1f1-63e535e99b9f")
-	)
-	(wire
-		(pts
-			(xy 92.71 57.15) (xy 91.44 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b7500df-262e-4762-ae5e-44ef0418b23e")
+		(uuid "24050855-033a-4bfe-87c0-29059783e9bf")
 	)
 	(wire
 		(pts
@@ -916,33 +892,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 57.15) (xy 111.76 57.15)
+			(xy 146.05 74.93) (xy 144.78 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e20031a-0738-419e-acb0-dadc3e81b758")
-	)
-	(wire
-		(pts
-			(xy 44.45 57.15) (xy 45.72 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6208fbf7-085d-4146-b926-9341656de6d3")
-	)
-	(wire
-		(pts
-			(xy 50.8 62.23) (xy 50.8 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ad76414-cf47-4f81-9d63-02111d48a980")
+		(uuid "5ca8a7cc-3a68-4d4f-99e6-340797cc2669")
 	)
 	(wire
 		(pts
@@ -956,26 +912,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 62.23) (xy 86.36 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "734c212b-a749-4ad7-a5fa-849fc900e04b")
-	)
-	(wire
-		(pts
-			(xy 80.01 57.15) (xy 81.28 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73a85559-4a7d-4622-8549-85f4f78c46ca")
-	)
-	(wire
-		(pts
 			(xy 104.14 87.63) (xy 105.41 87.63)
 		)
 		(stroke
@@ -983,6 +919,16 @@
 			(type default)
 		)
 		(uuid "78f313e0-eb1d-4fcc-bba7-2afa6aa6dfa1")
+	)
+	(wire
+		(pts
+			(xy 146.05 67.31) (xy 144.78 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "851ccc68-e5e1-46b9-ac90-0e5e51c39f91")
 	)
 	(wire
 		(pts
@@ -996,6 +942,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 74.93) (xy 118.11 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3c1090-4e84-460f-a395-d2fb2049046f")
+	)
+	(wire
+		(pts
 			(xy 161.29 85.09) (xy 160.02 85.09)
 		)
 		(stroke
@@ -1003,6 +959,16 @@
 			(type default)
 		)
 		(uuid "ab761f1e-254c-4f8b-a3a5-1c72a17678d0")
+	)
+	(wire
+		(pts
+			(xy 119.38 69.85) (xy 118.11 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee99892-6603-4e57-a366-a12539d8ea08")
 	)
 	(wire
 		(pts
@@ -1016,26 +982,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 57.15) (xy 157.48 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be72eaaa-5bf9-41c1-85b9-59c56a16c788")
-	)
-	(wire
-		(pts
-			(xy 146.05 57.15) (xy 147.32 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be947cd9-294b-4cfc-a6dd-6a0516782749")
-	)
-	(wire
-		(pts
 			(xy 142.24 95.25) (xy 143.51 95.25)
 		)
 		(stroke
@@ -1043,6 +989,16 @@
 			(type default)
 		)
 		(uuid "c16e5c5c-a386-4ada-a667-b8ee3adf21a0")
+	)
+	(wire
+		(pts
+			(xy 119.38 67.31) (xy 118.11 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c1d706-83f4-4252-b573-9c84e32b2608")
 	)
 	(wire
 		(pts
@@ -1086,16 +1042,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 57.15) (xy 55.88 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3853cb0-421c-4fef-bb27-2b297667a141")
-	)
-	(wire
-		(pts
 			(xy 76.2 82.55) (xy 76.2 83.82)
 		)
 		(stroke
@@ -1103,50 +1049,6 @@
 			(type default)
 		)
 		(uuid "fc44d127-e239-4552-b968-ceb2a4acd073")
-	)
-	(global_label "PAD_2R"
-		(shape input)
-		(at 152.4 62.23 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "077be2fb-014d-45f8-9d50-968cd79d3814")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 72.2909 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PAD_1R"
-		(shape input)
-		(at 179.07 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0ed4b143-995b-46a4-970f-3f3d6e22f094")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.0091 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "ADC_1"
 		(shape input)
@@ -1170,24 +1072,24 @@
 			)
 		)
 	)
-	(global_label "PAD_2L"
+	(global_label "ADC_0"
 		(shape input)
-		(at 86.36 62.23 270)
+		(at 119.38 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "36530bfa-9ce1-4ecd-9d53-6cc5d436192c")
+		(uuid "3cd6cf7f-e6de-47cc-b422-650acd2ffae0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.36 72.049 90)
+			(at 128.1709 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1214,113 +1116,155 @@
 			)
 		)
 	)
-	(global_label "PAD_1L"
+	(global_label "ADC_1"
 		(shape input)
-		(at 76.2 82.55 180)
+		(at 146.05 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "5183f914-0d96-4a4b-a42c-54c4ba9efeee")
+		(uuid "a54452d9-757f-4d3b-b0d8-c1eb7e454dab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.381 82.55 0)
+			(at 154.8409 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "PAD_2R"
-		(shape input)
-		(at 179.07 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "716bdae5-d366-4d55-b75d-60806ebf70f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.0091 92.71 0)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cd93f73-3b52-43f8-a6bf-63bee7a40b7f")
+		(property "Reference" "#PWR05"
+			(at 172.72 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.736 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91183066-aab2-4084-86a3-5c8e74d459b2")
+		)
+		(instances
+			(project "FPC_Trigger_Board"
+				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
+					(reference "#PWR05")
+					(unit 1)
+				)
 			)
 		)
 	)
-	(global_label "PAD_2L"
-		(shape input)
-		(at 76.2 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "85212502-c11c-4e06-8297-3cbb39995625")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.381 92.71 0)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dcd21da-64ff-4134-9556-2953b5f1caf8")
+		(property "Reference" "#PWR011"
+			(at 125.73 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
-	)
-	(global_label "PAD_1L"
-		(shape input)
-		(at 50.8 62.23 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb5944d3-4328-4e88-a3e0-626f3f59c5e6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 72.049 90)
+		(property "Value" "GNDL"
+			(at 124.714 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
-	)
-	(global_label "PAD_1R"
-		(shape input)
-		(at 116.84 62.23 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bc21512d-facf-4c4d-8a05-b87fac631dc2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 72.2909 90)
+		(property "Footprint" ""
+			(at 119.38 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "328dffb3-d114-4ce1-927f-aa69976053ba")
+		)
+		(instances
+			(project "FPC_Trigger_Board"
+				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
+					(reference "#PWR011")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1530,17 +1474,17 @@
 		)
 	)
 	(symbol
-		(lib_id "hhl:HAL4395SO5")
-		(at 152.4 87.63 0)
+		(lib_id "Regulator_Linear:TLV70012_SOT23-5")
+		(at 113.03 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1ff2adb2-4758-4ed8-b5ee-9479f73bd87c")
-		(property "Reference" "U2"
-			(at 152.4 78.74 0)
+		(uuid "46f4cd39-f289-498b-b9b7-ca3fc586acea")
+		(property "Reference" "U1"
+			(at 113.03 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,15 +1492,15 @@
 			)
 		)
 		(property "Value" "HAL4395"
-			(at 152.4 81.28 0)
+			(at 113.03 82.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 152.4 79.375 0)
+		(property "Footprint" "hhl:SOT-23-5L"
+			(at 113.03 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1510,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C49165022.pdf"
-			(at 152.4 86.36 0)
+			(at 113.284 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,7 +1519,7 @@
 			)
 		)
 		(property "Description" "SOT-23-5L Linear, Compass (ICs) ROHS"
-			(at 152.4 87.63 0)
+			(at 116.078 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,17 +1527,8 @@
 				(hide yes)
 			)
 		)
-		(property "Confirmed" ""
-			(at 152.4 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPN" ""
-			(at 152.4 87.63 0)
+		(property "Height" ""
+			(at 113.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,16 +1537,7 @@
 			)
 		)
 		(property "LCSC" "C49165022"
-			(at 152.4 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 152.4 87.63 0)
+			(at 113.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1546,7 @@
 			)
 		)
 		(property "MPN" "HAL4395SO5"
-			(at 152.4 87.63 0)
+			(at 113.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +1555,7 @@
 			)
 		)
 		(property "Manufacturer" "Hallwee"
-			(at 152.4 87.63 0)
+			(at 113.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,8 +1563,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 152.4 87.63 0)
+		(property "Manufacturer_Name" ""
+			(at 113.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,8 +1572,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 152.4 87.63 0)
+		(property "Mouser Part Number" ""
+			(at 113.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1655,90 +1581,34 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "1ef14ed1-418c-4c91-aea8-3091b3029912")
-		)
-		(pin "5"
-			(uuid "fce024f8-8a84-4408-858e-ca32c092cbe2")
-		)
-		(pin "1"
-			(uuid "be0a5a38-1c20-4e5a-ba8f-21325ba90411")
-		)
-		(pin "4"
-			(uuid "a37e9a14-65bd-480b-9f8e-014356b7b341")
+		(property "Mouser Price/Stock" ""
+			(at 113.03 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "5914f19b-bf8c-4700-943d-f0824366c9dd")
+			(uuid "e3a1f444-3593-430f-b701-f54cc9b3619a")
 		)
-		(instances
-			(project "FPC_Trigger_Board"
-				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 123.19 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "246a7888-1ac0-4f22-a201-6a1d01d2a945")
-		(property "Reference" "#PWR09"
-			(at 129.54 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.524 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "5"
+			(uuid "8ad5674c-0e4f-45e8-88e0-5187e528ce0e")
 		)
 		(pin "1"
-			(uuid "62e841e3-01bc-4196-a5ec-a8067e5ec231")
+			(uuid "9d7dd088-22f2-4f6d-9ef8-5d135a07f8a9")
+		)
+		(pin "3"
+			(uuid "1f5470f3-3223-4d38-b00d-4ccb80d2a500")
+		)
+		(pin "4"
+			(uuid "35453cae-2f21-4af5-90fc-6d1bb56da356")
 		)
 		(instances
 			(project "FPC_Trigger_Board"
 				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "#PWR09")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -1746,15 +1616,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 158.75 57.15 270)
+		(at 76.2 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5d0b8600-9f66-490c-a2ea-243bfcbd3a44")
-		(property "Reference" "#PWR07"
-			(at 154.94 57.15 0)
+		(uuid "77b20652-4e78-46a0-a1d0-e546e1c4fd02")
+		(property "Reference" "#PWR01"
+			(at 80.01 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1762,8 +1632,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 163.83 56.896 90)
+		(property "Value" "+3V3L"
+			(at 71.12 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,7 +1641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 57.15 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,7 +1650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 57.15 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +1659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 158.75 57.15 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,83 +1668,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a535121e-39e7-448b-9d79-a20fadec407c")
+			(uuid "882242be-fd3f-4fef-9987-d6bb245db372")
 		)
 		(instances
 			(project "FPC_Trigger_Board"
 				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 116.84 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d870f07-40cf-42ed-850f-f19025321547")
-		(property "Reference" "JP3"
-			(at 116.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_3_Bridged12"
-			(at 116.84 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
-			(at 116.84 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 116.84 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cc8213ad-2373-4011-92b8-142702e827fe")
-		)
-		(pin "2"
-			(uuid "57ab580a-33ff-47dd-b09e-26a04d0d0af5")
-		)
-		(pin "1"
-			(uuid "06c90c93-1e6e-4ca9-9cac-d68a860cf992")
-		)
-		(instances
-			(project "FPC_Trigger_Board"
-				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "JP3")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1882,15 +1681,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 57.15 270)
+		(at 76.2 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "689661dd-b25c-4f5b-99a8-67a2b0cbd2ac")
-		(property "Reference" "#PWR04"
-			(at 73.66 57.15 0)
+		(uuid "7c2141d0-aa62-4403-92e7-9285fdf63ca8")
+		(property "Reference" "#PWR02"
+			(at 69.85 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +1698,7 @@
 			)
 		)
 		(property "Value" "GNDL"
-			(at 74.676 57.15 90)
+			(at 70.866 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +1706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 57.15 0)
+			(at 76.2 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,7 +1715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 57.15 0)
+			(at 76.2 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +1724,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 57.15 0)
+			(at 76.2 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,77 +1733,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9b55146-2124-4795-9a85-946e0586000f")
+			(uuid "1d152f93-30ec-471e-a44b-7657ad299710")
 		)
 		(instances
 			(project "FPC_Trigger_Board"
 				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 110.49 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7664bbe2-1598-40d8-8409-d171fd078f12")
-		(property "Reference" "#PWR06"
-			(at 114.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 105.41 57.404 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 110.49 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfd89744-ab1c-4480-8857-808574e8719a")
-		)
-		(instances
-			(project "FPC_Trigger_Board"
-				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "#PWR06")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2076,16 +1810,43 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 44.45 57.15 90)
+		(lib_id "Regulator_Linear:TLV70012_SOT23-5")
+		(at 152.4 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "87cb0bba-ac68-4cfd-a126-a3ca343b0ae8")
-		(property "Reference" "#PWR01"
-			(at 48.26 57.15 0)
+		(fields_autoplaced yes)
+		(uuid "8cb17959-37e5-408e-bbe5-6a490ace592e")
+		(property "Reference" "U2"
+			(at 152.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HAL4395"
+			(at 152.4 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hhl:SOT-23-5L"
+			(at 152.4 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49165022.pdf"
+			(at 152.654 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,16 +1854,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3L"
-			(at 39.37 57.404 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 57.15 0)
+		(property "Description" "SOT-23-5L Linear, Compass (ICs) ROHS"
+			(at 155.448 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,8 +1863,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 44.45 57.15 0)
+		(property "Height" ""
+			(at 152.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,87 +1872,79 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 44.45 57.15 0)
+		(property "LCSC" "C49165022"
+			(at 152.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "MPN" "HAL4395SO5"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hallwee"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b81b1eef-a29c-46a4-afaf-4050eded623a")
+		)
+		(pin "5"
+			(uuid "1be4bc67-bb5f-493f-97fb-b32aa10e0927")
 		)
 		(pin "1"
-			(uuid "8623c9f2-b511-4806-8f49-aab96b555410")
+			(uuid "55137e72-fcb4-4529-8b22-3261b82a4a7f")
+		)
+		(pin "3"
+			(uuid "8a91ffbd-5bb2-4574-ba4d-ae957d1b30e3")
+		)
+		(pin "4"
+			(uuid "c7ec555f-61d4-4940-a1a3-795f41e7e26e")
 		)
 		(instances
 			(project "FPC_Trigger_Board"
 				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 57.15 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b625fd8-e235-4c84-98bb-ec2868a543a6")
-		(property "Reference" "#PWR02"
-			(at 63.5 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDL"
-			(at 62.484 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ca23357-3b5a-4e89-9fbe-b78ee08bfbad")
-		)
-		(instances
-			(project "FPC_Trigger_Board"
-				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "#PWR02")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2346,33 +2091,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 152.4 57.15 0)
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 139.7 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "95236aa0-77d9-4825-8801-46e90fc792a5")
-		(property "Reference" "JP4"
-			(at 152.4 50.8 0)
+		(uuid "cd5c1901-ca1c-4cb6-b069-72b2d2adbc4c")
+		(property "Reference" "J2"
+			(at 140.335 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SolderJumper_3_Bridged12"
-			(at 152.4 53.34 0)
+		(property "Value" "Conn_01x04_Pin"
+			(at 140.335 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
-			(at 152.4 57.15 0)
+		(property "Footprint" "hhl:505110-0492 Ribbon"
+			(at 139.7 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2126,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 57.15 0)
+			(at 139.7 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,8 +2134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 152.4 57.15 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 139.7 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,18 +2144,21 @@
 			)
 		)
 		(pin "3"
-			(uuid "2490a7a1-c6e2-46c1-a290-db994311b312")
+			(uuid "34ee8a77-908c-4585-927e-fcf468e2b6a6")
 		)
 		(pin "2"
-			(uuid "f6803edb-6e82-4ce5-b735-a67cc57fbaf6")
+			(uuid "cc7c0cc0-39df-412c-9b4c-6ae129f46290")
+		)
+		(pin "4"
+			(uuid "c323cf40-8de8-4d71-bad0-9c6f381a7032")
 		)
 		(pin "1"
-			(uuid "02292852-6c1c-41d7-a457-1047c1824d6b")
+			(uuid "e6e0500f-42ef-4c60-9707-3303876f14df")
 		)
 		(instances
 			(project "FPC_Trigger_Board"
 				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "JP4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2418,15 +2166,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 57.15 270)
+		(at 146.05 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b859e5ba-262b-4a7b-9cd8-a04dd44096be")
-		(property "Reference" "#PWR011"
-			(at 139.7 57.15 0)
+		(uuid "ce487e0e-8056-4246-8fdd-d53070c9b87f")
+		(property "Reference" "#PWR09"
+			(at 152.4 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2183,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.716 57.15 90)
+			(at 151.384 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 57.15 0)
+			(at 146.05 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,7 +2200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 57.15 0)
+			(at 146.05 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,7 +2209,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 57.15 0)
+			(at 146.05 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,298 +2218,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9fbc3eda-cb1b-4801-98e1-fb1dd4d3009c")
+			(uuid "083b3f48-ac70-4b68-a714-661da4ee5d3e")
 		)
 		(instances
 			(project "FPC_Trigger_Board"
 				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 86.36 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf772b12-d553-4cec-9cdf-f1968ccd2034")
-		(property "Reference" "JP2"
-			(at 86.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_3_Bridged12"
-			(at 86.36 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
-			(at 86.36 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 86.36 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "bc06839d-795c-4062-860e-719a91c6915e")
-		)
-		(pin "2"
-			(uuid "3ae77a08-63a1-463c-8a2d-a364fef9ea5e")
-		)
-		(pin "1"
-			(uuid "3c70c69a-f437-4f17-a4cf-625e69bde825")
-		)
-		(instances
-			(project "FPC_Trigger_Board"
-				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 92.71 57.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfbed072-1cc7-4ac8-8e86-a72bf502eede")
-		(property "Reference" "#PWR05"
-			(at 88.9 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3L"
-			(at 97.79 56.896 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 92.71 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff043b7b-d4a6-4530-810d-78f82ac4e139")
-		)
-		(instances
-			(project "FPC_Trigger_Board"
-				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hhl:HAL4395SO5")
-		(at 113.03 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c74245d1-e4e7-41b0-8a2d-6b0c22e562e2")
-		(property "Reference" "U1"
-			(at 113.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HAL4395"
-			(at 113.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 113.03 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C49165022.pdf"
-			(at 113.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SOT-23-5L Linear, Compass (ICs) ROHS"
-			(at 113.03 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Confirmed" ""
-			(at 113.03 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPN" ""
-			(at 113.03 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C49165022"
-			(at 113.03 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 113.03 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "HAL4395SO5"
-			(at 113.03 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Hallwee"
-			(at 113.03 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 113.03 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 113.03 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "43982b5f-7628-4d71-9e53-249b186d2d76")
-		)
-		(pin "5"
-			(uuid "8284a2fa-e34b-4409-b37d-c527a7865111")
-		)
-		(pin "1"
-			(uuid "6eb6f9a9-a749-44c0-af39-2115d16f35ff")
-		)
-		(pin "4"
-			(uuid "1518d263-9b87-48ef-83eb-a3a23ea8c578")
-		)
-		(pin "2"
-			(uuid "83e22d4f-6923-4401-9058-0bff2efbe5c0")
-		)
-		(instances
-			(project ""
-				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "U1")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2833,33 +2295,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 50.8 57.15 0)
+		(lib_id "power:+3V3")
+		(at 146.05 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dab8f188-5f24-402f-b25f-e85965ee7be6")
-		(property "Reference" "JP1"
-			(at 50.8 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_3_Bridged12"
-			(at 50.8 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
-			(at 50.8 57.15 0)
+		(uuid "d228e345-bbcd-46a1-a812-ce4db4c288d2")
+		(property "Reference" "#PWR07"
+			(at 142.24 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,8 +2312,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 50.8 57.15 0)
+		(property "Value" "+3V3"
+			(at 151.13 67.056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,8 +2329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 50.8 57.15 0)
+		(property "Datasheet" ""
+			(at 146.05 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,19 +2338,22 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "aa01e90e-0377-4cd7-a583-9ef823e5cbd1")
-		)
-		(pin "2"
-			(uuid "a6c62c61-2175-492e-a593-b80055339953")
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 146.05 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "c9d8bfbb-a615-46a5-9dfa-c1e793b1ec32")
+			(uuid "20b3d5f8-a6cc-4c22-9ad4-20b29abfedd1")
 		)
 		(instances
-			(project ""
+			(project "FPC_Trigger_Board"
 				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "JP1")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2963,6 +2419,340 @@
 			(project "FPC_Trigger_Board"
 				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0717336-2947-43f9-a835-d46d35a6ff62")
+		(property "Reference" "#PWR014"
+			(at 152.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.384 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bca86ce7-8d75-4a44-8132-af0e10414196")
+		)
+		(instances
+			(project "FPC_Trigger_Board"
+				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 179.07 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0ce3d3b-a287-4f95-b8c1-ef808b287e8b")
+		(property "Reference" "#PWR04"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 173.99 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d22700b-ba81-4ec9-b22e-5c00dea89aaa")
+		)
+		(instances
+			(project "FPC_Trigger_Board"
+				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 119.38 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f469acc5-5006-40cf-93e4-e4933813354e")
+		(property "Reference" "#PWR06"
+			(at 115.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3L"
+			(at 124.46 67.056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 119.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0acd0108-d788-45d8-a9b3-8141d3f03295")
+		)
+		(instances
+			(project "FPC_Trigger_Board"
+				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f689dbdf-2a8a-4b34-b454-465f0524adf3")
+		(property "Reference" "#PWR013"
+			(at 125.73 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDL"
+			(at 124.714 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8deed656-0445-4f91-9ebc-456da7d7921b")
+		)
+		(instances
+			(project "FPC_Trigger_Board"
+				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 113.03 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "f8ca4b0b-ad5e-4bf5-b577-c30187855b5f")
+		(property "Reference" "J1"
+			(at 113.665 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 113.665 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hhl:505110-0492 Ribbon"
+			(at 113.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 113.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "87461863-d3ea-4b10-8967-554b4963ce01")
+		)
+		(pin "2"
+			(uuid "8d515e5a-beac-4ed0-a781-021d524818ca")
+		)
+		(pin "4"
+			(uuid "0b08e4cd-95fc-4508-86b1-38f5cc4f42d0")
+		)
+		(pin "1"
+			(uuid "9d0f4262-e7ea-466d-934b-aeb862717652")
+		)
+		(instances
+			(project ""
+				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
+					(reference "J1")
 					(unit 1)
 				)
 			)
