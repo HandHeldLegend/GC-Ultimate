@@ -9035,6 +9035,12 @@
 		(uuid "f663f6fb-cc02-4e3f-8917-2a5d26745fd6")
 	)
 	(junction
+		(at 270.51 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "030236b8-9296-4417-8253-9392de85a4c9")
+	)
+	(junction
 		(at 43.18 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9233,12 +9239,6 @@
 		(uuid "43bb563f-b86e-42bb-8d54-f4549666dc72")
 	)
 	(junction
-		(at 107.95 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4502fd29-dc17-4bc4-b84a-b32b46b7fb86")
-	)
-	(junction
 		(at 246.38 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9255,6 +9255,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ca19a3a-a537-48eb-b7aa-db684427f26c")
+	)
+	(junction
+		(at 259.08 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ff6cfec-8d2f-45ab-85a1-2077528134fb")
 	)
 	(junction
 		(at 340.36 212.09)
@@ -9435,12 +9441,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98a2924e-f0d7-4a14-b722-fd94cfa7a753")
-	)
-	(junction
-		(at 95.25 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a9b0f2a-1181-46f3-b539-b5406be92774")
 	)
 	(junction
 		(at 387.35 237.49)
@@ -10568,7 +10568,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 57.15) (xy 260.35 57.15)
+			(xy 257.81 57.15) (xy 259.08 57.15)
 		)
 		(stroke
 			(width 0)
@@ -11055,6 +11055,16 @@
 			(type default)
 		)
 		(uuid "362928af-ace4-4915-9f8a-bc5c29aa5b53")
+	)
+	(wire
+		(pts
+			(xy 259.08 57.15) (xy 260.35 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366bad1a-6414-4a9e-9e57-3281a8edc176")
 	)
 	(wire
 		(pts
@@ -13118,16 +13128,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 38.1) (xy 283.21 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c9fa4fe-806b-4a1a-a8c8-76b82258d7c3")
-	)
-	(wire
-		(pts
 			(xy 388.62 349.25) (xy 387.35 350.52)
 		)
 		(stroke
@@ -13898,16 +13898,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 118.11) (xy 107.95 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9702c6c5-7736-42c7-8fa5-f43e303b538a")
-	)
-	(wire
-		(pts
 			(xy 290.83 146.05) (xy 290.83 156.21)
 		)
 		(stroke
@@ -14156,6 +14146,16 @@
 		)
 		(uuid "a35d0b3b-3ad2-46fd-a099-728816792506")
 	)
+	(wire
+		(pts
+			(xy 259.08 53.34) (xy 259.08 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a428a24e-456a-4f6f-a506-c52f922ffbec")
+	)
 	(polyline
 		(pts
 			(xy 130.81 67.31) (xy 130.81 114.3)
@@ -14315,6 +14315,16 @@
 			(type default)
 		)
 		(uuid "a82131a4-add0-4894-b04c-e0e15162b6f6")
+	)
+	(wire
+		(pts
+			(xy 283.21 34.29) (xy 283.21 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a879bd6f-eac6-4362-8ff7-0ad8141e4d6a")
 	)
 	(wire
 		(pts
@@ -15236,6 +15246,16 @@
 		)
 		(uuid "c59cedc4-7833-4fc1-90c1-ff52a66d8241")
 	)
+	(wire
+		(pts
+			(xy 270.51 53.34) (xy 270.51 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61a0d0e-fc6b-4cff-9ae2-ae78d7320e33")
+	)
 	(polyline
 		(pts
 			(xy 203.2 67.31) (xy 130.81 67.31)
@@ -15448,7 +15468,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 53.34) (xy 270.51 57.15)
+			(xy 270.51 50.8) (xy 270.51 53.34)
 		)
 		(stroke
 			(width 0)
@@ -15805,6 +15825,16 @@
 			(type default)
 		)
 		(uuid "dca990c4-38d4-4173-bf3e-a98bda84a0e4")
+	)
+	(wire
+		(pts
+			(xy 266.7 53.34) (xy 270.51 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc6d32b-4e24-4cf5-9980-ff631fb6e308")
 	)
 	(wire
 		(pts
@@ -16298,6 +16328,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 53.34) (xy 259.08 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1700bca-fe50-46a7-a907-597b208419a6")
+	)
+	(wire
+		(pts
 			(xy 387.35 163.83) (xy 387.35 152.4)
 		)
 		(stroke
@@ -16455,16 +16495,6 @@
 			(type default)
 		)
 		(uuid "f80b03c6-4318-4e36-9491-c61030595e2c")
-	)
-	(wire
-		(pts
-			(xy 96.52 118.11) (xy 95.25 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8743e3a-57ae-423d-af46-fa57f3e12f6e")
 	)
 	(wire
 		(pts
@@ -17210,7 +17240,7 @@
 	)
 	(global_label "+3V3_PRE"
 		(shape input)
-		(at 270.51 53.34 90)
+		(at 270.51 50.8 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17220,7 +17250,7 @@
 		)
 		(uuid "2241b901-01d0-490c-96a4-5b3cdaa84433")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.51 40.6182 90)
+			(at 270.51 38.0782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19410,22 +19440,22 @@
 	)
 	(global_label "VBUS_SYS"
 		(shape input)
-		(at 280.67 38.1 180)
+		(at 283.21 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "9ef84cca-7b2a-4966-b494-3f7f12190db0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.311 38.1 0)
+			(at 295.569 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -26086,7 +26116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Custom right angle silicone tactile switch 5mm button height"
+		(property "Description" "Custom right angle silicone tactile switch 3.85mm button height"
 			(at 402.59 173.99 0)
 			(effects
 				(font
@@ -27335,7 +27365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Custom right angle silicone tactile switch 5mm button height"
+		(property "Description" "Custom right angle silicone tactile switch 3.85mm button height"
 			(at 402.59 280.67 0)
 			(effects
 				(font
@@ -29610,7 +29640,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "27R"
 			(at 356.87 331.47 90)
 			(effects
 				(font
@@ -29636,7 +29666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 100Ω"
+		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 27Ω"
 			(at 356.87 331.47 0)
 			(effects
 				(font
@@ -29645,7 +29675,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C77623"
+		(property "LCSC" "C273268"
 			(at 356.87 331.47 0)
 			(effects
 				(font
@@ -29654,7 +29684,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0201FR-07100RL"
+		(property "MPN" "RC0201FR-0727RL "
 			(at 356.87 331.47 0)
 			(effects
 				(font
@@ -30534,6 +30564,127 @@
 			(project "UGC_Main_S1"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 264.16 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b831a9d-a900-4118-a1d0-0d4b74908ce2")
+		(property "Reference" "R32"
+			(at 264.16 49.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 264.16 51.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100kΩ 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPN" ""
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60491"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-07100KL"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0004"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "631ee5a1-1374-474b-ac8e-bab7c4061ad6")
+		)
+		(pin "2"
+			(uuid "425c7a3f-63d8-4083-846a-68eddff7d98e")
+		)
+		(instances
+			(project "UGC_Main_S1"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -33718,7 +33869,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "27R"
 			(at 356.87 328.93 90)
 			(effects
 				(font
@@ -33744,7 +33895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 100Ω"
+		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 27Ω"
 			(at 356.87 328.93 0)
 			(effects
 				(font
@@ -33753,7 +33904,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C77623"
+		(property "LCSC" "C273268"
 			(at 356.87 328.93 0)
 			(effects
 				(font
@@ -33762,7 +33913,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0201FR-07100RL"
+		(property "MPN" "RC0201FR-0727RL "
 			(at 356.87 328.93 0)
 			(effects
 				(font
@@ -35537,6 +35688,15 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
+			(at 163.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17256390"
 			(at 163.83 54.61 0)
 			(effects
 				(font
@@ -40979,7 +41139,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "27R"
 			(at 356.87 326.39 90)
 			(effects
 				(font
@@ -41005,7 +41165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 100Ω"
+		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 27Ω"
 			(at 356.87 326.39 0)
 			(effects
 				(font
@@ -41014,7 +41174,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C77623"
+		(property "LCSC" "C273268"
 			(at 356.87 326.39 0)
 			(effects
 				(font
@@ -41023,7 +41183,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0201FR-07100RL"
+		(property "MPN" "RC0201FR-0727RL "
 			(at 356.87 326.39 0)
 			(effects
 				(font

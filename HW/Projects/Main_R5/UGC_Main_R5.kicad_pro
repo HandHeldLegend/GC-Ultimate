@@ -528,7 +528,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "..\\..\\Production\\Main_R5\\UGC_Main_R5.csv",
+    "bom_export_filename": "..\\..\\Production\\Main_R5\\UGC_Main_R5_BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

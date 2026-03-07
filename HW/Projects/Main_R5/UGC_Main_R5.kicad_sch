@@ -10094,6 +10094,17 @@
 		)
 		(uuid "32a9644d-d866-4af9-a00b-e3d66da839d3")
 	)
+	(text "Down"
+		(exclude_from_sim no)
+		(at 290.576 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e120e64-6fd3-428e-beeb-60ba65f78ec3")
+	)
 	(text "USB I/O"
 		(exclude_from_sim no)
 		(at 173.736 24.13 0)
@@ -10104,6 +10115,17 @@
 			(justify left bottom)
 		)
 		(uuid "477f2b13-896d-442a-973b-2b60512914d6")
+	)
+	(text "Right"
+		(exclude_from_sim no)
+		(at 312.928 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47cb2225-c1a4-4555-b052-6c378faeafc8")
 	)
 	(text "I2C Pullup\n"
 		(exclude_from_sim no)
@@ -10204,6 +10226,17 @@
 		)
 		(uuid "7e4c7bee-15dd-4cdf-8415-ca64301b0bee")
 	)
+	(text "INDICATE\n"
+		(exclude_from_sim no)
+		(at 357.124 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "801a85fc-ebf2-4525-8bb1-513f72932849")
+	)
 	(text "Frequency: 12MHz\nLoad capacitance: 10pF\nTolerance: 30PPM\nESR: 50 Ohms\nDrive Level: 10 uW"
 		(exclude_from_sim no)
 		(at 302.006 205.74 0)
@@ -10236,6 +10269,17 @@
 			(justify left bottom)
 		)
 		(uuid "9ff25278-11c2-43a3-ac2a-0f0a8d4a6412")
+	)
+	(text "Left"
+		(exclude_from_sim no)
+		(at 267.462 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a15c6cca-2afe-4b8b-95da-9374224308e5")
 	)
 	(text "ZR"
 		(exclude_from_sim no)
@@ -10367,6 +10411,17 @@
 			(justify left bottom)
 		)
 		(uuid "e3fdd3e7-a0c3-40c5-8b57-2f64c9dabc9c")
+	)
+	(text "Up"
+		(exclude_from_sim no)
+		(at 335.28 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7f41ff9-8f64-4f96-87f9-962ce1709f7e")
 	)
 	(text "IMU 1"
 		(exclude_from_sim no)
@@ -11055,6 +11110,12 @@
 		(uuid "bb7c0ba6-52bf-47f3-b4f2-8eac7fbd46d3")
 	)
 	(junction
+		(at 259.08 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb8a9d94-d1e3-4d7c-9402-6e2aceaefbdb")
+	)
+	(junction
 		(at 387.35 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11065,6 +11126,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bed53b26-7bde-41a4-bd8e-6631645bd134")
+	)
+	(junction
+		(at 270.51 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c03ab0ea-4928-4be2-9725-8ceb7f204ac1")
 	)
 	(junction
 		(at 354.33 107.95)
@@ -12108,6 +12175,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 53.34) (xy 270.51 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a129fe0-733a-43d7-b2bf-305a9ccd01d9")
+	)
+	(wire
+		(pts
 			(xy 214.63 111.76) (xy 214.63 113.03)
 		)
 		(stroke
@@ -12278,7 +12355,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 57.15) (xy 260.35 57.15)
+			(xy 257.81 57.15) (xy 259.08 57.15)
 		)
 		(stroke
 			(width 0)
@@ -13358,6 +13435,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 57.15) (xy 260.35 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4260d168-aec9-4519-ac47-d959cd10b886")
+	)
+	(wire
+		(pts
 			(xy 407.67 280.67) (xy 420.37 280.67)
 		)
 		(stroke
@@ -13485,6 +13572,16 @@
 			(type default)
 		)
 		(uuid "4574bd21-8b73-4b34-81f5-fff057ba76e1")
+	)
+	(wire
+		(pts
+			(xy 369.57 331.47) (xy 360.68 331.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a7a4d2-5d59-4b19-8ab2-2f6b88fdd6ba")
 	)
 	(wire
 		(pts
@@ -13865,6 +13962,16 @@
 			(type default)
 		)
 		(uuid "50fc12fa-7335-4ac5-b493-4c394f62740b")
+	)
+	(wire
+		(pts
+			(xy 367.03 328.93) (xy 360.68 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51035e2c-3be5-4097-b357-a0f92f706dc2")
 	)
 	(wire
 		(pts
@@ -15248,16 +15355,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 38.1) (xy 283.21 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c9fa4fe-806b-4a1a-a8c8-76b82258d7c3")
-	)
-	(wire
-		(pts
 			(xy 417.83 59.69) (xy 417.83 62.23)
 		)
 		(stroke
@@ -16615,6 +16712,16 @@
 			(type default)
 		)
 		(uuid "a5d6e055-c9ee-4b36-9f65-c53b2d4694c1")
+	)
+	(wire
+		(pts
+			(xy 283.21 34.29) (xy 283.21 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6173a78-0cb4-437c-bada-e08c781135b1")
 	)
 	(wire
 		(pts
@@ -18068,7 +18175,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 53.34) (xy 270.51 57.15)
+			(xy 270.51 50.8) (xy 270.51 53.34)
 		)
 		(stroke
 			(width 0)
@@ -18628,6 +18735,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 53.34) (xy 259.08 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e528c98b-5c2f-4f66-bb08-e4591aec9660")
+	)
+	(wire
+		(pts
 			(xy 250.19 228.6) (xy 264.16 228.6)
 		)
 		(stroke
@@ -19008,6 +19125,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 53.34) (xy 270.51 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08cc786-4e0f-482a-ab97-16f45443b0fa")
+	)
+	(wire
+		(pts
 			(xy 134.62 232.41) (xy 142.24 232.41)
 		)
 		(stroke
@@ -19345,6 +19472,16 @@
 			(type default)
 		)
 		(uuid "fc0eef62-31be-4d4a-86f2-c5aa71aa30d1")
+	)
+	(wire
+		(pts
+			(xy 261.62 53.34) (xy 259.08 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca5675b-980b-4e2b-92c5-ee88313d2d47")
 	)
 	(wire
 		(pts
@@ -20272,7 +20409,7 @@
 	)
 	(global_label "+3V3_PRE"
 		(shape input)
-		(at 270.51 53.34 90)
+		(at 270.51 50.8 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20282,7 +20419,7 @@
 		)
 		(uuid "2241b901-01d0-490c-96a4-5b3cdaa84433")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.51 40.6182 90)
+			(at 270.51 38.0782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21568,6 +21705,28 @@
 			)
 		)
 	)
+	(global_label "N_LATCH_3.3"
+		(shape input)
+		(at 367.03 328.93 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d5d2b09-aada-4a5a-8cf1-5965f3143d09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 367.03 313.9705 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SHARED_PU"
 		(shape input)
 		(at 111.76 128.27 180)
@@ -22074,28 +22233,6 @@
 			)
 		)
 	)
-	(global_label "N_CLOCK_3.3"
-		(shape input)
-		(at 353.06 331.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7f973807-155a-4a7e-9950-80d92ff397d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.5033 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "XTAL_IN"
 		(shape input)
 		(at 298.45 323.85 180)
@@ -22536,24 +22673,46 @@
 			)
 		)
 	)
-	(global_label "VBUS_SYS"
+	(global_label "N_CLOCK_3.3"
 		(shape input)
-		(at 280.67 38.1 180)
+		(at 369.57 331.47 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "9ef84cca-7b2a-4966-b494-3f7f12190db0")
+		(uuid "9ed546ad-58fd-4645-9d2a-b2451f179963")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.311 38.1 0)
+			(at 369.57 316.0267 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_SYS"
+		(shape input)
+		(at 283.21 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ef84cca-7b2a-4966-b494-3f7f12190db0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 295.569 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -23715,28 +23874,6 @@
 		(uuid "ed307661-47f8-4c54-a2eb-454da721c0dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 250.8881 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "N_LATCH_3.3"
-		(shape input)
-		(at 353.06 328.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "edac42cc-4dab-4b78-a5bf-2aba210da877")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.0195 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26991,6 +27128,127 @@
 			(project "UGC_Main_R5"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 360.68 306.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16173da0-389f-4222-9921-6f62d87913a4")
+		(property "Reference" "R30"
+			(at 365.252 304.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 360.68 306.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 360.68 307.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 100Ω"
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77623"
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0201FR-07100RL"
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0005"
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0201"
+			(at 360.68 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a136f333-b07b-44c9-88b4-4e4a5b7cf21d")
+		)
+		(pin "2"
+			(uuid "1313cd65-6833-4f30-ab83-7fb9312abac2")
+		)
+		(instances
+			(project "UGC_Main_R5"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -34181,154 +34439,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 360.68 308.61 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45cf9b73-761f-4ee7-a549-abb607bdcac0")
-		(property "Reference" "R30"
-			(at 365.252 307.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330R"
-			(at 360.68 308.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 360.68 306.832 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 360.68 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 330Ω"
-			(at 360.68 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPN" ""
-			(at 360.68 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C274872"
-			(at 360.68 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0201FR-07330RL "
-			(at 360.68 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.0006"
-			(at 360.68 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Confirmed" "YES"
-			(at 360.68 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07330RL_C274872.html"
-			(at 360.68 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0201"
-			(at 360.68 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_purchase_URL" ""
-			(at 360.68 308.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART_REV" ""
-			(at 360.68 308.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f015c56-8788-4d72-8643-5488210ed10e")
-		)
-		(pin "2"
-			(uuid "e7b6f6ab-1ebe-4269-aa11-09ed59903d85")
-		)
-		(instances
-			(project "UGC_Main_R5"
-				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 341.63 246.38 90)
 		(unit 1)
@@ -40463,6 +40573,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 264.16 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85d01bb7-6c54-49c7-8f00-7f48470bbd59")
+		(property "Reference" "R38"
+			(at 264.16 49.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 264.16 51.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100kΩ 62.5mW 50V Thick Film Resistor ±100ppm/℃ ±1% 0402 Chip Resistor - Surface Mount RoHS"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPN" ""
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60491"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-07100KL"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0004"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402"
+			(at 264.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9eea124-2412-4d58-836f-def6a9c94723")
+		)
+		(pin "2"
+			(uuid "26d83a18-877e-4065-950e-14e1b05b7b11")
+		)
+		(instances
+			(project "UGC_Main_R5"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 198.12 219.71 90)
 		(unit 1)
@@ -42015,6 +42246,154 @@
 			(project "UGC_Main_R5"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 356.87 331.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90d30a04-827b-4a0d-b766-b2b39710301b")
+		(property "Reference" "R36"
+			(at 361.442 330.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27R"
+			(at 356.87 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 356.87 329.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 27Ω"
+			(at 356.87 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPN" ""
+			(at 356.87 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C273268"
+			(at 356.87 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0201FR-0727RL "
+			(at 356.87 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0006"
+			(at 356.87 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
+			(at 356.87 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-0727RL_C273268.html"
+			(at 356.87 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0201"
+			(at 356.87 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CUI_purchase_URL" ""
+			(at 356.87 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_REV" ""
+			(at 356.87 331.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba99a5ee-1929-42ee-adaf-7792a42279da")
+		)
+		(pin "2"
+			(uuid "24f7eca7-f9eb-4217-a145-92896c0fea82")
+		)
+		(instances
+			(project "UGC_Main_R5"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -43911,154 +44290,6 @@
 			(project "UGC_Main_R5"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 360.68 303.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9fbff0bd-a184-4437-b7f0-0681769da259")
-		(property "Reference" "R52"
-			(at 365.252 302.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330R"
-			(at 360.68 303.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 360.68 301.752 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 360.68 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 330Ω"
-			(at 360.68 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPN" ""
-			(at 360.68 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C274872"
-			(at 360.68 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0201FR-07330RL "
-			(at 360.68 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.0006"
-			(at 360.68 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Confirmed" "YES"
-			(at 360.68 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07330RL_C274872.html"
-			(at 360.68 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0201"
-			(at 360.68 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_purchase_URL" ""
-			(at 360.68 303.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART_REV" ""
-			(at 360.68 303.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89510814-840d-4317-9f14-de70b399437f")
-		)
-		(pin "2"
-			(uuid "7943eb58-3ab6-4822-b223-2c971c0c954b")
-		)
-		(instances
-			(project "UGC_Main_R5"
-				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
-					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -46349,6 +46580,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 360.68 303.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1f46001-bdbf-4d4d-820d-0e0aa79ae854")
+		(property "Reference" "R14"
+			(at 365.506 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 360.68 303.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 360.68 305.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 100Ω"
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77623"
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0201FR-07100RL"
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0005"
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0201"
+			(at 360.68 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a06a08c-71eb-42db-9e1d-d8c78f55e639")
+		)
+		(pin "2"
+			(uuid "f6bca156-d5c7-4aa5-87cb-a93e71b86e75")
+		)
+		(instances
+			(project "UGC_Main_R5"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 224.79 149.86 90)
 		(unit 1)
@@ -47224,7 +47576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-0710KL_C106225.html"
 			(at 138.43 240.03 0)
 			(effects
 				(font
@@ -47819,6 +48171,154 @@
 			(project "UGC_Main_R5"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 356.87 328.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c13cf541-fb3e-4a1b-ac1b-2cd72c2cf6ef")
+		(property "Reference" "R4"
+			(at 361.442 327.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27R"
+			(at 356.87 328.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 356.87 327.152 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 27Ω"
+			(at 356.87 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPN" ""
+			(at 356.87 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C273268"
+			(at 356.87 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0201FR-0727RL "
+			(at 356.87 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0006"
+			(at 356.87 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Confirmed" "YES"
+			(at 356.87 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-0727RL_C273268.html"
+			(at 356.87 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0201"
+			(at 356.87 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CUI_purchase_URL" ""
+			(at 356.87 328.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PART_REV" ""
+			(at 356.87 328.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c02bca73-2ca7-45e2-a815-00e853dc0f61")
+		)
+		(pin "2"
+			(uuid "a2a678c1-b8d1-4ead-81f4-2aaaa4a54281")
+		)
+		(instances
+			(project "UGC_Main_R5"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -49392,6 +49892,127 @@
 			(project "UGC_Main_R5"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 360.68 308.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7e9ff51-4d12-4eb5-87e3-a9b8a369279f")
+		(property "Reference" "R37"
+			(at 365.252 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 360.68 308.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 360.68 310.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 100Ω"
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77623"
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0201FR-07100RL"
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.0005"
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0201"
+			(at 360.68 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "216ba7df-efdd-4a2f-b743-55e4ed7ccf90")
+		)
+		(pin "2"
+			(uuid "a103bb9b-d4da-4f6f-bb31-6efa101c5a07")
+		)
+		(instances
+			(project "UGC_Main_R5"
+				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -51134,7 +51755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-0710KL_C106225.html"
 			(at 181.61 129.54 0)
 			(effects
 				(font
@@ -51482,7 +52103,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "27R"
 			(at 356.87 326.39 90)
 			(effects
 				(font
@@ -51508,7 +52129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 330Ω"
+		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 27Ω"
 			(at 356.87 326.39 0)
 			(effects
 				(font
@@ -51526,7 +52147,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C274872"
+		(property "LCSC" "C273268"
 			(at 356.87 326.39 0)
 			(effects
 				(font
@@ -51535,7 +52156,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0201FR-07330RL "
+		(property "MPN" "RC0201FR-0727RL "
 			(at 356.87 326.39 0)
 			(effects
 				(font
@@ -51562,7 +52183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07330RL_C274872.html"
+		(property "Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-0727RL_C273268.html"
 			(at 356.87 326.39 0)
 			(effects
 				(font
@@ -52491,7 +53112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-0710KL_C106225.html"
 			(at 142.24 227.33 0)
 			(effects
 				(font
@@ -53550,154 +54171,6 @@
 			(project "procon_gcc_main_pcb"
 				(path "/9ec9c1c0-f5f6-4920-ad47-c5d4aa989114"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 360.68 306.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e47c818c-a059-4baf-944d-146756f16976")
-		(property "Reference" "R14"
-			(at 365.252 304.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330R"
-			(at 360.68 306.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 360.68 304.292 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 360.68 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50mW Thick Film Resistors 25V ±1% ±200ppm/℃ 330Ω"
-			(at 360.68 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPN" ""
-			(at 360.68 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C274872"
-			(at 360.68 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0201FR-07330RL "
-			(at 360.68 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.0006"
-			(at 360.68 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Confirmed" "YES"
-			(at 360.68 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_YAGEO-RC0201FR-07330RL_C274872.html"
-			(at 360.68 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0201"
-			(at 360.68 306.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_purchase_URL" ""
-			(at 360.68 306.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART_REV" ""
-			(at 360.68 306.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a18d41ef-bb02-4d0d-98fc-b905c4ebb10e")
-		)
-		(pin "2"
-			(uuid "616bf02c-5575-44a3-8eaf-301354b84b06")
-		)
-		(instances
-			(project "UGC_Main_R5"
-				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
-					(reference "R14")
 					(unit 1)
 				)
 			)
