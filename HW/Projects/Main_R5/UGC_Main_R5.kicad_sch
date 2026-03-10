@@ -10942,12 +10942,6 @@
 		(uuid "9205565f-d498-4c95-a170-095c9901e5d7")
 	)
 	(junction
-		(at 233.68 292.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93c366db-0312-4ed0-9ea6-0711b2dc2260")
-	)
-	(junction
 		(at 387.35 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11194,12 +11188,6 @@
 		(uuid "cc0b577d-5438-40a3-89a3-13749d1075cb")
 	)
 	(junction
-		(at 238.76 336.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd1c50ad-4e5f-44fb-8860-36f54b673bb9")
-	)
-	(junction
 		(at 320.04 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11236,12 +11224,6 @@
 		(uuid "d41fae41-b33d-4143-905a-22eacda8b02a")
 	)
 	(junction
-		(at 238.76 281.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d777692a-4409-4386-8a41-9f23450ace93")
-	)
-	(junction
 		(at 142.24 293.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11264,12 +11246,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de6854d3-69c8-4343-a25a-9a06a78f8bf7")
-	)
-	(junction
-		(at 233.68 346.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de8471d1-4cc9-451c-9b31-4240d4c78f8c")
 	)
 	(junction
 		(at 68.58 255.27)
@@ -12885,7 +12861,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 336.55) (xy 238.76 336.55)
+			(xy 224.79 336.55) (xy 247.65 336.55)
 		)
 		(stroke
 			(width 0)
@@ -14115,16 +14091,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 346.71) (xy 233.68 346.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56afe1b1-42fb-4949-a7c2-c2cbb46ce254")
-	)
-	(wire
-		(pts
 			(xy 97.79 260.35) (xy 99.06 260.35)
 		)
 		(stroke
@@ -14575,7 +14541,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 292.1) (xy 233.68 292.1)
+			(xy 231.14 292.1) (xy 247.65 292.1)
 		)
 		(stroke
 			(width 0)
@@ -15145,7 +15111,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 281.94) (xy 238.76 281.94)
+			(xy 224.79 281.94) (xy 247.65 281.94)
 		)
 		(stroke
 			(width 0)
@@ -16695,16 +16661,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 292.1) (xy 247.65 292.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a59f8378-cd6f-458d-8893-15e740966d3b")
-	)
-	(wire
-		(pts
 			(xy 97.79 260.35) (xy 97.79 264.16)
 		)
 		(stroke
@@ -17945,16 +17901,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 281.94) (xy 247.65 281.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c89a84ee-be6e-46bf-b8e0-b5a88116b655")
-	)
-	(wire
-		(pts
 			(xy 189.23 53.34) (xy 190.5 53.34)
 		)
 		(stroke
@@ -18282,16 +18228,6 @@
 			(type default)
 		)
 		(uuid "d23f5132-8f3f-4cea-946c-5c1b3967f9c2")
-	)
-	(wire
-		(pts
-			(xy 238.76 336.55) (xy 247.65 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2e322b9-4129-4370-b717-cd96955124d1")
 	)
 	(wire
 		(pts
@@ -19445,7 +19381,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 346.71) (xy 247.65 346.71)
+			(xy 231.14 346.71) (xy 247.65 346.71)
 		)
 		(stroke
 			(width 0)
@@ -27017,117 +26953,6 @@
 			(project "procon_gcc_main_pcb"
 				(path "/9ec9c1c0-f5f6-4920-ad47-c5d4aa989114"
 					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 233.68 346.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "1614fc23-a3e0-41da-88fe-3ddc18bc10ea")
-		(property "Reference" "TP1"
-			(at 234.696 342.138 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 234.696 344.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 238.76 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 233.68 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "N/A"
-			(at 233.68 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Confirmed" ""
-			(at 233.68 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 233.68 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_purchase_URL" ""
-			(at 233.68 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART_REV" ""
-			(at 233.68 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "616a2dbb-edf3-4d47-8333-289b1b5536e8")
-		)
-		(instances
-			(project "UGC_Main_R5"
-				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -34958,117 +34783,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 238.76 281.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "4a76fcdd-0e8d-49e3-990e-21794502de45")
-		(property "Reference" "TP7"
-			(at 239.776 277.368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 239.776 279.908 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 243.84 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 238.76 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "N/A"
-			(at 238.76 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Confirmed" ""
-			(at 238.76 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 238.76 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_purchase_URL" ""
-			(at 238.76 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART_REV" ""
-			(at 238.76 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a39ed2a-db05-4ad7-8abd-ff3a3f3c2bc7")
-		)
-		(instances
-			(project "UGC_Main_R5"
-				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "hhl:RPI-RM2")
 		(at 233.68 104.14 0)
 		(unit 1)
@@ -36136,117 +35850,6 @@
 			(project "procon_gcc_main_pcb"
 				(path "/9ec9c1c0-f5f6-4920-ad47-c5d4aa989114"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 233.68 292.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "56ee07b0-4f78-4435-a51c-fdaa7d17a40c")
-		(property "Reference" "TP6"
-			(at 234.696 287.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 234.696 290.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 238.76 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 233.68 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "N/A"
-			(at 233.68 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Confirmed" ""
-			(at 233.68 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 233.68 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_purchase_URL" ""
-			(at 233.68 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART_REV" ""
-			(at 233.68 292.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d81941b-158f-4f7e-82bb-1874709c6a75")
-		)
-		(instances
-			(project "UGC_Main_R5"
-				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -43387,117 +42990,6 @@
 			(project "UGC_Main_R5"
 				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
 					(reference "X6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 238.76 336.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "979c7c1e-ffdf-43f1-bd36-ec1affb8572a")
-		(property "Reference" "TP2"
-			(at 239.776 331.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 239.776 334.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 243.84 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 238.76 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "N/A"
-			(at 238.76 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Confirmed" ""
-			(at 238.76 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 238.76 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CUI_purchase_URL" ""
-			(at 238.76 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PART_REV" ""
-			(at 238.76 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64b413b2-01a8-48df-abc5-d34ef9941edf")
-		)
-		(instances
-			(project "UGC_Main_R5"
-				(path "/5d3b68ed-8c8a-4ed0-8f2b-63049c253646"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
