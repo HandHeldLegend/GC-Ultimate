@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "GCU") (type "") (uri "C:/Users/Mitch/GitRepos/GC-Ultimate/HW/Projects/Libraries") (options "") (descr ""))
+	(lib (name "GCU") (type "KiCad") (uri "C:/Users/Mitch/GitRepos/GC-Ultimate/HW/Projects/Libraries/GCU.kicad_sym") (options "") (descr ""))
+	(lib (name "gcu") (type "KiCad") (uri "C:/Users/Mitch/GitRepos/GC-Ultimate/HW/Projects/Libraries/gcu.kicad_sym") (options "") (descr ""))
+)
